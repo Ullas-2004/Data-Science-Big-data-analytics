@@ -15,6 +15,10 @@ Older experimental GraphFrames modules were moved to `archive/legacy_graphframes
 **Dataset:** Any SNAP edge-list (auto-detected from data_lake/)
 **Current:** Facebook SNAP Combined (4,039 nodes, 88,234 edges)
 
+## Demo Video
+
+Project demo video: [Watch on Google Drive](https://drive.google.com/file/d/1vcN0Eg701Q6x2vrqdl858Dp3PG9it0w3/view?usp=sharing)
+
 ---
 
 ## Quick Start — Unified Runner
