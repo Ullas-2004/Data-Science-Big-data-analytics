@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-03-28 23:42:14",
+  "dataset": {
+    "name": "Facebook Combined",
+    "path": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\data_lake\\facebook_combined.txt.gz",
+    "file_name": "facebook_combined.txt.gz",
+    "size_mb": 0.2084503173828125
+  },
+  "artifacts": {
+    "text_report": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\comparison_results.txt",
+    "json_report": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\comparison_data.json",
+    "dashboard": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\dashboard.html"
+  },
+  "hero_cards": [
+    {
+      "label": "Comparable Metrics Matched",
+      "value": "6 / 7",
+      "note": "Direct result agreement across shared graph metrics."
+    },
+    {
+      "label": "Measured Runtime Gap",
+      "value": "2.38x",
+      "note": "How much slower GraphFrames was than GraphX on this run."
+    },
+    {
+      "label": "GraphFrames Status",
+      "value": "Success",
+      "note": "Based on runner exit state and generated files."
+    },
+    {
+      "label": "GraphX Status",
+      "value": "Success",
+      "note": "Based on runner exit state and generated files."
+    }
+  ],
+  "runs": [
+    {
+      "name": "GraphFrames",
+      "success": true,
+      "returncode": 0,
+      "runtime": "67.35 s",
+      "log_file": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphframes_output.log",
+      "command": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\venv\\Scripts\\python.exe C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\GraphFrames\\graph_analytics.py C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\data_lake\\facebook_combined.txt.gz"
+    },
+    {
+      "name": "GraphX",
+      "success": true,
+      "returncode": 0,
+      "runtime": "28.29 s",
+      "log_file": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphx_output.log",
+      "command": "\"C:\\spark\\bin\\spark-shell.CMD\" --driver-java-options \"-Duser.home=C:/DSAI/4th_sem/BDA/BigData_SocialGraph/.spark_shell_home\""
+    }
+  ],
+  "metrics": [
+    {
+      "key": "nodes",
+      "label": "Nodes",
+      "graphframes": "4,039",
+      "graphx": "4,039",
+      "match": true
+    },
+    {
+      "key": "edges",
+      "label": "Edges (undirected)",
+      "graphframes": "88,234",
+      "graphx": "88,234",
+      "match": true
+    },
+    {
+      "key": "triangles",
+      "label": "Total Triangles",
+      "graphframes": "1,612,010",
+      "graphx": "1,612,010",
+      "match": true
+    },
+    {
+      "key": "communities_lpa",
+      "label": "Communities (LPA)",
+      "graphframes": "89",
+      "graphx": "70",
+      "match": false
+    },
+    {
+      "key": "connected_components",
+      "label": "Connected Components",
+      "graphframes": "1",
+      "graphx": "1",
+      "match": true
+    },
+    {
+      "key": "max_degree",
+      "label": "Max Degree",
+      "graphframes": "2,090",
+      "graphx": "2,090",
+      "match": true
+    },
+    {
+      "key": "avg_degree",
+      "label": "Average Degree",
+      "graphframes": "87.382",
+      "graphx": "87.38",
+      "match": true
+    },
+    {
+      "key": "density",
+      "label": "Graph Density",
+      "graphframes": "N/A",
+      "graphx": "0.0108",
+      "match": null
+    },
+    {
+      "key": "global_clustering_coeff",
+      "label": "Global Clustering Coefficient",
+      "graphframes": "N/A",
+      "graphx": "0.1292",
+      "match": null
+    },
+    {
+      "key": "avg_local_clustering_coeff",
+      "label": "Average Local Clustering Coefficient",
+      "graphframes": "N/A",
+      "graphx": "0.1437",
+      "match": null
+    }
+  ],
+  "timings": [
+    {
+      "algorithm": "Graph Loading",
+      "graphframes": 7.3283,
+      "graphx": 4.483,
+      "speedup": 1.6346865937987956
+    },
+    {
+      "algorithm": "PageRank",
+      "graphframes": 8.451,
+      "graphx": 10.008,
+      "speedup": 0.8444244604316548
+    },
+    {
+      "algorithm": "Label Propagation",
+      "graphframes": 12.8816,
+      "graphx": 10.002,
+      "speedup": 1.2879024195160969
+    },
+    {
+      "algorithm": "Triangle Count",
+      "graphframes": 4.9017,
+      "graphx": 1.833,
+      "speedup": 2.674140752864157
+    },
+    {
+      "algorithm": "Connected Components",
+      "graphframes": 11.0127,
+      "graphx": 0.662,
+      "speedup": 16.63549848942598
+    },
+    {
+      "algorithm": "Degree Analysis",
+      "graphframes": 2.2185,
+      "graphx": 0.237,
+      "speedup": 9.360759493670887
+    },
+    {
+      "algorithm": "Shortest Paths",
+      "graphframes": 2.8724,
+      "graphx": 0.756,
+      "speedup": 3.7994708994708994
+    },
+    {
+      "algorithm": "TOTAL",
+      "graphframes": 67.3494,
+      "graphx": 28.288,
+      "speedup": 2.3808470022624437
+    }
+  ],
+  "pagerank": {
+    "graphframes": [
+      {
+        "node": "3437",
+        "score": "31.364"
+      },
+      {
+        "node": "107",
+        "score": "28.9092"
+      },
+      {
+        "node": "1684",
+        "score": "26.5368"
+      },
+      {
+        "node": "0",
+        "score": "26.372"
+      },
+      {
+        "node": "1912",
+        "score": "16.3245"
+      },
+      {
+        "node": "348",
+        "score": "9.8617"
+      },
+      {
+        "node": "3980",
+        "score": "9.0859"
+      },
+      {
+        "node": "686",
+        "score": "9.0849"
+      },
+      {
+        "node": "414",
+        "score": "7.4331"
+      },
+      {
+        "node": "698",
+        "score": "5.5697"
+      }
+    ],
+    "graphx": [
+      {
+        "node": "3437",
+        "score": "30.5805"
+      },
+      {
+        "node": "107",
+        "score": "27.8054"
+      },
+      {
+        "node": "1684",
+        "score": "25.469"
+      },
+      {
+        "node": "0",
+        "score": "25.1284"
+      },
+      {
+        "node": "1912",
+        "score": "15.4075"
+      },
+      {
+        "node": "348",
+        "score": "9.3548"
+      },
+      {
+        "node": "686",
+        "score": "8.9499"
+      },
+      {
+        "node": "3980",
+        "score": "8.7071"
+      },
+      {
+        "node": "414",
+        "score": "7.1942"
+      },
+      {
+        "node": "483",
+        "score": "5.2263"
+      }
+    ],
+    "overlap": {
+      "count": 9,
+      "total": 10,
+      "nodes": [
+        "3437",
+        "107",
+        "1684",
+        "0",
+        "1912",
+        "348",
+        "3980",
+        "686",
+        "414"
+      ]
+    }
+  },
+  "callouts": [
+    "6 of 7 comparable structural metrics matched exactly or within tolerance.",
+    "GraphX completed the full pipeline about 2.38x faster on this dataset.",
+    "GraphFrames provides richer high-level graph analytics and DataFrame integration, while GraphX stays closer to graph-engine internals.",
+    "The dashboard includes both measured output files and research-backed architectural differences, so you can defend implementation and theory together."
+  ],
+  "research_facts": [
+    {
+      "aspect": "Core execution model",
+      "graphframes": "DataFrame-based graph processing with Spark SQL planning and relational operators.",
+      "graphx": "RDD-based property-graph processing with graph-parallel primitives.",
+      "social_media": "GraphFrames fits pipelines where user metadata, hashtags, posts, and graph edges all need to be joined together.",
+      "source_label": "GraphFrames paper (2016)",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/graphframes-an-integrated-api-for-mixing-graph-and-relational-queries/"
+    },
+    {
+      "aspect": "Pattern and motif search",
+      "graphframes": "Native motif finding is built into the API.",
+      "graphx": "No equivalent high-level motif DSL; patterns require lower-level graph logic.",
+      "social_media": "Motif queries are useful for reply loops, mutual follows, suspicious engagement rings, and bot-like triads.",
+      "source_label": "GraphFrames user guide",
+      "source_url": "https://graphframes.io/04-user-guide/04-motif-finding.html"
+    },
+    {
+      "aspect": "Algorithm surface",
+      "graphframes": "Broader high-level toolbox: BFS, motif finding, cycles, k-core, maximal independent set, typed degrees, parallel personalized PageRank.",
+      "graphx": "Stronger low-level control and graph-native primitives such as SVD++ and triplet-centric custom algorithms.",
+      "social_media": "GraphFrames is easier to demo broadly; GraphX is better when you want to explain graph-computation internals.",
+      "source_label": "GraphFrames 0.10.0 release notes",
+      "source_url": "https://graphframes.io/05-blog/998-graphframes-010-release.html"
+    },
+    {
+      "aspect": "Language and ecosystem fit",
+      "graphframes": "Works naturally with Python, Scala, Java, and Spark Connect workflows.",
+      "graphx": "Primarily Scala-centric and not designed around PySpark workflows.",
+      "social_media": "This matters in classroom and analytics teams where most experimentation happens in Python notebooks.",
+      "source_label": "GraphFrames docs",
+      "source_url": "https://graphframes.io/"
+    },
+    {
+      "aspect": "Performance tradeoff",
+      "graphframes": "Often more memory-friendly and easier to integrate with SQL optimization.",
+      "graphx": "Often faster on raw iterative workloads for small and medium graphs.",
+      "social_media": "If the goal is fastest graph-only execution, GraphX often wins; if the goal is mixed analytics plus explainability, GraphFrames is usually more practical.",
+      "source_label": "GraphFrames benchmarks",
+      "source_url": "https://graphframes.io/01-about/03-benchmarks.html"
+    },
+    {
+      "aspect": "Research evidence in social graphs",
+      "graphframes": "Pattern-driven community discovery can be very effective when the suspicious structure is already known.",
+      "graphx": "General iterative graph algorithms remain useful when the pattern is unknown and must emerge from the graph.",
+      "social_media": "This is a strong talking point for Twitter-style community mining and suspicious-behavior detection.",
+      "source_label": "Twitter active communities study",
+      "source_url": "https://www.mdpi.com/2504-2289/5/4/46"
+    }
+  ],
+  "log_paths": {
+    "graphframes": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphframes_output.log",
+    "graphx": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphx_output.log"
+  },
+  "log_snippets": {
+    "graphframes": [
+      "Nodes: 4,039",
+      "Edges: 88,234 (undirected)",
+      "Top 10 Most Influential Nodes:",
+      "Total Unique Triangles: 1,612,010",
+      "MODULE 4: CONNECTED COMPONENTS -- Connectivity",
+      "Total Connected Components: 1",
+      "Average Degree:  87.38",
+      "Top 10 Most Connected Nodes:",
+      "Landmark Nodes: [107, 1684, 1912]",
+      "[OK] Connected Components   -> C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\GraphFrames\\outputs\\graph_analytics\\connected_components",
+      "ANALYSIS COMPLETE",
+      "Nodes:                4,039"
+    ],
+    "graphx": [
+      "Nodes: 4,039",
+      "Edges: 88,234 (undirected)",
+      "[OK] PageRank completed in 10.008 s",
+      "Top 10 Influential Nodes:",
+      "[OK] LPA completed in 10.002 s",
+      "Communities with >10 nodes: 43",
+      "[OK] Triangle Count completed in 1.833 s",
+      "Total Triangles: 1,612,010",
+      "MODULE 4: CONNECTED COMPONENTS -- Connectivity",
+      "[OK] Connected Components completed in 0.662 s",
+      "[OK] Degree Analysis completed in 0.237 s",
+      "Avg Degree: 87.38"
+    ]
+  }
+}

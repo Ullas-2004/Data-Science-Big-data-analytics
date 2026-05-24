@@ -1,0 +1,75 @@
+﻿_id,City Name,Type Of Bus (Ac / Non Ac),No. of buses of that type,No. of bus terminals,No. of bus stands,No. of bus stops
+1,Agartala,AC,11,3,6,48
+2,Agartala,Non AC,162,3,6,48
+3,Agra,Non AC,170,20,5,30
+4,Ahmedabad,AC,189,16,1157,1157
+5,Ahmedabad,Non AC,751,16,1157,1157
+6,Belagavi,Non AC,65,1,2,33
+7,Bengaluru,AC,850,13,40,2212
+8,Bengaluru,Non AC,5827,13,40,2212
+9,Bhopal,AC,20,1,3,322
+10,Bhopal,Non AC,205,1,3,322
+11,Bhopal,Midi Buses,62,1,3,322
+12,Chandigarh ,AC,193,2,2,268
+13,Chandigarh ,Non AC,199,2,2,268
+14,Chennai,AC,NA,44,44,2415
+15,Chennai,Non AC,3740,44,44,2415
+16,Dehradun,Non AC,245,NA,29,57
+17,Erode,Non AC,114,7,1,180
+18,Faridabad,AC,30,2,2,26
+19,Faridabad,Non AC,35,2,2,20
+20,Gwalior,Non AC,2,1,1,48
+21,Indore,AC,42,1,4,529
+22,Indore,Non AC,247,1,4,529
+23,Jabalpur,Non AC,119,1,2,75
+24,Jabalpur,AC,2,1,2,12
+25,Kakinada,Amaravathi Ac,2,1,1,13
+26,Kakinada,Indra  Ac,2,1,1,13
+27,Kakinada,Garuda  Ac,10,1,1,13
+28,Kakinada,Super Luxury,46,1,1,13
+29,Kakinada,Ultra Delux,28,1,1,13
+30,Kakinada,Express,22,1,1,13
+31,Kakinada,Telugu Velugu,67,1,1,13
+32,Kanpur,AC,10,22,12,20
+33,Kanpur,Non AC,10,22,14,21
+34,Kohima,Non AC,89,NA,5,9
+35,Kota,Non AC,34,1,54,54
+36,Lucknow,AC,15,2,200,230
+37,Lucknow,Non AC,30,2,200,230
+38,Lucknow,Tata Big Buses,90,2,200,230
+39,Lucknow,Swaraj Mazda,125,2,200,230
+40,Ludhiana,AC,5,1,1,75
+41,Ludhiana,Non AC,75,1,1,75
+42,Ludhiana,Midi Buses,40,1,1,75
+43,Madurai   City,Non AC,621,391,6,884
+44,Nagpur,Non AC,387,1,NA,NA
+45,Pimpri Chichwad,AC,10,92,100,2622
+46,Pimpri Chichwad,Non AC,2025,92,100,2622
+47,Pune,AC,10,92,100,2622
+48,Pune,Non AC,2025,92,100,2622
+49,Raipur,AC,30,NA,NA,NA
+50,Raipur,Non AC,127,NA,NA,NA
+51,Ranchi,Non AC,91,35,3,63
+52,Rourkela,Non Ac,Non AC,2,2,30
+53,Salem,"",317,6,2,96
+54,Shillong,Non AC,206,4,4,54
+55,Shivamogga,Non AC,32,1,1,0
+56,Solapur,AC,10,5,0,217
+57,Solapur,Non AC,94,5,0,217
+58,Srinagar,Non AC,1536,2,1,NA
+59,Thane ,AC,40,20,403,1170
+60,Thane ,Non AC,427,20,403,1170
+61,Thanjavur,Non AC,152,131,3,80
+62,Thiruvananthapuram,AC,56,4,13,1232
+63,Thiruvananthapuram,Non AC,321,4,13,1232
+64,Tiruchirappalli ,Non AC,3253,2,2,274
+65,Tirupati,Non AC,50,3,3,55
+66,Tiruppur,Non AC,316,7,2,77
+67,Tumakuru,Non AC,48,1,1,142
+68,Udaipur,AC,NA,2,18,18
+69,Vadodara,Non AC,130,1,10,300
+70,Vadodara,AC,20,1,10,300
+71,Visakhapatnam,AC,17,126,9,294
+72,Visakhapatnam,CO,296,126,9,294
+73,Visakhapatnam,ME,352,126,9,294
+74,Warangal,Non AC,110,8,2,194

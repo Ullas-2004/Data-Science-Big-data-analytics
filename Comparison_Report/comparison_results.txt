@@ -1,0 +1,32 @@
+GraphFrames vs GraphX - Comparison Results
+Dataset: Facebook Combined
+======================================================================
+
+Metric                               GraphFrames      GraphX           Result
+----------------------------------------------------------------------
+Nodes                                4,039            4,039            Matched
+Edges (undirected)                   88,234           88,234           Matched
+Total Triangles                      1,612,010        1,612,010        Matched
+Communities (LPA)                    89               70               Different
+Connected Components                 1                1                Matched
+Max Degree                           2,090            2,090            Matched
+Average Degree                       87.382           87.38            Matched
+Graph Density                        N/A              0.0108           N/A
+Global Clustering Coefficient        N/A              0.1292           N/A
+Average Local Clustering Coefficient N/A              0.1437           N/A
+
+Run Status
+----------------------------------------------------------------------
+GraphFrames  Success=True  Runtime=67.35 s     Log=C:\DSAI\4th_sem\BDA\BigData_SocialGraph\Comparison_Report\graphframes_output.log
+GraphX       Success=True  Runtime=28.29 s     Log=C:\DSAI\4th_sem\BDA\BigData_SocialGraph\Comparison_Report\graphx_output.log
+
+Presentation Notes
+----------------------------------------------------------------------
+- 6 of 7 comparable structural metrics matched exactly or within tolerance.
+- GraphX completed the full pipeline about 2.38x faster on this dataset.
+- GraphFrames provides richer high-level graph analytics and DataFrame integration, while GraphX stays closer to graph-engine internals.
+- The dashboard includes both measured output files and research-backed architectural differences, so you can defend implementation and theory together.
+
+Dashboard
+----------------------------------------------------------------------
+C:\DSAI\4th_sem\BDA\BigData_SocialGraph\Comparison_Report\dashboard.html

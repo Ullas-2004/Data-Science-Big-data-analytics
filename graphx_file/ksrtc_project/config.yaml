@@ -1,0 +1,15 @@
+project:
+  name: ksrtc_project
+
+mongodb:
+  uri: mongodb://localhost:27017/
+  database: ksrtc_db
+
+api:
+  host: 0.0.0.0
+  port: 5000
+
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  spark_jobs_dir: backend/spark_jobs

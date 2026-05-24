@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.spark_shell_home/
+GraphFrames/checkpoints/
+GraphFrames/spark_tmp/
+GraphX/.dataset_config
+
+venv/
+.venv/
+
+# Local runtime and generated metadata
+.codex-logs/
+checkpoints/
+spark_tmp/
+*.log
+*.crc
+_SUCCESS
+
+# Regenerable analysis outputs kept out of GitHub to keep the repo lightweight
+Comparison_Report/runs/
+Comparison_Report/all_outputs/
+GraphFrames/outputs/
+GraphX/outputs/
+GraphX/outputs_backup_before_retry_*/
+archive/legacy_graphframes_suite/outputs/
+graphx_file/ksrtc_project/data/processed/cleaned_data/
+
+# Large local-only artifacts kept out of regular Git uploads
+Video.mp4
+graphx_file/ksrtc_project/data/raw/20140711.CSV
+graphx_file/ksrtc_project/data/raw/bus_trails_54feet/
+*.zip

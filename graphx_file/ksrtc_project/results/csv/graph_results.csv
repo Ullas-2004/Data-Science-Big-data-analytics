@@ -1,0 +1,3 @@
+analysis,output_file
+pagerank,graphx/pagerank_output.csv
+shortest_paths,graphx/shortest_paths_output.csv

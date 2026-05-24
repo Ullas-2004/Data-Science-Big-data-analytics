@@ -1,0 +1,5 @@
+file,rows_out,unique_OD_pairs,unique_services
+ALUR_CLEAN.csv,113,41,1
+ARSIKERE_CLEAN.csv,714,148,2
+BANAVARA_CLEAN.csv,534,84,2
+All_Bus_Timetables_Merged_CLEAN.csv,1262,284,3

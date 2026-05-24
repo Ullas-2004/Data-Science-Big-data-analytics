@@ -1,0 +1,43 @@
+route_id,seq,stop,lat,lon,stop_id
+Route-A,1,Majestic,12.9762,77.5713,101
+Route-A,2,KR Market,12.9635,77.5730,102
+Route-A,3,Lalbagh,12.9507,77.5848,103
+Route-A,4,Jayanagar,12.9293,77.5820,104
+Route-A,5,BTM Layout,12.9166,77.6101,105
+Route-A,6,Silk Board,12.9172,77.6227,106
+Route-A,7,HSR Layout,12.9116,77.6389,107
+Route-A,8,Bellandur,12.9250,77.6762,108
+Route-A,9,Marathahalli,12.9591,77.6974,109
+Route-A,10,Indiranagar,12.9784,77.6408,110
+Route-B,1,Yeshwanthpur,13.0280,77.5540,201
+Route-B,2,Malleshwaram,13.0035,77.5703,202
+Route-B,3,Vidhana Soudha,12.9796,77.5906,203
+Route-B,4,MG Road,12.9756,77.6075,204
+Route-B,5,Ulsoor,12.9847,77.6205,205
+Route-B,6,Domlur,12.9611,77.6387,206
+Route-B,7,HAL,12.9540,77.6469,207
+Route-B,8,Whitefield,12.9698,77.7499,208
+Route-C,1,Kengeri,12.9141,77.4850,301
+Route-C,2,RR Nagar,12.9263,77.5200,302
+Route-C,3,Banashankari,12.9254,77.5468,303
+Route-C,4,Jayanagar,12.9293,77.5820,304
+Route-C,5,Adugodi,12.9406,77.6100,305
+Route-C,6,Koramangala,12.9352,77.6245,306
+Route-C,7,Ejipura,12.9415,77.6390,307
+Route-C,8,Bellandur,12.9250,77.6762,308
+Route-D,1,Hebbal,13.0358,77.5970,401
+Route-D,2,Mekhri Circle,13.0090,77.5945,402
+Route-D,3,Palace Guttahalli,13.0008,77.5724,403
+Route-D,4,Majestic,12.9762,77.5713,404
+Route-D,5,Richmond Circle,12.9658,77.6008,405
+Route-D,6,Dairy Circle,12.9367,77.6049,406
+Route-D,7,JP Nagar,12.9077,77.5857,407
+Route-D,8,Arekere,12.8856,77.5969,408
+Route-E,1,Kempegowda Airport,13.1986,77.7066,501
+Route-E,2,Yelahanka,13.1007,77.5963,502
+Route-E,3,Hebbal,13.0358,77.5970,503
+Route-E,4,Mekhri Circle,13.0090,77.5945,504
+Route-E,5,MG Road,12.9756,77.6075,505
+Route-E,6,Indiranagar,12.9784,77.6408,506
+Route-E,7,Marathahalli,12.9591,77.6974,507
+Route-E,8,Whitefield,12.9698,77.7499,508

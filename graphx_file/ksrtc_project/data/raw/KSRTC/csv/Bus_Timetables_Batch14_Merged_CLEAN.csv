@@ -1,0 +1,851 @@
+ID,Origin,Destination,ServiceType,BrandClass,Via,DepartureTime24h,Source,BatchID
+7835ecd6-a987-4ada-8759-d584cb249db9,Sidlaghatta,Vijayapura,Express,,,10:30,Sidlaghatta,Sidlaghatta
+6a6c2832-0b00-4d43-89d3-34f4a0eb28dd,Sidlaghatta,Vijayapura,Express,,,10:40,Sidlaghatta,Sidlaghatta
+26915386-159b-4565-994b-5064405f8261,Sidlaghatta,Vijayapura,Express,,,10:45,Sidlaghatta,Sidlaghatta
+95ea05ce-25d6-4fbe-86d3-e669e7b3b015,Sidlaghatta,Vijayapura,Express,,,11:00,Sidlaghatta,Sidlaghatta
+7b3ed662-4cf2-42aa-a605-63978231b75d,Sidlaghatta,Vijayapura,Express,,,11:15,Sidlaghatta,Sidlaghatta
+21f0db30-8855-44b0-991f-6ad24b479bb9,Sidlaghatta,Vijayapura,Express,,,11:20,Sidlaghatta,Sidlaghatta
+2a394ccd-f172-48f6-987a-e19408473e4b,Sidlaghatta,Vijayapura,Express,,,11:25,Sidlaghatta,Sidlaghatta
+973d90f3-1971-4fcf-92d2-f364fd3f9d81,Sidlaghatta,Vijayapura,Express,,,11:30,Sidlaghatta,Sidlaghatta
+7138a953-20c1-48a0-9ddd-f14b3c76db25,Sidlaghatta,Vijayapura,Express,,,11:35,Sidlaghatta,Sidlaghatta
+34e24550-f7d5-432c-93b6-a0043bf538a0,Sidlaghatta,Vijayapura,Express,,,11:40,Sidlaghatta,Sidlaghatta
+65fbf22b-3a1f-4fad-95aa-929e66f54953,Sidlaghatta,Vijayapura,Express,,,12:00,Sidlaghatta,Sidlaghatta
+b3446f09-95c7-44fa-8aff-d298d9a5cab2,Sidlaghatta,Vijayapura,Express,,,12:15,Sidlaghatta,Sidlaghatta
+fbfab164-5836-49a7-936b-fb2354addd17,Sidlaghatta,Vijayapura,Express,,,12:30,Sidlaghatta,Sidlaghatta
+3bece65e-99bb-4945-8ef4-2fc15e47da80,Sidlaghatta,Vijayapura,Express,,,12:45,Sidlaghatta,Sidlaghatta
+cf2c4d23-43ce-41a4-8504-a0ad217d1901,Sidlaghatta,Vijayapura,Express,,,13:00,Sidlaghatta,Sidlaghatta
+1179d1f4-37ed-4465-b68b-1c905a20c7be,Sidlaghatta,Vijayapura,Express,,,13:15,Sidlaghatta,Sidlaghatta
+31052c3a-d7cb-4945-a2fb-91f83bc8dac4,Sidlaghatta,Vijayapura,Express,,,13:30,Sidlaghatta,Sidlaghatta
+09b05cfa-13d2-46b1-bbc8-2f06b64c7b61,Sidlaghatta,Vijayapura,Express,,,14:00,Sidlaghatta,Sidlaghatta
+9d98f63c-fd35-4b46-91c5-c453a03c88c2,Sidlaghatta,Vijayapura,Express,,,14:30,Sidlaghatta,Sidlaghatta
+8024c9fc-fca8-4425-9eea-7f9562b1a24c,Sidlaghatta,Vijayapura,Express,,,14:45,Sidlaghatta,Sidlaghatta
+723c4580-f378-43c2-91d2-05aee7f1b45c,Sidlaghatta,Vijayapura,Express,,,15:30,Sidlaghatta,Sidlaghatta
+01ccba5b-01e0-4369-bf89-55f5559614ad,Sidlaghatta,Vijayapura,Express,,,15:45,Sidlaghatta,Sidlaghatta
+4843f39b-6cee-4326-85ef-7c20074c9acc,Sidlaghatta,Vijayapura,Express,,,16:15,Sidlaghatta,Sidlaghatta
+1d29f42d-1482-4114-a488-c5bcc5781111,Sidlaghatta,Vijayapura,Express,,,16:30,Sidlaghatta,Sidlaghatta
+66084c0e-c2b3-46dd-b38f-769e696fde8f,Sidlaghatta,Vijayapura,Express,,,17:00,Sidlaghatta,Sidlaghatta
+1c09daeb-ed57-4706-b02b-f81a1d1760de,Sidlaghatta,Vijayapura,Express,,,17:15,Sidlaghatta,Sidlaghatta
+bd00f113-693f-43e8-83b6-d352be3bd4ea,Sidlaghatta,Vijayapura,Express,,,17:30,Sidlaghatta,Sidlaghatta
+e8cfaeb2-e203-4539-92fe-8674ea7195ad,Sidlaghatta,Vijayapura,Express,,,17:45,Sidlaghatta,Sidlaghatta
+fc8dedab-af13-47b9-a849-aa24c6b6e25b,Sidlaghatta,Vijayapura,Express,,,18:00,Sidlaghatta,Sidlaghatta
+a339b4d5-99ff-4cee-a69a-f96b6a0d23e6,Sidlaghatta,Vijayapura,Express,,,18:15,Sidlaghatta,Sidlaghatta
+7663de06-0c55-411d-8a8f-c2bf1798c85c,Sidlaghatta,Vijayapura,Express,,,18:30,Sidlaghatta,Sidlaghatta
+42b5491b-a90d-403e-84cb-72f07dece133,Sidlaghatta,Vijayapura,Express,,,19:00,Sidlaghatta,Sidlaghatta
+b6e4d053-d143-4cd7-adef-ad3c39e7e4ba,Sidlaghatta,Vijayapura,Ordinary,,,19:45,Sidlaghatta,Sidlaghatta
+6046c941-c795-4c0d-8697-bb3d383f5fad,Sidlaghatta,Hunsenahalli,Ordinary,,,10:05,Sidlaghatta,Sidlaghatta
+1ef2ef96-edf3-4c86-926e-2be67dbc2c50,Sidlaghatta,Hunsenahalli,Ordinary,,,10:20,Sidlaghatta,Sidlaghatta
+ef596975-751c-4ecb-881e-6be29717f25d,Sidlaghatta,Hunsenahalli,Ordinary,,,10:25,Sidlaghatta,Sidlaghatta
+b3831a22-66cc-4529-863a-7380feae316c,Sidlaghatta,Hunsenahalli,Ordinary,,,10:30,Sidlaghatta,Sidlaghatta
+4d9094ad-8cc2-4e4a-a4cf-d93ca00c7793,Sidlaghatta,Hunsenahalli,Ordinary,,,10:45,Sidlaghatta,Sidlaghatta
+ecc8e14a-3181-4209-af11-8e2eeb80eab1,Sidlaghatta,Hunsenahalli,Ordinary,,,11:00,Sidlaghatta,Sidlaghatta
+bf22f76d-230d-4432-9780-334d0d397def,Sidlaghatta,Hunsenahalli,Ordinary,,,11:15,Sidlaghatta,Sidlaghatta
+0ec6fdb9-0812-41d4-ae1d-e2baa641a9ec,Sidlaghatta,Hunsenahalli,Ordinary,,,11:20,Sidlaghatta,Sidlaghatta
+942ca32a-fd30-42d9-97b0-98a351277c59,Sidlaghatta,Hunsenahalli,Ordinary,,,11:30,Sidlaghatta,Sidlaghatta
+09138f29-d75a-4e94-b6f2-4aad667258d6,Sidlaghatta,Hunsenahalli,Ordinary,,,11:45,Sidlaghatta,Sidlaghatta
+bd7c44dc-2e85-4e56-9694-bf32ea44e7d4,Sidlaghatta,Hunsenahalli,Express,,,12:00,Sidlaghatta,Sidlaghatta
+8bcd3178-0eda-475d-a32f-61741445fbab,Sidlaghatta,Hunsenahalli,Ordinary,,,12:15,Sidlaghatta,Sidlaghatta
+e3831d4c-c391-467c-9d25-0cc70c21f1fc,Sidlaghatta,Hunsenahalli,Ordinary,,,12:30,Sidlaghatta,Sidlaghatta
+30e7a376-d1b1-4176-b2dd-f1881ff3b7fe,Sidlaghatta,Hunsenahalli,Ordinary,,,12:45,Sidlaghatta,Sidlaghatta
+1160a4ed-6578-4147-b199-aa1f172937ac,Sidlaghatta,Hunsenahalli,Ordinary,,,13:00,Sidlaghatta,Sidlaghatta
+168cc8be-0bc7-425e-ba12-0bb19892469b,Sidlaghatta,Hunsenahalli,Ordinary,,,13:10,Sidlaghatta,Sidlaghatta
+efde1ca7-4ada-4799-a3b9-35cca1474a3e,Sidlaghatta,Hunsenahalli,Ordinary,,,13:15,Sidlaghatta,Sidlaghatta
+d9c2d933-2f00-441f-8bd8-5975bd0e146f,Sidlaghatta,Hunsenahalli,Ordinary,,,13:30,Sidlaghatta,Sidlaghatta
+91d69518-8848-4d34-8050-f13482ef81a4,Sidlaghatta,Hunsenahalli,Ordinary,,,13:45,Sidlaghatta,Sidlaghatta
+b78c187d-2d10-4492-ac51-ca74236dc830,Sidlaghatta,Hunsenahalli,Ordinary,,,13:50,Sidlaghatta,Sidlaghatta
+b4ec4ae4-71ad-40d4-9781-bf8eac389240,Sidlaghatta,Hunsenahalli,Express,,,14:05,Sidlaghatta,Sidlaghatta
+dce85816-9962-4f8b-aabe-92f53d206f2d,Sidlaghatta,Hunsenahalli,Ordinary,,,14:15,Sidlaghatta,Sidlaghatta
+365f260f-3058-48fc-b7c0-475eaffdcb49,Sidlaghatta,Hunsenahalli,Ordinary,,,14:30,Sidlaghatta,Sidlaghatta
+a2745803-15b2-43e8-98b1-b7e5475cdcc8,Sidlaghatta,Hunsenahalli,Ordinary,,,14:45,Sidlaghatta,Sidlaghatta
+a06506c7-a5a6-4c78-bde4-cc875d88bea1,Sidlaghatta,Hunsenahalli,Ordinary,,,15:00,Sidlaghatta,Sidlaghatta
+223d3555-4983-4815-bbf4-e3b22cdbca61,Sidlaghatta,Hunsenahalli,Ordinary,,,15:05,Sidlaghatta,Sidlaghatta
+e390496e-7327-46d3-b273-4640457c48e3,Sidlaghatta,Hunsenahalli,Ordinary,,,15:10,Sidlaghatta,Sidlaghatta
+bd5f8e84-455c-410b-acfc-cb1afcd45a5b,Sidlaghatta,Hunsenahalli,Ordinary,,,15:25,Sidlaghatta,Sidlaghatta
+2a2d4eca-84d0-4093-98c5-9f30936eac82,Sidlaghatta,Hunsenahalli,Ordinary,,,15:30,Sidlaghatta,Sidlaghatta
+4d265975-9c5b-4b5d-a555-4c9198f8843f,Sidlaghatta,Hunsenahalli,Ordinary,,,15:40,Sidlaghatta,Sidlaghatta
+06361ba8-33db-4c76-a093-c2bfc358b762,Sidlaghatta,Hunsenahalli,Ordinary,,,15:50,Sidlaghatta,Sidlaghatta
+8f098a38-06e3-4f46-b64c-9aaee408a712,Sidlaghatta,Hunsenahalli,Ordinary,,,16:00,Sidlaghatta,Sidlaghatta
+33c64a86-b5a0-4901-9e82-7d937f6fbf94,Sidlaghatta,Hunsenahalli,Ordinary,,,16:15,Sidlaghatta,Sidlaghatta
+d60290f4-775d-4f1f-b9c6-272e6dd99fcb,Sidlaghatta,Hunsenahalli,Ordinary,,,16:45,Sidlaghatta,Sidlaghatta
+6374478d-6a35-4e03-a114-1dd2459dd305,Sidlaghatta,Hunsenahalli,Express,,,17:00,Sidlaghatta,Sidlaghatta
+55643044-bad1-4584-87f2-5f966f90c42a,Sidlaghatta,Hunsenahalli,Ordinary,,,17:05,Sidlaghatta,Sidlaghatta
+7aa9f978-bb1a-4008-a58d-082b629c9a06,Sidlaghatta,Hunsenahalli,Ordinary,,,17:30,Sidlaghatta,Sidlaghatta
+84888d48-9de2-4599-8174-d3596822ab2a,Sidlaghatta,Hunsenahalli,Express,,,18:00,Sidlaghatta,Sidlaghatta
+e044e19f-f17c-47ed-9d3f-d6311ce25dcc,Sidlaghatta,Hunsenahalli,Ordinary,,,18:05,Sidlaghatta,Sidlaghatta
+07a8ef56-4909-4e41-86ca-8f4f20c87b2d,Sidlaghatta,Hunsenahalli,Ordinary,,,18:15,Sidlaghatta,Sidlaghatta
+c9de263e-aece-4a11-bfca-3c5dc9962a68,Sidlaghatta,Hunsenahalli,Ordinary,,,18:30,Sidlaghatta,Sidlaghatta
+8f8822f2-459f-4961-accc-1c4b143229c2,Sidlaghatta,Hunsenahalli,Express,,,19:00,Sidlaghatta,Sidlaghatta
+c872878b-393b-44c7-8196-1b4e62ecf62e,Sidlaghatta,Hunsenahalli,Ordinary,,,19:05,Sidlaghatta,Sidlaghatta
+fb7d3493-2913-4be9-8ded-f3a4bed605dd,Sidlaghatta,Hunsenahalli,Ordinary,,,19:15,Sidlaghatta,Sidlaghatta
+ffa613c7-7724-495f-83d6-1e5c90f38015,Sidlaghatta,Hunsenahalli,Express,,,19:30,Sidlaghatta,Sidlaghatta
+3ba68181-bc36-4e2c-9437-148281e13384,Sidlaghatta,Hunsenahalli,Ordinary,,,19:45,Sidlaghatta,Sidlaghatta
+180991ad-74fd-4119-86e0-5e00b50d77a8,Sidlaghatta,Hunsenahalli,Ordinary,,,20:45,Sidlaghatta,Sidlaghatta
+a0876f0b-c9f0-4abd-bb45-547a61f397a2,Sidlaghatta,Thippenahalli,Ordinary,,,10:00,Sidlaghatta,Sidlaghatta
+3d82ee37-ffa1-43bf-81b7-6620655be374,Sidlaghatta,Hanumathapur,Ordinary,,,10:15,Sidlaghatta,Sidlaghatta
+2c341ccf-5a52-454f-8719-a2bc2b967712,Sidlaghatta,Bashettihalli,Ordinary,,,10:30,Sidlaghatta,Sidlaghatta
+61525d47-bda0-4c84-b810-d349e162ede5,Sidlaghatta,Thippenahalli,Ordinary,,,10:45,Sidlaghatta,Sidlaghatta
+b2f9c214-80b1-4969-8802-466ec8750eb3,Sidlaghatta,Cheemangala,Express,,,11:15,Sidlaghatta,Sidlaghatta
+1615fc02-2531-41fb-88ef-2764da3ce889,Sidlaghatta,Kannapanahalli,Ordinary,,,11:15,Sidlaghatta,Sidlaghatta
+6d34b9f4-04fd-4489-9514-4038e02bb100,Sidlaghatta,Bashettihalli,Ordinary,,,11:30,Sidlaghatta,Sidlaghatta
+13e8caf6-38b5-4199-819e-be3d79612a19,Sidlaghatta,Thippenahalli,Ordinary,,,12:00,Sidlaghatta,Sidlaghatta
+f88bd7d7-32c8-4f6c-9ae9-01711f414fa7,Sidlaghatta,Bashettihalli,Ordinary,,,12:30,Sidlaghatta,Sidlaghatta
+4a81df05-e1a5-4c54-b4ae-8b6f4d0a5f71,Sidlaghatta,Bashettihalli,Ordinary,,,13:30,Sidlaghatta,Sidlaghatta
+61ce1a5f-7479-4bab-97e8-187a47cecf90,Sidlaghatta,Jangamkote,Express,,,13:30,Sidlaghatta,Sidlaghatta
+5cd4406e-a252-4162-880d-5b914d5d2a39,Sidlaghatta,Kannapanahalli,Ordinary,,,13:30,Sidlaghatta,Sidlaghatta
+5998a97b-3e96-43a4-87a9-80f6a41e5061,Sidlaghatta,Thippenahalli,Ordinary,,,14:00,Sidlaghatta,Sidlaghatta
+9f2b0914-9fff-4ac8-b9e1-8fbe9ffd97d5,Sidlaghatta,Bashettihalli,Ordinary,,,15:00,Sidlaghatta,Sidlaghatta
+27f86ad8-b7d8-4129-b3e7-469eac53f953,Sidlaghatta,Thippenahalli,Ordinary,,,15:00,Sidlaghatta,Sidlaghatta
+784490d2-0b1f-427a-b1a7-797dc73c2fd7,Sidlaghatta,Bashettihalli,Ordinary,,,15:30,Sidlaghatta,Sidlaghatta
+012b0809-21ce-46ae-80e0-1a66b432b5bc,Sidlaghatta,Bashettihalli,Ordinary,,,16:30,Sidlaghatta,Sidlaghatta
+41c11e60-6397-4f5a-a97d-60545037d4b7,Sidlaghatta,Devarmallur,Ordinary,,,16:30,Sidlaghatta,Sidlaghatta
+f880cd5b-d3b0-476d-abf0-081aec387656,Sidlaghatta,Jangamkote,Ordinary,,,16:30,Sidlaghatta,Sidlaghatta
+0c9c597c-33e8-4b5a-aded-511a1555a555,Sidlaghatta,Station,Ordinary,,,16:45,Sidlaghatta,Sidlaghatta
+283b5e03-efc9-49f9-bd91-640ed381a52b,Sidlaghatta,Bashettihalli,Ordinary,,,16:45,Sidlaghatta,Sidlaghatta
+a4accaf3-3e4e-4a28-b2c0-1a3baf8969c1,Sidlaghatta,Thippenahalli,Ordinary,,,17:00,Sidlaghatta,Sidlaghatta
+46fd59bb-575d-4d59-8439-148c3b0455fa,Sidlaghatta,Devarmallur,Ordinary,,,17:15,Sidlaghatta,Sidlaghatta
+421d49de-cb14-4bc4-a641-36ea8aa53fc6,Sidlaghatta,Jangamkote,Express,,,17:30,Sidlaghatta,Sidlaghatta
+e2f3cbc6-2769-44d5-b15f-d2e0a8d3e5f6,Sidlaghatta,Kannapanahalli,Ordinary,,,17:30,Sidlaghatta,Sidlaghatta
+d14b6f53-a444-4333-91a5-8405db5d5d51,Sidlaghatta,Bashettihalli,Ordinary,,,17:45,Sidlaghatta,Sidlaghatta
+564714e3-e5fa-4ebb-af14-6db81da8116a,Sidlaghatta,Devarmallur,Ordinary,,,18:00,Sidlaghatta,Sidlaghatta
+7b8a41cc-f85e-44fa-a8ff-5d8a6a216e88,Sidlaghatta,Hanumathapur,Ordinary,,,18:30,Sidlaghatta,Sidlaghatta
+d6da9005-24c6-4c74-9203-bf816d094e9d,Sidlaghatta,Thippenahalli,Ordinary,,,18:30,Sidlaghatta,Sidlaghatta
+8674db28-3561-4401-8a0a-4e843a7d67b4,Sidlaghatta,Thippenahalli,Ordinary,,,19:00,Sidlaghatta,Sidlaghatta
+63d21ae4-dce6-4cb8-b19a-edd1aad14569,Sidlaghatta,Melur,Ordinary,,,19:00,Sidlaghatta,Sidlaghatta
+06189eff-5117-474e-8cca-67820aa58751,Sidlaghatta,Bashettihalli,Ordinary,,,20:00,Sidlaghatta,Sidlaghatta
+3c6aa4a9-6c5e-40b9-be76-7219d4bb1440,Sidlaghatta,Kaiwara,Ordinary,,,20:30,Sidlaghatta,Sidlaghatta
+5424261e-ec15-4e8d-8a51-0fdca27844bc,Sidlaghatta,Kannapanahalli,Ordinary,,,20:30,Sidlaghatta,Sidlaghatta
+82bc4038-01c8-4c92-96e8-516767d0222e,Sidlaghatta,Dibburahalli,Ordinary,,,21:15,Sidlaghatta,Sidlaghatta
+275baa05-832b-4417-aaa7-8d959e74e806,Sidlaghatta,Jangamkote,Express,,,16:30,Sidlaghatta,Sidlaghatta
+38ba3721-aa57-4fb3-8044-89920e04c63a,Sidlaghatta,Jangamkote,Express,,,11:00,Sidlaghatta,Sidlaghatta
+25ed0d76-babb-4e84-b55e-14036b9ea15c,Sidlaghatta,Cheemangala,Ordinary,,,17:00,Sidlaghatta,Sidlaghatta
+0793f49b-e220-4446-a04e-9804971a04ec,Sidlaghatta,Cheemangala,Ordinary,,,16:00,Sidlaghatta,Sidlaghatta
+0308850d-415a-4a8c-896d-528770e820db,Bengaluru,Athani,Express,,Hubballi; Davanagere; Tumakuru,18:45,Sira,Sira
+9d1745e3-d0a6-4e59-8bfa-9c52bc96b7d9,Bengaluru,Aurad,Express,,Tumakuru; Ballari; Kalaburagi,15:00,Sira,Sira
+4e5e1ae8-42dc-4da7-945b-986078e6e153,Bengaluru,Badami,Express,,Tumakuru; Sira; Chitradurga; Hosapete,08:15,Sira,Sira
+8e80063a-f9d2-4839-8cbb-bc0900447fd5,Bengaluru,Badami,Express,,Tumakuru; Sira; Chitradurga; Hosapete,09:15,Sira,Sira
+a4d95861-f203-474d-bde1-a47e6314b60a,Bengaluru,Badami,Express,,Tumakuru; Sira; Chitradurga; Hosapete,16:45,Sira,Sira
+e73ad548-01d0-4a03-8699-15890bb15852,Bengaluru,Badami,Express,,Tumakuru; Sira; Chitradurga; Hosapete,18:45,Sira,Sira
+29c71c36-91a4-4ebb-80d5-a3148f7ead6b,Bengaluru,Bailhongal,Express,,Hubballi; Davanagere; Tumakuru,12:30,Sira,Sira
+c68ae968-dab1-4258-9af5-611359f895af,Bengaluru,Bailhongal,Express,,Hubballi; Davanagere; Tumakuru,19:00,Sira,Sira
+fef237ad-a91a-4794-b98e-4042b7525654,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,09:00,Sira,Sira
+8721c742-537f-4485-afe2-58b1c7979be8,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,11:45,Sira,Sira
+d14e8e5d-2c8a-4102-a14a-6b2918cd5d4f,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,15:00,Sira,Sira
+89315721-d5d6-496a-beb3-4d03ae6f2c96,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,15:45,Sira,Sira
+25dc6daa-8f77-4c95-867c-d711bfabe562,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,16:30,Sira,Sira
+e952f0de-e7c1-4135-a4a4-410e6c3dc1d4,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,17:00,Sira,Sira
+d113a058-f678-4497-bc7c-d3f33f24e245,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,17:30,Sira,Sira
+392fb126-2192-41f1-a5ed-6b5c5eed86fe,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,18:00,Sira,Sira
+30c63121-54e4-4cea-b11c-f3de58700fc1,Bengaluru,Ballari,Express,,Tumakuru; Sira; Hiriyur,18:30,Sira,Sira
+37af4fa6-7e3c-4381-acdf-a3b125db84ae,Bengaluru,Basavakalyan,Express,,Kalaburagi; Lingsugur; Ballari; Tumakuru,15:30,Sira,Sira
+9ff97d6b-098f-4e23-801a-e92c2d6c5578,Bengaluru,Belagavi,Express,,Tumakuru; Davanagere; Hubballi,09:45,Sira,Sira
+f2d7bfa5-77fb-4baa-826b-0e5622f474a7,Bengaluru,Belagavi,Express,,Tumakuru; Davanagere; Hubballi,10:15,Sira,Sira
+37954030-25db-4353-b6ba-096c9342739d,Bengaluru,Belagavi,Express,,Tumakuru; Davanagere; Hubballi,16:30,Sira,Sira
+a21b5941-c393-4983-acc2-8373d7f0327d,Bengaluru,Belagavi,Express,,Tumakuru; Davanagere; Hubballi,16:45,Sira,Sira
+0e16c582-3519-4d47-869a-9ace0ec17117,Bengaluru,Belagavi,Express,,Tumakuru; Davanagere; Hubballi,18:00,Sira,Sira
+8bdb2838-06d6-4125-aaf3-d3ef78c4fb02,Sira,Tumakuru,Express,,,05:30,Sira,Sira
+4c6aa967-6da7-44ac-9f69-024a9193d4ff,Sira,Tumakuru,Express,,,06:15,Sira,Sira
+63651e1b-1b98-4280-85b7-8a637b80ee1d,Sira,Tumakuru,Express,,,06:30,Sira,Sira
+97ce74bb-e10a-40c2-af2e-7a1b1708fa0b,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,06:45,Sira,Sira
+88ff8ebc-b5cc-4a71-89d9-fad939bfc891,Sira,Tumakuru,Express,,,07:00,Sira,Sira
+fa721599-d526-40e3-8934-c5300c7275ee,Sira,Tumakuru,Express,,,07:15,Sira,Sira
+8df29bfb-4d32-4981-a37b-3f249c7cbd28,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,07:40,Sira,Sira
+21071ccf-8b9b-44c1-8f36-840730862ad2,Sira,Tumakuru,Express,,,07:45,Sira,Sira
+1165cf3b-ceb0-4b17-932d-765d21b14ae7,Sira,Tumakuru,Express,,,07:50,Sira,Sira
+04f362cb-a867-4445-963c-6fc6990a1bdf,Rayadurga,Bengaluru,Express,,Challakere; Sira; Tumakuru,08:15,Sira,Sira
+b7f8e341-3a22-4d00-b1c9-eac65d57b785,Challakere,Bengaluru,Express,,Hiriyur; Sira; Tumakuru,08:15,Sira,Sira
+ae9158b6-1606-4e79-b5d5-5be5e59a4b78,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,08:15,Sira,Sira
+f83f74ef-b119-477a-adb1-b68e66077255,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,08:30,Sira,Sira
+5a695c8e-0601-47c1-93c3-2f5eff2c76d2,Hosapete,Bengaluru,Express,,Kudligi; Chitradurga; Sira; Tumakuru,08:30,Sira,Sira
+09614792-6954-4685-b97d-0e6b58c3adb4,Sira,Tumakuru,Express,,,08:30,Sira,Sira
+6764528c-e27e-42bb-85a3-b7397e354f8e,Sira,Tumakuru,Express,,,08:45,Sira,Sira
+696f163c-b869-4d46-b3ee-e3afa7767061,Challakere,Bengaluru,Express,,Hiriyur; Sira; Tumakuru,08:50,Sira,Sira
+beca09a2-c97c-4b4e-9a9a-9004a0319479,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,09:00,Sira,Sira
+7ce8b845-98b4-48fd-a222-9fe18fa973ef,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,09:00,Sira,Sira
+99805915-54df-4dcb-b05d-95adfcfbe726,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,09:15,Sira,Sira
+eed62aa6-7d24-4d43-8874-e49764132737,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,09:15,Sira,Sira
+0c26a2e3-9cca-4c2a-a427-1f511d506065,Sira,Tumakuru,Express,,,09:15,Sira,Sira
+53f0b48f-57c0-49b5-a934-5dc9c7cd0f3f,Challakere,Bengaluru,Express,,Hiriyur; Sira; Tumakuru,09:30,Sira,Sira
+530805f4-8536-45f7-9ee6-7fc16b9ade51,Sira,Tumakuru,Express,,,09:30,Sira,Sira
+877f2772-6002-426b-a414-6aaf08b3a0ce,Sira,Tumakuru,Express,,,09:45,Sira,Sira
+881fd2e8-0c73-4324-b8f5-855ef1cf866c,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,10:00,Sira,Sira
+def0fb47-02f1-4c4c-aad2-9efe297ef3bb,Sira,Tumakuru,Express,,,10:10,Sira,Sira
+9dcce843-c53a-48d3-aaa7-01bc246af414,Ballari,Bengaluru,Express,,Challakere; Sira; Tumakuru,10:15,Sira,Sira
+99ccdd67-bb41-4491-9097-34b841fd14e3,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,10:15,Sira,Sira
+bf43388d-75c8-48fa-b3c3-43462f64560d,Gangavathi,Bengaluru,Express,,Hosapete; Chitradurga; Tumakuru,10:15,Sira,Sira
+c5fa79ef-6a24-4f72-a2e0-79597501c834,Sira,Tumakuru,Express,,,10:15,Sira,Sira
+917a20b7-9a01-4852-bcf2-7a2f64ab945f,Harapanahalli,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,10:20,Sira,Sira
+1524f635-345d-4ba3-bcc7-5f83a43c29dd,Sira,Tumakuru,Express,,,10:30,Sira,Sira
+f7f6f7ef-7009-4cf0-8626-8cf09901449f,Sira,Tumakuru,Express,,,10:40,Sira,Sira
+76e8f102-5e76-4ab0-8cdc-80f037f02050,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,10:45,Sira,Sira
+4b506f88-9236-415b-b6a8-2214a0624ef0,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,10:45,Sira,Sira
+64342230-6e5c-4d14-ab5e-603a9c38ae92,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,10:45,Sira,Sira
+3dca4ef6-c0e1-47f5-9868-4b148eeb7eb0,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,10:45,Sira,Sira
+6237549d-5f1d-4df7-9833-3d2c52a09374,Raichur,Bengaluru,Express,,Ballari; Sira; Tumakuru,10:45,Sira,Sira
+e88a8494-7926-4b9e-8921-7211974683ed,Ramanagar,Kengeri,Express,,,10:45,Sira,Sira
+0234846b-e998-4221-9a88-b79d294ab2a5,Sira,Tumakuru,Express,,,10:45,Sira,Sira
+a6a295f1-1b78-4681-86a0-afc1fbf30a76,Ballari,Bengaluru,Express,,Challakere; Sira; Tumakuru,10:45,Sira,Sira
+50e204ea-a949-4b2d-8010-2ca3deba4361,Sira,Tumakuru,Express,,,11:00,Sira,Sira
+e1aa751c-508a-4420-84fd-d7b8b6a85cb9,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,11:15,Sira,Sira
+80372226-b6aa-4a6a-ba0e-f150d8d8fd6c,Challakere,Bengaluru,Express,,Hiriyur; Sira; Tumakuru,11:15,Sira,Sira
+9f8d2d6b-83b7-48b4-9564-0973453ccf89,Harapanahalli,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,11:15,Sira,Sira
+0ab1a30f-22ff-4e31-9432-18bdaf62033e,Mantralaya,Bengaluru,Express,,Adoni; Ballari; Challakere; Sira; Tumakuru,11:15,Sira,Sira
+5797bafa-7963-464a-a4ff-59abf2452ac8,Sira,Tumakuru,Express,,,11:20,Sira,Sira
+6b5e711d-b50e-466c-a8ee-311cc53b091e,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,11:30,Sira,Sira
+f2d7c58b-2413-4f33-9c48-02f739a8a2ad,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,11:40,Sira,Sira
+50b209da-bb0d-4477-8390-b73f68ba0ef0,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,11:40,Sira,Sira
+9299899c-af12-4fe6-b631-7f2d0567f7ca,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,11:45,Sira,Sira
+6dc258d7-eed8-4647-8f9b-9dec232ce4a2,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,11:45,Sira,Sira
+2bcd2cc1-6478-44d6-83a8-1408bd4a3d32,Hosapete,Bengaluru,Express,,Kudligi; Chitradurga; Sira; Tumakuru,11:45,Sira,Sira
+14a98a9b-828a-4e33-8b37-42ced90d996c,Challakere,Bengaluru,Express,,Hiriyur; Sira; Tumakuru,12:15,Sira,Sira
+0d3c304b-086d-4a6c-a477-de2d050ab923,Hosapete,Bengaluru,Express,,Kudligi; Chitradurga; Sira; Tumakuru,12:15,Sira,Sira
+6ab3e984-02ac-4cce-ac3b-c45d31134cde,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,12:15,Sira,Sira
+2f1727f7-bc2e-462e-8dfc-016c84d7067a,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,12:15,Sira,Sira
+ebd69d73-25ec-4231-98aa-01f8a70e99e7,Sira,Tumakuru,Express,,,12:15,Sira,Sira
+9a214a94-d28a-4ab6-9272-abf6fed036d9,Sira,Tumakuru,Express,,,12:20,Sira,Sira
+6a9c8c67-8115-41f1-b0c5-359e86a5d53e,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,12:30,Sira,Sira
+e8c6531f-f0f2-45d5-8c39-770177aa2823,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,12:30,Sira,Sira
+0e0e8ed6-d1d8-455e-85d0-e96acd971056,Sira,Tumakuru,Express,,,12:30,Sira,Sira
+cf06d4a1-76af-4c33-89af-c0c8809f122e,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,12:45,Sira,Sira
+592ceaa3-b75a-44ff-89fb-1fb1ff75c03f,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,12:45,Sira,Sira
+3a25a9b5-f12b-402b-b4a5-6264c4d8a02d,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,12:50,Sira,Sira
+1e9544f6-3e3f-4b57-9bd6-4ebbc69d8082,Chitradurga,Bengaluru,Express,,Sira; Tumakuru,13:15,Sira,Sira
+660c91ab-7941-4c62-a1c4-e6a600651382,Sindhanur,Bengaluru,Express,,Ballari; Sira; Tumakuru,13:15,Sira,Sira
+f317e63c-8dbf-401b-9224-6ebccfede206,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,13:15,Sira,Sira
+da95f582-55f1-43ba-a449-d421ffeac590,Sira,Tumakuru,Express,,,13:30,Sira,Sira
+a168b426-a0ef-4f5f-8b43-67c4fc68a2bf,Mantralaya,Bengaluru,Express,,Ballari; Sira; Tumakuru,13:45,Sira,Sira
+4988c1db-0690-4149-940a-159ccf27ab53,Rayadurga,Bengaluru,Express,,Challakere; Sira; Tumakuru,13:45,Sira,Sira
+dbe75052-c31e-4386-ac00-021b12dcce07,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,13:45,Sira,Sira
+2a4efeb4-018d-479d-b2f9-5522c809a501,Gangavathi,Bengaluru,Express,,Hosapete; Chitradurga; Tumakuru,13:45,Sira,Sira
+9494c5ba-bd1d-43a8-804b-efe421f0f8df,Hubballi,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,13:45,Sira,Sira
+b5b6681e-905d-4c8f-9ddd-690b8c4cec74,Raichur,Bengaluru,Express,,Ballari; Sira; Tumakuru,13:50,Sira,Sira
+568b9d0c-b752-43e2-b85b-271edf304aeb,Davanagere,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,14:00,Sira,Sira
+7ef2d5f1-bdf0-4186-ae3c-ad04b943ce5f,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,14:00,Sira,Sira
+c31809fc-df4a-4bc8-9133-17a4d7a48212,Raichur,Bengaluru,Express,,Ballari; Sira; Tumakuru,14:15,Sira,Sira
+7e238fcf-9a84-4c23-9bc8-2dcb8b287295,Challakere,Bengaluru,Express,,Hiriyur; Sira; Tumakuru,14:15,Sira,Sira
+d844d102-b651-43d2-8d81-7f35012aac3d,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,14:15,Sira,Sira
+94437859-45e2-46b2-a564-b1b616424817,Sira,Tumakuru,Express,,,14:15,Sira,Sira
+03df98ec-3d16-4e11-a601-4971105b797e,Gangavathi,Bengaluru,Express,,Hosapete; Chitradurga; Tumakuru,14:30,Sira,Sira
+99a5251d-8634-44ed-bd12-7439c16ead53,Harapanahalli,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,15:15,Sira,Sira
+96b13edf-179d-4273-8356-344dbded6873,Ranebennur,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,15:30,Sira,Sira
+267c7561-c37c-4ba3-bf57-e60254b19641,Ranebennur,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,16:45,Sira,Sira
+b9e04bf8-9437-4596-9636-a3c7c10831ab,Ranebennur,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,17:30,Sira,Sira
+31d21ea9-0ba0-41f1-b918-19e813822287,Ranebennur,Bengaluru,Express,,Harihar; Davanagere; Sira; Tumakuru,17:40,Sira,Sira
+bd3ce2d8-48b5-4320-a205-96726e2f13af,Harihar,Bengaluru,Express,,Chitradurga; Sira; Tumakuru,18:15,Sira,Sira
+657cefad-c4a7-4d8f-8c6d-87c6667e4e47,Bengaluru,Betageri,Express,,Mundargi; Huvinahadagali; Harapanahalli; Tumakuru,06:30,Sira,Sira
+f90aee82-d4d2-4240-b0cc-0cca16a7f7d1,Bengaluru,Betageri,Express,,Mundargi; Huvinahadagali; Harapanahalli; Tumakuru,07:30,Sira,Sira
+131ae184-3668-48ab-8d4c-09001de62f6c,Bengaluru,Betageri,Express,,Mundargi; Huvinahadagali; Harapanahalli; Tumakuru,08:30,Sira,Sira
+bd8a2305-b7e4-46c1-ac5f-1cd273ea7e26,Bengaluru,Betageri,Express,,Mundargi; Huvinahadagali; Harapanahalli; Tumakuru,10:30,Sira,Sira
+cdd0881a-6393-44db-a31d-088b55fdd453,Bengaluru,Betageri,Express,,Mundargi; Huvinahadagali; Harapanahalli; Tumakuru,12:00,Sira,Sira
+b3f9cdbb-ade8-4f68-84b2-06126ca42f26,Bengaluru,Betageri,Express,,Mundargi; Huvinahadagali; Harapanahalli; Tumakuru,17:00,Sira,Sira
+7d8f1cea-e9bd-437c-9881-e9307ac8e8dc,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,08:15,Sira,Sira
+3f46a7d6-dcaa-4e25-af89-4ea6c5450ff7,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,08:30,Sira,Sira
+f542b4d5-7e74-413c-bfb6-c744b8682696,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,09:00,Sira,Sira
+0f6998be-3d1e-48dd-b8a5-aa44854d5bec,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,10:00,Sira,Sira
+a18b5725-8382-4ddd-aa55-dbbd368eac08,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,11:20,Sira,Sira
+0a96e848-7786-45ab-b8b6-3122d161f032,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,11:30,Sira,Sira
+91923168-f547-4ec4-a87d-7698bca4c382,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,12:30,Sira,Sira
+592c5030-8e75-4cb5-9056-0d8a582c73d7,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,15:00,Sira,Sira
+059f95d0-fed6-4680-90e4-a726609dbac0,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,16:45,Sira,Sira
+58ed6789-dfde-42ff-9497-c5583ec3f6fb,Bengaluru,Byadgi,Express,,Ranebennur; Davanagere; Tumakuru,19:00,Sira,Sira
+f7861adb-3df9-448f-8c74-2271503287a5,Bengaluru,Challakere,Express,,Hiriyur; Sira; Tumakuru,12:00,Sira,Sira
+86223692-3fb6-4f27-a633-80fed3e53216,Bengaluru,Challakere,Express,,Hiriyur; Sira; Tumakuru,14:00,Sira,Sira
+c519be27-cf1a-404c-8af5-8ec40b703487,Bengaluru,Challakere,Express,,Hiriyur; Sira; Tumakuru,15:30,Sira,Sira
+b289395e-bf3e-4e0a-8757-d95fe2f31272,Bengaluru,Challakere,Express,,Hiriyur; Sira; Tumakuru,17:30,Sira,Sira
+da3a7af9-7175-42ae-b31f-78c2fc28978f,Bengaluru,Challakere,Express,,Hiriyur; Sira; Tumakuru,19:30,Sira,Sira
+91acb099-d62f-4e43-bb74-a4babf8abcc2,Bengaluru,Chikkodi,Express,,Tumakuru; Davanagere; Hubballi; Belagavi,20:30,Sira,Sira
+ee9c5407-0337-4200-839a-1c0ac839366f,Bengaluru,Chincholi,Express,,Tumakuru; Ballari; Sindhanur; Raichur,20:45,Sira,Sira
+e1f59349-901a-4a08-b9fb-b1aca1ada516,Bengaluru,Chincholi,Express,,Tumakuru; Ballari; Sindhanur; Raichur,21:00,Sira,Sira
+329fde67-23b4-46fc-bcad-7f7927e9387e,Bengaluru,Dandeli,Express,,Tumakuru; Davanagere; Haveri; Haliyal,08:00,Sira,Sira
+3fdb30bc-fe31-4e6f-b601-f32b97d1f243,Bengaluru,Dandeli,Express,,Tumakuru; Davanagere; Haveri; Haliyal,17:15,Sira,Sira
+260fe148-30b8-4538-954a-ddeaaf54d466,Bengaluru,Devadurga,Express,,Chitradurga; Sira; Tumakuru,06:35,Sira,Sira
+71d32165-9757-4cfb-a409-80afbbae451b,Bengaluru,Devadurga,Express,,Chitradurga; Sira; Tumakuru,18:45,Sira,Sira
+4b110f1c-7466-479f-94e6-28a6e9ac6a74,Bengaluru,Devadurga,Express,,Chitradurga; Sira; Tumakuru,20:00,Sira,Sira
+4c400566-60e5-4c56-a480-e193aecd6a0b,Bengaluru,Devadurga,Express,,Chitradurga; Sira; Tumakuru,21:00,Sira,Sira
+8a61f0d9-c5ca-4f67-b97d-8be592aeeefe,Sira,Dharmastala,Express,,Tumakuru; Hassan,10:15,Sira,Sira
+0932e0d0-bd91-4421-9a74-3f1382c6bc0d,Bengaluru,Dharwad,Express,,Hubballi; Davanagere; Tumakuru,09:00,Sira,Sira
+1abb28ac-c7cd-4f3e-b965-92be46a22eb7,Bengaluru,Dharwad,Express,,Hubballi; Davanagere; Tumakuru,17:45,Sira,Sira
+de56c389-9a10-4658-9a6e-c16ce80f3178,Bengaluru,Gadag,Express,,Tumakuru; Harapanahalli; Hoovinahadagali; Mundargi,07:30,Sira,Sira
+617a3a4e-99dc-4835-8f74-26c7ede6813a,Bengaluru,Gadag,Express,,Tumakuru; Harapanahalli; Hoovinahadagali; Mundargi,10:00,Sira,Sira
+73323c11-6ed7-440e-ad54-6fff230cba75,Bengaluru,Gadag,Express,,Tumakuru; Harapanahalli; Hoovinahadagali; Mundargi,14:30,Sira,Sira
+20f756ad-5cda-4694-af97-f750b8680faa,Bengaluru,Gadag,Express,,Tumakuru; Harapanahalli; Hoovinahadagali; Mundargi,15:15,Sira,Sira
+42978ef2-d939-441a-beeb-20bc5fe46a2a,Bengaluru,Gadag,Express,,Tumakuru; Harapanahalli; Hoovinahadagali; Mundargi,15:50,Sira,Sira
+aba59020-6f69-40c2-a1bd-3565dc7e0f12,Bengaluru,Gadag,Express,,Tumakuru; Harapanahalli; Hoovinahadagali; Mundargi,20:15,Sira,Sira
+78f77bdb-e1a2-45f1-93b8-146019353dd7,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,08:50,Sira,Sira
+bdbaeda6-9337-47cd-8a1b-93f69570c392,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,10:45,Sira,Sira
+f9142ed9-49ad-4358-95e9-f6bc742dbce8,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,12:00,Sira,Sira
+5802bb8f-995b-4301-abf7-913f091657ef,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,12:45,Sira,Sira
+1c46afb5-c1aa-482e-aa00-47a3f8021197,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,13:00,Sira,Sira
+982a1dc1-95a4-458a-83fc-8f9032e81f11,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,15:15,Sira,Sira
+fa95b167-864a-4eba-87d8-680e78d7bc90,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,15:30,Sira,Sira
+5b680ce3-a2e8-41fd-bd52-0b51efb34cfa,Bengaluru,Gangavathi,Express,,Tumakuru; Chitradurga; Hosapete,19:45,Sira,Sira
+4f3d4053-b763-42d6-998c-1b1d45d50935,Bengaluru,Haliyal,Express,,Tumakuru; Davanagere; Haveri,08:30,Sira,Sira
+72dad172-9160-4695-8140-d7c18cb9d26f,Bengaluru,Haliyal,Express,,Tumakuru; Davanagere; Haveri,16:15,Sira,Sira
+561bb129-20b3-4281-bed2-8df80e3a4eef,Bengaluru,Hangal,Express,,Tumakuru; Sira; Challakere,08:00,Sira,Sira
+c55148ae-fe3e-435f-8ee4-c4b5f59f3b24,Bengaluru,Hangal,Express,,Tumakuru; Sira; Challakere,08:30,Sira,Sira
+c980f1db-60e0-430d-956f-6b5cf0e58efc,Bengaluru,Hangal,Express,,Tumakuru; Sira; Challakere,12:45,Sira,Sira
+21865b7c-c196-46df-a868-4712a31da100,Bengaluru,Hangal,Express,,Tumakuru; Sira; Challakere,15:05,Sira,Sira
+9343599c-3e70-4914-8f2f-2e5b168b7940,Bengaluru,Haveri,Express,,Tumakuru; Sira; Davanagere,09:15,Sira,Sira
+176624fb-fb46-48c8-8b7a-e7424161b564,Bengaluru,Haveri,Express,,Tumakuru; Sira; Davanagere,10:00,Sira,Sira
+636d0d3c-af09-4a12-bde1-ad7507dbbfaa,Bengaluru,Haveri,Express,,Tumakuru; Sira; Davanagere,11:30,Sira,Sira
+1f1b14e0-1dc7-4529-8a11-a5f91d76671e,Bengaluru,Haveri,Express,,Tumakuru; Sira; Davanagere,12:45,Sira,Sira
+7607092b-aaae-4087-9398-7eb5a53363fd,Bengaluru,Haveri,Express,,Tumakuru; Sira; Davanagere,14:15,Sira,Sira
+ca9f30cb-486c-49cc-91db-0105c948764a,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,08:30,Sira,Sira
+d013c2ce-e380-4e8e-8575-debfc02aa818,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,10:45,Sira,Sira
+3c92eb05-edee-462a-8c43-7d4fb289475b,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,11:00,Sira,Sira
+a42c92d8-5a15-483a-b8db-d33dc1ad43c6,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,11:15,Sira,Sira
+ffdcc27c-6c46-4893-bad2-2bd5bcd7e4c0,Bengaluru,Hosapete,Express,,Tumakuru; Sira; Chitradurga; Kudligi,12:00,Sira,Sira
+7997283c-f808-4727-9c42-80248e26d0b8,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,12:30,Sira,Sira
+8a9c29bb-4abd-4ac8-a59b-0641d34f1520,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,12:45,Sira,Sira
+a4fa56c2-98b7-4966-82e2-fbcce7241492,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,13:15,Sira,Sira
+cac953fe-6072-4dc5-80a1-b3f598db77b4,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,13:30,Sira,Sira
+4b490fc8-ea39-4610-a9a9-dfe97a6f5435,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,14:30,Sira,Sira
+1d224353-5089-45b9-8519-a35c1b19aee1,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,15:00,Sira,Sira
+3a5888f4-f258-4574-8791-5e51689ae7e7,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,15:30,Sira,Sira
+33f3f3dc-cdbc-404b-8061-bc18dbe18212,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,16:45,Sira,Sira
+90618062-79fc-4926-9f46-6d779fdd92be,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,17:00,Sira,Sira
+36559dc0-5aad-4237-ba5f-3ac3fc8d0d57,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,17:30,Sira,Sira
+1de5f545-9b5b-4242-b7fd-70ab62aba1ee,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,17:45,Sira,Sira
+cb3cbb60-8201-48e9-90b7-5ed4005e7483,Bengaluru,Hosapete,Express,,Tumakuru; Chitradurga; Kudligi,18:00,Sira,Sira
+0e32ebec-f35c-4842-9c16-eab9ffaee37c,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,07:30,Sira,Sira
+fd993539-62fa-4599-9a16-d9b33f94499d,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,08:30,Sira,Sira
+f79699fc-0227-4bf9-9d02-e6e680d041cb,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,09:00,Sira,Sira
+116cc531-0960-4cbe-91e7-4ab1abdf594c,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,10:00,Sira,Sira
+d5c937e9-5639-4fcd-addb-1a8d5b400489,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,10:30,Sira,Sira
+f4fdd0f9-612b-4d5d-9cdb-a232e3947734,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,11:30,Sira,Sira
+06878e80-1d8b-498a-8aa5-b7c8444e8323,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,12:15,Sira,Sira
+e32e1fed-60c8-40f4-9d8f-8ebbb9182843,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,13:00,Sira,Sira
+7ac3199f-4822-4bf5-a04f-f216a5229837,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,13:30,Sira,Sira
+ea352b7d-8e32-46e3-8a33-681c5fee3f4c,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,14:00,Sira,Sira
+8779eae8-1dd2-4476-a1e7-7d753d0004b3,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,14:15,Sira,Sira
+50c81b90-a7be-4b96-8b8f-f8ff9783ff7b,Bengaluru,Hubballi,Express,,Tumakuru; Sira; Chitradurga; Haveri,14:30,Sira,Sira
+4b97262c-9ec7-470e-8413-78e8d98990ab,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,15:00,Sira,Sira
+c1660a12-1b43-4448-bd56-9ab1d706323f,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,16:00,Sira,Sira
+118ae3cc-ae01-4137-8c60-1201631b55d4,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,16:15,Sira,Sira
+1722bb25-ffe1-4fd5-aa01-cceabe6add95,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,16:45,Sira,Sira
+dd868e9f-9ed5-4b7e-bc44-4978109c1c20,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,17:00,Sira,Sira
+6b6bbaf2-245c-49f0-bb55-16e8d7d8a225,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,17:15,Sira,Sira
+011f255a-b622-47e3-a9e6-4b403de1379b,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,18:00,Sira,Sira
+611277e2-6cc3-4754-8b1c-e7c99a365980,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,18:45,Sira,Sira
+f70e9546-781c-4363-871c-b10824167b7b,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,19:15,Sira,Sira
+df0f7c01-3799-469c-aba7-92db15fe4642,Bengaluru,Hubballi,Express,,Tumakuru; Chitradurga; Davanagere,21:00,Sira,Sira
+b6895b53-408b-4f4a-b129-3faa14dcab8b,Bengaluru,Hungund,Express,,Tumakuru; Chitradurga; Koppal,10:00,Sira,Sira
+80c8398d-e1a9-4bff-af88-3b472fe57731,Bengaluru,Hungund,Express,,Tumakuru; Chitradurga; Koppal,16:15,Sira,Sira
+8c45709f-9c26-44f2-a887-1605d4fd0575,Sira,Hunsur,Express,,Tumakuru; Mysuru,13:30,Sira,Sira
+31d49a19-25ae-4d98-8d60-55689a894539,Bengaluru,Kalaburagi,Express,,Tumakuru; Ballari; Lingsugur,16:00,Sira,Sira
+be742f1f-4ff2-44ed-836c-a02ff23ec12e,Bengaluru,Kalaburagi,Express,,Tumakuru; Ballari; Lingsugur,16:15,Sira,Sira
+029abed9-654a-456a-9a94-1563f5fcab0a,Bengaluru,Kalaburagi,Express,,Tumakuru; Ballari; Lingsugur,19:30,Sira,Sira
+dafe6521-693e-450a-9926-52a55de7e676,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,07:30,Sira,Sira
+fcc0141e-f5f0-4198-b8c4-451ec6ae417a,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,10:30,Sira,Sira
+7b049e3a-6b61-4d32-baf3-496c32edf3e5,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,13:15,Sira,Sira
+c2d0c0e7-980a-4f49-b41f-d90c04cad655,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,13:30,Sira,Sira
+1bf03401-daa8-4510-bd2d-043cb832c95b,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,13:45,Sira,Sira
+70a0f905-c559-450c-8179-28bc8335b888,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,14:45,Sira,Sira
+92fcec22-5775-4df6-8cde-c14c2bc67944,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,15:15,Sira,Sira
+7cc4cca3-c834-4dbb-8abd-068d47bca106,Bengaluru,Koppal,Express,,Tumakuru; Sira; Chitradurga,18:45,Sira,Sira
+4f140c83-f865-42fb-b5dc-33cfc35cd950,Bengaluru,Kottur,Express,,Tumakuru; Sira; Chitradurga,19:00,Sira,Sira
+14011326-6057-41bc-9f1f-6f4f6f62c0a3,Bengaluru,Kudligi,Express,,Tumakuru; Sira; Challakere,10:45,Sira,Sira
+35ed4ec8-009e-40d0-8262-b9e298ed905d,Bengaluru,Kudligi,Express,,Tumakuru; Sira; Challakere,11:00,Sira,Sira
+19de06fd-5f15-48a4-a190-a12277b7150e,Bengaluru,Kudligi,Express,,Tumakuru; Sira; Challakere,19:30,Sira,Sira
+97cfc3b1-fbcd-4ac2-8900-e728749c1c3b,Bengaluru,Kukanur,Express,,Tumakuru; Chitradurga; Davanagere,08:30,Sira,Sira
+87a72360-0772-4637-a213-fd995b12b240,Bengaluru,Kukanur,Express,,Tumakuru; Chitradurga; Davanagere,17:00,Sira,Sira
+29713b51-efb7-4d8a-9e54-edc21bb6c8e9,Bengaluru,Kushtagi,Express,,Tumakuru; Chitradurga; Koppal,05:30,Sira,Sira
+4b593037-3857-40e9-a3fc-d68f3bbb07be,Bengaluru,Kushtagi,Express,,Tumakuru; Chitradurga; Koppal,07:30,Sira,Sira
+89688dad-52d0-4b96-a481-b68013b4a4ef,Bengaluru,Kushtagi,Express,,Tumakuru; Chitradurga; Koppal,12:30,Sira,Sira
+bfa4618b-8b0f-4065-94ae-76e065c661c8,Bengaluru,Kushtagi,Express,,Tumakuru; Chitradurga; Koppal,16:00,Sira,Sira
+6c220625-915d-45c9-95c2-4e49520e67c6,Bengaluru,Kushtagi,Express,,Tumakuru; Chitradurga; Koppal,17:15,Sira,Sira
+b9a7041c-d4af-472f-8624-46b73872282e,Bengaluru,Lakshmeshwara,Express,,Tumakuru; Chitradurga; Davanagere,09:05,Sira,Sira
+76e4709f-1710-49f5-bfe3-6ea08ef95ae2,Bengaluru,Lakshmeshwara,Express,,Tumakuru; Chitradurga; Davanagere,09:30,Sira,Sira
+373da0f2-32f0-4625-bcc2-5b20da73cc30,Bengaluru,Lakshmeshwara,Express,,Tumakuru; Chitradurga; Davanagere,10:00,Sira,Sira
+128d3f6f-3745-4749-a7b0-fc24c1226c83,Bengaluru,Lakshmeshwara,Express,,Tumakuru; Chitradurga; Davanagere,11:30,Sira,Sira
+395e191f-663f-475d-ab69-27242b59d646,Bengaluru,Lakshmeshwara,Express,,Tumakuru; Chitradurga; Davanagere,21:00,Sira,Sira
+4d9b8ab1-6215-41bf-bb0d-601e8ff6c31c,Bengaluru,Lingsugur,Express,,Tumakuru; Ballari,13:00,Sira,Sira
+7369fd67-6b73-4aed-963f-0e4dc9b9601b,Bengaluru,Mantralaya,Express,,Tumakuru; Ballari; Adoni,12:30,Sira,Sira
+13f86e68-0fca-4d8b-80c3-0b2e8622fec7,Bengaluru,Mantralaya,Express,,Tumakuru; K B Cross,14:00,Sira,Sira
+82bd75b3-53f7-4f40-9a38-56468fa8b88f,Bengaluru,Manvi,Express,,Tumakuru; Ballari Siruguppa,13:30,Sira,Sira
+37c304eb-8697-45dd-8eff-34ca0d1a7c41,Bengaluru,Manvi,Express,,Tumakuru; Ballari Siruguppa,14:45,Sira,Sira
+179a72cd-9ced-420a-a729-ac62abc38d66,Bengaluru,Mundargi,Express,,Huvinahadagali; Chitradurga; Tumakuru,07:30,Sira,Sira
+fc7b69ad-edc0-40f6-bb0b-dd87467a7e14,Bengaluru,Mundargi,Express,,Huvinahadagali; Chitradurga; Tumakuru,08:00,Sira,Sira
+ba8267fa-f65f-4af6-b846-bf47a4fff348,Bengaluru,Mundargi,Express,,Huvinahadagali; Chitradurga; Tumakuru,10:00,Sira,Sira
+5b6df326-7cd3-44df-88ff-cedd04de9a5f,Bengaluru,Mundargi,Express,,Huvinahadagali; Chitradurga; Tumakuru,15:00,Sira,Sira
+2ffe2462-4bdc-4a7e-8127-50b0af13941c,Bengaluru,Mundargi,Express,,Huvinahadagali; Chitradurga; Tumakuru,15:15,Sira,Sira
+d653ab41-bb37-4bb7-8a7c-fd75fc525114,Bengaluru,Mundargi,Express,,Huvinahadagali; Chitradurga; Tumakuru,16:15,Sira,Sira
+aefab773-6cf6-4ddf-a73d-cb6120b5170d,Sira,Mysuru,Express,,Tumakuru; Maddur; Mandya,08:00,Sira,Sira
+6674fdd8-1c11-424e-880c-6fbff460a63d,Sira,Mysuru,Express,,Tumakuru; Mayasandra; Nagamangala,10:00,Sira,Sira
+d280cd76-1bd3-4be0-a477-e1643472caf9,Bengaluru,Nargund,Express,,Tumakuru; Davanagere; Hubballi,06:30,Sira,Sira
+9895c594-c088-4fd7-933a-e5d0964009c2,Bengaluru,Nargund,Express,,Tumakuru; Davanagere; Hubballi,07:00,Sira,Sira
+c6b84918-243f-4ddc-ace8-9519efb746c0,Bengaluru,Nargund,Express,,Tumakuru; Davanagere; Hubballi,07:30,Sira,Sira
+ef78e451-8ef1-49ed-9393-402ef3281ade,Bengaluru,Nargund,Express,,Tumakuru; Davanagere; Hubballi,10:15,Sira,Sira
+da9729f2-8f12-4aa5-8048-65f9ad709306,Bengaluru,Nargund,Express,,Tumakuru; Davanagere; Hubballi,20:30,Sira,Sira
+cb6c4d4a-2308-4acc-bcd3-9cfe58ec51c8,Bengaluru,Nayakanahatti,Express,,Tumakuru; Sira; Challakere,19:30,Sira,Sira
+6f19a641-e6b1-4508-80fc-742376e5cf76,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,07:03,Sira,Sira
+b5c8d6bc-bf40-482b-96c2-f50febec74d2,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,09:00,Sira,Sira
+ad6e100d-42ad-40ea-8f13-00362181b02c,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,10:00,Sira,Sira
+96358870-d6cb-416e-826c-26a2b5ec26be,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,10:30,Sira,Sira
+d6668d7b-57f4-4189-b28b-4a8f62ad1e88,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,11:00,Sira,Sira
+17424dd4-3145-451a-8f71-dcc0dd58167a,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,14:45,Sira,Sira
+6c8e4f28-691d-4b3c-a1e7-6d51ff2bac76,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,16:15,Sira,Sira
+85be6117-ab27-486b-9261-66e23ce2c871,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,16:45,Sira,Sira
+ded8c049-3cfd-45ab-b57b-6872a47c8dc4,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,17:45,Sira,Sira
+60d227ad-071c-4267-aaf7-37c4f870b8e9,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,19:15,Sira,Sira
+941dea53-52a7-4c66-aea2-e575aa0f8a7f,Bengaluru,Raichur,Express,,Tumakuru; Manvi; Ballari,20:30,Sira,Sira
+511e1b31-2257-4677-b4fc-971a20b399ba,Bengaluru,Ramadurga,Express,,Tumakuru; Davanagere; Hubballi,07:30,Sira,Sira
+eae51ff1-6adb-462f-b3cb-a3233fe17ff0,Bengaluru,Ramadurga,Express,,Tumakuru; Davanagere; Hubballi,08:00,Sira,Sira
+e43a1792-7c0c-4bf1-b51f-53436ff4ad6d,Bengaluru,Ramadurga,Express,,Tumakuru; Davanagere; Hubballi,18:45,Sira,Sira
+d04683e7-e69a-4384-a677-94defedfc5da,Bengaluru,Ranebennur,Express,,Tumakuru; Davanagere; Haveri,15:00,Sira,Sira
+b032c629-add0-4b3e-9b0b-3a67f65755dc,Bengaluru,Ranebennur,Express,,Tumakuru; Davanagere; Haveri,18:00,Sira,Sira
+18c50882-2c57-431f-b8db-5d32af8d7129,Bengaluru,Rayadurga,Express,,Tumakuru; Sira; Challakere,14:30,Sira,Sira
+12c4577f-a1b4-4814-98df-9de822d6ac67,Bengaluru,Rayadurga,Express,,Tumakuru; Sira; Challakere,16:15,Sira,Sira
+f708d926-071a-4ae0-9d01-712ff3b49dd9,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,07:15,Sira,Sira
+a240b864-62b7-4240-b70a-ef343f292bd2,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,07:30,Sira,Sira
+5a28144f-98bc-4b60-8464-7b6a1ff56a46,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,08:00,Sira,Sira
+08387a4d-f84f-4a78-9855-5e32c321d381,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,09:00,Sira,Sira
+fc24c896-022c-48af-b04f-e02ea2ee6e49,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,10:00,Sira,Sira
+10ba7f64-d31b-49a0-8bbb-6d8f11ca4af8,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,17:05,Sira,Sira
+1e5ac9aa-7539-4309-9170-06ec4cb22058,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,17:45,Sira,Sira
+69114c57-3cee-42c4-8acf-13e4279712cb,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,18:45,Sira,Sira
+9ed0433d-6843-4e8d-9c8e-85c2546691c0,Bengaluru,Ron,Express,,Tumakuru; Huvinahadagali; Gadag,19:30,Sira,Sira
+67daab80-bd11-4b8c-aef3-673fa39cf82b,Bengaluru,Sandur,Express,,Tumakuru; Sira; Ballari,12:00,Sira,Sira
+1688fd67-f9e4-488b-a909-f1b06c258df2,Bengaluru,Sandur,Express,,Tumakuru; Sira; Ballari,13:45,Sira,Sira
+30860cc0-6841-47e3-bee0-c7406eb7d032,Bengaluru,Savadatti,Express,,Tumakuru; Davanagere; Hubballi,08:30,Sira,Sira
+8ece3a6f-7993-4c2d-891b-37ed076bfdd8,Bengaluru,Savadatti,Express,,Tumakuru; Davanagere; Hubballi,16:15,Sira,Sira
+02cfca8e-5b38-4772-9d61-e86879749e80,Bengaluru,Savadatti,Express,,Tumakuru; Davanagere; Hubballi,18:45,Sira,Sira
+f1516e5e-abf9-43e7-9fcc-0afb5f394799,Bengaluru,Savanur,Express,,Tumakuru; Davanagere; Ranebennur,09:15,Sira,Sira
+a3144f2e-5051-4ea6-9235-3c18dd24b446,Bengaluru,Savanur,Express,,Tumakuru; Davanagere; Ranebennur,10:00,Sira,Sira
+ea9c6cf7-8e2b-4b83-a0c6-b324c50f9715,Bengaluru,Savanur,Express,,Tumakuru; Davanagere; Ranebennur,11:30,Sira,Sira
+ff14407d-a9ff-4f50-8272-c8b16912f862,Bengaluru,Savanur,Express,,Tumakuru; Davanagere; Ranebennur,16:15,Sira,Sira
+e182c598-ac35-4fed-842c-5211b38ff621,Bengaluru,Savanur,Express,,Tumakuru; Davanagere; Ranebennur,17:10,Sira,Sira
+c928b67b-a78a-45fc-ac51-e1450ec8ff0f,Bengaluru,Savanur,Express,,Tumakuru; Davanagere; Ranebennur,18:45,Sira,Sira
+7f9aeace-6a16-48b9-85ed-99ba7221631f,Bengaluru,Shahpur,Express,,Tumakuru; Siruguppa; Devadurga,20:45,Sira,Sira
+a0ac9d2f-7a88-4be8-a488-b6d07bc6c2d9,Bengaluru,Shrishailam,Express,,Anantapur; Kurnool,18:00,Sira,Sira
+546233a4-1db1-4394-bffb-576279bd45b3,Bengaluru,Sindagi,Express,,Tumakuru; Chitradurga; Kushtagi,20:30,Sira,Sira
+a4a1890f-45b3-466e-9066-5f1cd233d982,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,07:45,Sira,Sira
+ccefda6f-5bff-4237-bb16-d6d6f31b076a,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,11:45,Sira,Sira
+e4f1f449-42fb-4303-b9c3-8f0a093d8045,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,12:00,Sira,Sira
+ece87c22-d736-458c-97a1-90d5733cfc4f,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,13:00,Sira,Sira
+e7f1010b-aa0b-4d84-9b19-1a7b67e6e797,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,15:45,Sira,Sira
+be965f2b-d0ad-4436-8d44-05959a765ea9,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,16:45,Sira,Sira
+2771941f-d4b8-4538-a8f9-dd974ec24f83,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,18:45,Sira,Sira
+97f5a7bf-249b-4ce9-99e9-4b8caf2650ce,Bengaluru,Sindhanur,Express,,Tumakuru; Ballari; Siruguppa,19:15,Sira,Sira
+fce3433f-d5e1-4c2e-a31e-817f010fb1cd,Bengaluru Sirsi Express,Kadur,", Birur ,Bhadravathi",,,12:30,Sira,Sira
+40ca23b6-e8e8-4cc1-af89-2e695c1d7811,Bengaluru Sirsi Express,Kadur,", Birur ,Bhadravathi",,,15:45,Sira,Sira
+67d160a8-b45a-4b1d-97fc-56c19ea7aed0,Bengaluru,Siruguppa,Express,,Tumakuru; Sira; Ballari,11:00,Sira,Sira
+a7d6d08d-2c3e-48f5-93ad-74bd599b1598,Bengaluru,Siruguppa,Express,,Tumakuru; Sira; Ballari,16:15,Sira,Sira
+3e05cb75-5bd5-41a1-8e1f-01cf1fe410f6,Bengaluru,Siruguppa,Express,,Tumakuru; Sira; Ballari,17:45,Sira,Sira
+e2426b1e-ab3e-4dc4-8b66-416946107c5f,Bengaluru,Soraba,Express,,Tumakuru; Davanagere; Ranebennur,09:00,Sira,Sira
+7e69fb29-ecf7-4f6d-a94f-1c38771fb7fd,Bengaluru,Soraba,Express,,Tumakuru; Davanagere; Ranebennur,15:30,Sira,Sira
+2ab5c6be-6e55-43d6-bbc2-d6a997d7cd7a,Bengaluru,Talikot,Express,,Tumakuru; Koppal Hosapete; Ilkallu,20:45,Sira,Sira
+f2facf63-94a9-4691-9239-036ffdde86ce,Bengaluru,Teradal,Express,,Tumakuru; Davanagere; Hubballi; Belagavi,18:30,Sira,Sira
+ad8c3c8c-2d6c-4a08-95dc-6b8be68f33a0,Bengaluru,Vijayapura,Express,,Hunagund; Kushtagi; Hosapete; Chitradurga; Tumakuru,18:00,Sira,Sira
+3d25e5d7-8ded-4c0e-913f-894b53826388,Bengaluru,Yadgir,Express,,Tumakuru; Ballari; Raichur,18:30,Sira,Sira
+c861ee5a-8c1a-4195-a9e3-7026eadc390e,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,06:30,Sira,Sira
+0ac9c086-5800-46da-8d9d-3fbb6ff51db6,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,08:30,Sira,Sira
+4d0116e6-28c1-4634-bc34-3b10cef6cf60,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,08:45,Sira,Sira
+8651413a-cda2-4a49-8a1a-89c0d90de4e0,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,09:00,Sira,Sira
+f0cb8523-7254-4b28-bd91-af054ee091b4,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,14:15,Sira,Sira
+329e6c93-1aaa-4fe5-a88f-568afcd93911,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,15:15,Sira,Sira
+b6622b4f-e290-48bd-a4a5-47f34eb64ab9,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,17:15,Sira,Sira
+d17503d8-45ff-4ef4-abc0-af95760e42db,Bengaluru,Yalaburga,Express,,Tumakuru; Chitradurga; Kudligi,17:45,Sira,Sira
+56f5312d-905b-47a1-a2f6-3aef39a3c969,Sirigere,Chitradurga,Sirigere-X,,,08:45,Sirigere,Sirigere
+dc5c34fb-8014-4ae3-9e6b-bd27a33264be,Sirigere,Chitradurga,Sirigere-X,,,09:15,Sirigere,Sirigere
+75e898ff-e6d6-4db5-bb74-2f05257b61d9,Sirigere,Chitradurga,Sirigere-X,,,09:50,Sirigere,Sirigere
+74f3b7ac-4f06-4715-ba12-d58408af5966,Sirigere,Chitradurga,Sirigere-X,,,10:05,Sirigere,Sirigere
+a9780717-0672-414e-887c-91b138366aa9,Sirigere,Chitradurga,Sirigere-X,,,10:50,Sirigere,Sirigere
+a9b60db8-8792-4b0b-8537-95ff54f90bd2,Sirigere,Chitradurga,Sirigere-X,,,10:30,Sirigere,Sirigere
+22b910f2-e71e-4e5e-bd83-1de2a1719c81,Sirigere,Chitradurga,Sirigere-X,,,11:45,Sirigere,Sirigere
+5bccc30e-b00d-4469-a6b1-8bf27152be4b,Sirigere,Chitradurga,Sirigere-X,,,12:15,Sirigere,Sirigere
+9a8799d0-3712-46ec-ade3-c2b599811dcb,Sirigere,Chitradurga,Sirigere-X,,,12:50,Sirigere,Sirigere
+3471a4c8-2518-46c5-9bc7-9de1ed8d6fbd,Sirigere,Chitradurga,Sirigere-X,,,13:30,Sirigere,Sirigere
+b6cc559f-3cb7-4984-babb-84639e615a28,Sirigere,Chitradurga,Sirigere-X,,,14:00,Sirigere,Sirigere
+398fbf13-ef28-413f-9aad-5a2cb503d485,Sirigere,Chitradurga,Sirigere-X,,,14:45,Sirigere,Sirigere
+c157af0b-4d90-445b-9b3f-eecd96126946,Sirigere,Chitradurga,Sirigere-X,,,15:15,Sirigere,Sirigere
+d8252e8c-3754-4e83-89d5-f5e8933f102b,Sirigere,Chitradurga,Sirigere-X,,,15:55,Sirigere,Sirigere
+129d0e79-07ac-4d76-aec7-66eb6cbc0f7d,Sirigere,Chitradurga,Sirigere-X,,,16:15,Sirigere,Sirigere
+22e6f05d-8d74-43bf-a2ca-129ea449ebe8,Sirigere,Chitradurga,Sirigere-X,,,16:30,Sirigere,Sirigere
+5ff12394-b3e8-4a77-b06a-ff3dcacb4194,Sirigere,Chitradurga,X,,,17:00,Sirigere,Sirigere
+cc683fc3-f03c-4963-b4da-82a90971b703,Sirigere,Chitradurga,Sirigere-X,,,17:20,Sirigere,Sirigere
+d3e7e310-b7c3-46dc-a185-acbe934fcb33,Sirigere,Chitradurga,Sirigere-X,,,17:00,Sirigere,Sirigere
+c987ef39-7623-4164-a5e4-b9f75397c70c,Sirigere,Chitradurga,Sirigere-X,,,18:15,Sirigere,Sirigere
+daaec49a-23ff-42e9-80e4-f25fe4d132e4,Sirigere,Chitradurga,Sirigere-X,,,19:30,Sirigere,Sirigere
+9894d61e-9b39-4fff-ae4e-6a3f228d715f,Sirigere,Chitradurga,Sirigere-X,,,07:45,Sirigere,Sirigere
+e3c216e9-cbe6-4ab4-ae71-02cd437967c7,Sirigere,Hampanuru,Ordinary,,,07:00,Sirigere,Sirigere
+13083e0e-f2f0-40ad-bfab-497d9adf1e17,Sirigere,Bavihal,Ordinary,,,08:45,Sirigere,Sirigere
+1b61e259-77b5-48c8-b8ad-096a1addd862,Sirigere,Bavihal,Ordinary,,,11:00,Sirigere,Sirigere
+d5017dd6-2e15-4c91-90ce-ef72a34b4ae9,Sirigere,Hampanuru,Ordinary,,,12:00,Sirigere,Sirigere
+1af17974-72de-4f63-a813-c97d41ad45dc,Sirigere,Bavihal,Ordinary,,,18:00,Sirigere,Sirigere
+813e8f53-8ab1-4984-a02c-bca855221e70,Sirigere,Hampanuru,Ordinary,,,18:15,Sirigere,Sirigere
+0c286fcf-d97c-4753-a3a6-a5ad572c43b5,Sirigere,Davanagere,X-Brs,,,13:30,Sirigere,Sirigere
+e24cf8d3-857b-4954-b6b5-076eee3d09e7,Sirigere,Holalkere,Tng-Ckj,,,08:15,Sirigere,Sirigere
+21caed3e-fb92-4ea5-8b94-70bb75aa9277,Sirigere,Sasaluhalla,Ordinary,,,08:00,Sirigere,Sirigere
+7b969191-62c6-4f0a-8008-08eccfe24b9e,Sirigere,Sasaluhalla,Ordinary,,,16:15,Sirigere,Sirigere
+9ab855d1-caeb-4a36-a95c-8a83d45c3675,Sirigere,Sasaluhalla,Ordinary,,,20:15,Sirigere,Sirigere
+98ff0539-2097-452f-859e-4d42b3d254c4,Sirigere,Alagawadi,Ordinary,,,09:10,Sirigere,Sirigere
+aba872d3-1d3a-4fff-8298-91cfb15a8fe1,Sirigere,Jammenahalli,Ordinary,,,11:45,Sirigere,Sirigere
+47f68bcf-061d-4684-8e44-285a4f646037,Sirigere,Jammenahalli,Ordinary,,,14:15,Sirigere,Sirigere
+798fdfae-adfe-4c10-ac1f-397d08b363ba,Sirigere,Alagawadi,Ordinary,,,16:30,Sirigere,Sirigere
+4f595ff2-4551-4d9d-9240-30997a05ea84,Sirigere,Alagawadi,Ordinary,,,18:50,Sirigere,Sirigere
+c6765b29-3e48-4450-bc7e-e99eb419e7b5,Soraba,Ulavi,Pallakki,,,05:30,SORABHA,SORABHA
+44ce31d8-e441-4b28-82e7-5b67a7d1f2a2,Soraba Sirsi,Sleper,Banavasi,,,05:30,SORABHA,SORABHA
+1f3ac990-a838-46e8-8eb6-2873cb877c9b,Soraba Anavatti Karnataka Sarige,Tavanandi,Cross,,,06:30,SORABHA,SORABHA
+361cc66a-237e-40f9-b7c7-8296394fd044,Shirasi Hubli Karnataka,Sarige,Banavasi,,,06:30,SORABHA,SORABHA
+88c75b40-4ad5-40a9-9081-090faf32b709,Sagara,16,Hacche,,,07:30,SORABHA,SORABHA
+af503d31-78e5-44e5-a044-7b54855aea25,Soraba Anavatti Karnataka,Sarige,Kuppagadde,,,07:00,SORABHA,SORABHA
+fd224641-7f19-4068-8777-7578b97104c1,Sagara Vijaypura Karnataka,Sarige,Hubballi,,,07:15,SORABHA,SORABHA
+62e00e82-6b98-45e9-aef8-bcb35df18d8b,Hirekerur Bhatkala Karnataka,Sarige,Honnavar,,,07:30,SORABHA,SORABHA
+e6f3d759-0ccd-4b2a-a41c-16b271053d3e,Soraba Shiralakoppa Karnataka,Sarige,Mavali,,,07:00,SORABHA,SORABHA
+0edc5bc4-0fb6-4f60-b0ae-0c838b0ebc26,Sagara Gadag Karnataka,Sarige,Hanagal,,,07:50,SORABHA,SORABHA
+5c48178d-887c-49ea-8b7f-8f19b17b4e12,Soraba Korkodu Karnataka,Sarige,Kuppagadde,,,08:00,SORABHA,SORABHA
+8ce5ac88-d671-46ec-b17d-f22ba1721008,Soraba Siddapura Karnataka,Sarige,Kadasuru,,,08:00,SORABHA,SORABHA
+e4694e80-e661-4b40-a1c6-5fb96debde70,Soraba Sagar Karnataka,Sarige,Ulavi,,,08:10,SORABHA,SORABHA
+731cee24-1892-4ce3-8372-0bc39dd9d800,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,08:00,SORABHA,SORABHA
+58c9a47c-1a16-4fda-8490-bd4cfd0c5bd9,Shivamogga Sirsi Karnataka,Sarige,Banavasi,,,08:15,SORABHA,SORABHA
+e88f664d-0f37-4ba1-8e64-8a56d990247a,Shirasi Hirekerur Karnataka,Sarige,Shiralkoppa,,,08:30,SORABHA,SORABHA
+5893c72e-0052-4aaf-8540-263f5337d5f8,Shirasi Banglore Karnataka,Sarige,Shivamogga,,,08:45,SORABHA,SORABHA
+495947b5-f126-4946-ab9e-e024909c8742,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,08:50,SORABHA,SORABHA
+bbc1a1d6-709b-4f23-a488-78bb664d0287,Shirasi Banglore Karnataka,Sarige,Shivamogga,,,09:00,SORABHA,SORABHA
+4b8b5ec8-876c-431a-a480-6d12555c89a7,Soraba Hangal Karnataka,Sarige,Jade,,,09:15,SORABHA,SORABHA
+6d056a50-7e8c-461f-99b4-2fb658214964,Soraba Harishi Karnataka,Sarige,Chandragutti,,,09:15,SORABHA,SORABHA
+f07cf02c-bcb9-4f1b-b276-a41a7225b27b,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,09:15,SORABHA,SORABHA
+47d11e65-236d-431a-aa79-03f11fc3b863,Soraba Sagar Karnataka,Sarige,Hosabale,,,09:35,SORABHA,SORABHA
+58a4bcfd-e1a9-4491-8d26-f9772bfccba9,Soraba Sagar Karnataka,Sarige,Ulavi,,,09:50,SORABHA,SORABHA
+fa20f10a-465b-4c2d-9ccf-1982e20c46c4,Shirasi Banglore Karnataka,Sarige,Shivamogga,,,10:00,SORABHA,SORABHA
+f551036e-cbf8-4367-a350-81d801015e27,Soraba Siddapura Karnataka,Sarige,Kadasuru,,,10:00,SORABHA,SORABHA
+91ea3bb1-7ebc-4617-8444-41f609c7e8be,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,09:45,SORABHA,SORABHA
+76d741d3-7fa0-4cc9-93a5-7d738753ab07,Soraba Banavasi Karnataka Sarige,Tavanandi,Cross,,,10:30,SORABHA,SORABHA
+64864c48-9143-40af-8564-d05a37dd5544,Soraba Chandragutti Karnataka,Sarige,Ankaravalli,,,10:30,SORABHA,SORABHA
+4d8616f5-bd61-4909-931e-222a593f9872,Soraba Sirsi Karnataka,Sarige,Banavasi,,,10:45,SORABHA,SORABHA
+ca4b0a53-6277-4bfa-bfc7-445667a0fd55,Soraba Sagar Karnataka,Sarige,Ulavi,,,10:50,SORABHA,SORABHA
+9b402083-6727-426d-99d3-1406c2a96fed,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,11:15,SORABHA,SORABHA
+b0d1eadd-def3-4354-ab04-f08f6caffbfe,Soraba Hirekerur Karnataka,Sarige,Shiralkoppa,,,11:15,SORABHA,SORABHA
+85475daa-085e-4118-9a9a-df13837e1205,Karawara Davangere Karnataka,Sarige,Anavatti,,,11:45,SORABHA,SORABHA
+0d4423d2-4ce1-4f95-aab7-fd7ded101f96,Soraba Hirekerur Karnataka,Sarige,Shiralkoppa,,,12:00,SORABHA,SORABHA
+98696a94-9454-495b-bc1a-9a6f9b9e74c6,Soraba Karawar Karnataka,Sarige,Honnavar,,,12:15,SORABHA,SORABHA
+b074fc38-735f-454b-9633-07b7a645fb40,Soraba Chandragutti Karnataka,Sarige,Ankaravalli,,,12:30,SORABHA,SORABHA
+dac16c0a-a37a-41b0-8fa3-92a0e1c3c007,Soraba Hirekerur Karnataka,Sarige,Shiralkoppa,,,12:30,SORABHA,SORABHA
+fdba225b-5c38-46aa-a459-8c4bae07ba4c,Soraba Anavatti Karnataka,Sarige,Kuppagadde,,,12:45,SORABHA,SORABHA
+c824ca96-a3c7-4896-bc3f-0fbd8ef1bed6,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,12:45,SORABHA,SORABHA
+38b6c204-a9b0-432c-9536-2e1e934eeb0f,Soraba Siddapura Karnataka,Sarige,Kadasuru,,,13:00,SORABHA,SORABHA
+cd0fbde3-40b5-4bdd-a9aa-70d043bdb602,Soraba Siddapura Karnataka,Sarige,Kadasuru,,,14:00,SORABHA,SORABHA
+837ac105-619d-49e0-bb52-d57f4970630f,Soraba Hangal Karnataka,Sarige,Jade,,,13:05,SORABHA,SORABHA
+10148271-73f0-45df-9db5-d0faa068cb25,Soraba Sagar Karnataka,Sarige,Ulavi,,,13:10,SORABHA,SORABHA
+67a7bcb2-b147-478f-ba7d-0b3b0b93354c,Soraba Banavasi Karnataka Sarige,Tavanandi,Cross,,,13:15,SORABHA,SORABHA
+429b39fd-f3bf-4475-9b1f-75635b3a8502,Sagara Hubli Karnataka,Sarige,Hanagal,,,13:15,SORABHA,SORABHA
+a124cd4e-85fb-43c1-8b7e-85114276a381,Hirekerur Sirsi Karnataka Sarige,Tavanandi,Cross,,,14:00,SORABHA,SORABHA
+4e40ff0f-af04-4f48-92d2-38bf7b9dbc5c,Shirasi Hirekerur Karnataka,Sarige,Shiralkoppa,,,14:15,SORABHA,SORABHA
+ae277900-e49b-4803-a31e-446bacfbc603,Soraba Korkodu Karnataka Sarige,Tavanandi,Cross,,,14:15,SORABHA,SORABHA
+41987c44-e95b-4c4e-a06a-24503dc31354,Soraba Hirekerur Karnataka,Sarige,Shiralkoppa,,,14:30,SORABHA,SORABHA
+d85c9f55-b90e-48a3-a941-4b5bf6557e5a,Soraba Sirsi Karnataka,Sarige,Banavasi,,,14:30,SORABHA,SORABHA
+41542c06-accc-44a3-a9ef-0d063e6cac36,Soraba Anavatti Karnataka,Sarige,Kuppagadde,,,14:45,SORABHA,SORABHA
+99ee0aad-a46a-4283-a5ed-3fb2bd1ed76b,Soraba Shikaripura Karnataka,Sarige,Shiralkoppa,,,14:45,SORABHA,SORABHA
+7f61c92f-499c-4863-be57-64f6504c1ef9,Soraba Sagar Karnataka,Sarige,Ulavi,,,15:10,SORABHA,SORABHA
+6d3e44b8-4935-4e80-a81d-7297d1ce74c3,Soraba Sirsi Karnataka,Sarige,Banavasi,,,15:15,SORABHA,SORABHA
+0242556f-1b59-4dff-93f4-7b9b1029c5af,Soraba Harishi Karnataka,Sarige,Chandragutti,,,15:30,SORABHA,SORABHA
+b6ddf6af-130c-485f-9725-34e4b4460251,Soraba Sirsi Karnataka,Sarige,Banavasi,,,15:30,SORABHA,SORABHA
+b7f4cbfa-88aa-4d4e-805d-abb8de971641,Soraba Sagar Karnataka,Sarige,Ulavi,,,15:40,SORABHA,SORABHA
+5780b1de-2362-425b-9726-618c8c46e7de,Soraba Sirsi Karnataka,Sarige,Banavasi,,,16:00,SORABHA,SORABHA
+34673fdb-2ab0-4dde-a73e-e2d841d51bc0,Soraba Shimoga Karnataka,Sarige,Shikaripura,,,16:15,SORABHA,SORABHA
+e259c12c-a01b-4659-a47e-ca107dfa30f0,Soraba,16,Chandragutti,,,16:30,SORABHA,SORABHA
+6cebdd87-c59f-40ec-ad7d-d6b9d2b2cb34,Soraba Udri Karnataka,Sarige,Vaddigeri,,,16:30,SORABHA,SORABHA
+bd57ce8d-1e2c-4cb7-9986-c898f78b57cd,Soraba Sagar Karnataka,Sarige,Ulavi,,,16:45,SORABHA,SORABHA
+c035f183-131e-4f68-9799-fc09c8272c7a,Soraba Hirekerur Karnataka,Sarige,Shiralkoppa,,,17:00,SORABHA,SORABHA
+f87042b8-9376-425f-9638-17bdb1710644,Soraba Sirsi Karnataka,Sarige,Banavasi,,,17:00,SORABHA,SORABHA
+2e1e9b54-c8bc-46cf-8512-000953bfdd75,Bhatkala Hirekerur Karnataka,Sarige,Shiralkoppa,,,17:15,SORABHA,SORABHA
+deebb082-235b-4948-a253-122ab6e42d1d,Soraba Shikaripura Karnataka,Sarige,Shiralkoppa,,,17:15,SORABHA,SORABHA
+cb31f544-1727-4ac1-a865-1332f0b01ac8,Soraba Siddapura Karnataka,Sarige,Kadasuru,,,17:15,SORABHA,SORABHA
+8a89ea41-f388-4818-b15d-bcbe74e6473e,Soraba Banavasi Karnataka Sarige,Tavanandi,Cross,,,17:30,SORABHA,SORABHA
+9808b337-4b05-49b4-8144-a3fa4bb10140,Soraba Korkodu,Tavanandi,Cross,,,17:30,SORABHA,SORABHA
+80c74ae5-9260-48b8-a12b-d3dc51b5c47d,Soraba Sagar Karnataka,Sarige,Ulavi,,,17:40,SORABHA,SORABHA
+ab06f80b-4638-4085-a60d-95060c810a57,Soraba Sagar Karnataka,Sarige,Ulavi,,,18:00,SORABHA,SORABHA
+f74e6a64-4683-4ed3-9f6a-6f61f59bfaaa,Bangalore Yallapur Karnataka,Sarige,Shirasi,,,18:00,SORABHA,SORABHA
+3c722178-9da5-46f9-933a-9f34c8d4719e,Soraba Sagar Karnataka,Sarige,Ulavi,,,18:30,SORABHA,SORABHA
+14529972-2e28-45f8-a561-8e11ef1ddfb8,Soraba Sirsi Karnataka,Sarige,Banavasi,,,18:45,SORABHA,SORABHA
+7616fa24-e445-4a1f-a363-763e5b00267c,Soraba Sagar Karnataka,Sarige,Ulavi,,,19:15,SORABHA,SORABHA
+19effa03-6ade-413d-b053-fe6cbfb612b1,Shirasi Mysore Sleeper,Shiv,Amogga,,,21:00,SORABHA,SORABHA
+f545e008-4cd0-4991-853c-e45bb14f4a85,Shirasi Banglore Sleeper,Shiv,Amogga,,,21:30,SORABHA,SORABHA
+f151645e-31e9-47c8-b5e7-516961e6daf4,Soraba Banglore Pallakki,Shiv,Amogga,,,22:00,SORABHA,SORABHA
+0414dda6-8e23-4f52-bee1-6b55515706da,Sagara,Hanagal,Karnataka Sarige,,,10:00,SORABHA,SORABHA
+e61055b5-84b7-40d1-87a4-fa7070e85fc0,Sagara,Jade,Karnataka Sarige,,,15:15,SORABHA,SORABHA
+c6078e54-403b-4a9e-a051-3acb120bfb6c,Bengaluru,Arkalgud,Express,,,06:45,SriBasaveshwara,SriBasaveshwara
+079277bb-1186-4ce1-a625-ce391b24fa48,Bengaluru,Ballari,Express,,,15:30,SriBasaveshwara,SriBasaveshwara
+2a955cfa-8afb-46d5-a561-288a59e5caca,Bengaluru,Belagavi,Express,,,14:55,SriBasaveshwara,SriBasaveshwara
+03c97e1f-255d-4778-ad02-5b17d46cd484,Bengaluru,Chikkamagaluru,Express,,,12:27,SriBasaveshwara,SriBasaveshwara
+389c449f-84fe-436d-87a7-36dc912fde78,Bengaluru,Chikkamagaluru,Express,,,14:15,SriBasaveshwara,SriBasaveshwara
+df75caf5-33d6-4c97-b926-7a223da7014b,Bengaluru,Chikkamagaluru,Express,,,16:10,SriBasaveshwara,SriBasaveshwara
+c5134f65-ad14-4cf8-8334-2fed0d39e2d2,Bengaluru,Davanagere,Express,,,10:30,SriBasaveshwara,SriBasaveshwara
+0dc2fe1a-0685-4076-b43b-97561b19bcf1,Bengaluru,Devadurga,Express,,,18:50,SriBasaveshwara,SriBasaveshwara
+9c902da6-69e2-4b6c-b1a9-6f99cdfb79e5,Bengaluru,Dharmastala,Express,,,07:00,SriBasaveshwara,SriBasaveshwara
+4267ac5d-4803-44f5-8b1b-e086498daa1d,Bengaluru,Dharmastala,Express,,,14:30,SriBasaveshwara,SriBasaveshwara
+77132705-eada-428b-932d-b41774f84219,Bengaluru,Dharmastala,Express,,,18:00,SriBasaveshwara,SriBasaveshwara
+c039c519-8fca-41bc-9dfa-3c8c06af496a,Bengaluru,Dharmastala,Express,,,20:10,SriBasaveshwara,SriBasaveshwara
+bcbe279c-d222-496f-b3b9-f24152de69af,Bengaluru,Gorur,Express,,,15:15,SriBasaveshwara,SriBasaveshwara
+b87e901d-e8e3-446d-8c4d-6f21d29efcaf,Bengaluru,Hassan,Express,,,09:25,SriBasaveshwara,SriBasaveshwara
+22d29ea6-f1de-4bc9-986c-88516650026c,Bengaluru,Hassan,Express,,,13:13,SriBasaveshwara,SriBasaveshwara
+7a839fe3-8f15-45f0-9320-c6d712906341,Bengaluru,Hassan,Express,,,15:20,SriBasaveshwara,SriBasaveshwara
+18abedca-b257-4a97-afde-8d556266a983,Bengaluru,Hassan,Express,,,18:00,SriBasaveshwara,SriBasaveshwara
+5c571612-d8d0-4737-9a11-61974606a2d2,Bengaluru,Hongarahalla,Express,,,08:05,SriBasaveshwara,SriBasaveshwara
+c7feade0-5836-4d92-a5c1-83ab266265e5,Bengaluru,Hosadurga,Express,,,06:15,SriBasaveshwara,SriBasaveshwara
+c8a1891a-53c1-408a-8194-666b8c3ae5bf,Bengaluru,Hosadurga,Express,,,10:30,SriBasaveshwara,SriBasaveshwara
+04dbd849-4038-4728-8100-f3ecfd17579d,Bengaluru,Hosadurga,Express,,,14:15,SriBasaveshwara,SriBasaveshwara
+ae98d15c-9a5a-4bb2-897a-c95f56540368,Bengaluru,Hosadurga,Express,,,16:45,SriBasaveshwara,SriBasaveshwara
+5b6a2290-32cd-4d12-b8ad-aa3f06a1533b,Bengaluru,Hosadurga,Express,,,18:00,SriBasaveshwara,SriBasaveshwara
+49e197c2-c27d-4d81-9a84-d9e16c0f1c7a,Bengaluru,Hosapete,Express,,,12:00,SriBasaveshwara,SriBasaveshwara
+59052fff-f4ea-4b54-9f5c-a758dcc8ba21,Bengaluru,Hosapete,Express,,,15:00,SriBasaveshwara,SriBasaveshwara
+29e8adf1-97ca-48f3-8bef-84811c6c086c,Bengaluru,Hubballi,Express,,,05:50,SriBasaveshwara,SriBasaveshwara
+3fb3c529-987f-4fcc-83fc-962243bc3b3e,Bengaluru,Hubballi,Express,,,20:20,SriBasaveshwara,SriBasaveshwara
+997fe08f-f2e2-4e5d-98f7-b686c2fa318f,Bengaluru,Kalyanadurga,Express,,,15:45,SriBasaveshwara,SriBasaveshwara
+74bf6856-9d84-46ab-9fbb-607abc99d10d,Bengaluru,Konanur,Express,,,17:00,SriBasaveshwara,SriBasaveshwara
+b0509b73-f8b3-4b6e-9acb-0dbff7309858,Bengaluru,Koppal,Express,,,11:00,SriBasaveshwara,SriBasaveshwara
+85a062af-657d-479e-a9f2-fd7f0d5e190a,Bengaluru,Kundapura,Express,,,07:17,SriBasaveshwara,SriBasaveshwara
+68c2aac4-3a19-4fb3-bb47-08f7b83d23c5,Bengaluru,Kushtagi,Express,,,20:40,SriBasaveshwara,SriBasaveshwara
+5d14039a-ded5-4dca-ae72-05e295b813e3,Bengaluru,Madikeri,Express,,,12:45,SriBasaveshwara,SriBasaveshwara
+729982d6-c04a-427d-aa0f-ddb6c28757b9,Bengaluru,Mangaluru,Express,,,16:30,SriBasaveshwara,SriBasaveshwara
+2d1d5500-8e50-4a55-b21a-ebc339a6ea28,Bengaluru,Mudigere,Express,,,10:30,SriBasaveshwara,SriBasaveshwara
+5a5d6d9d-f6d6-4727-b44a-fb06a04d45f2,Bengaluru,Mundaragi,Express,,,19:15,SriBasaveshwara,SriBasaveshwara
+214c973e-f286-4a4f-92fa-24cad1aa7a8c,Bengaluru,Pavagada,Express,,,06:00,SriBasaveshwara,SriBasaveshwara
+83445e4e-d67d-4520-b2ae-da01443eacc9,Bengaluru,Pavagada,Express,,,09:15,SriBasaveshwara,SriBasaveshwara
+71dec00e-c1fd-4de2-b75c-c45d16542c86,Bengaluru,Pavagada,Express,,,12:30,SriBasaveshwara,SriBasaveshwara
+68eddb9b-cd37-4c51-83e8-c4a9d508b97b,Bengaluru,Pavagada,Express,,,19:00,SriBasaveshwara,SriBasaveshwara
+8f2cf11f-30e4-418d-abb3-9ccf268bae8c,Bengaluru,Raichur,Express,,,06:30,SriBasaveshwara,SriBasaveshwara
+b9e0fc96-15ff-4b04-9ffa-e6e67afbdbaa,Bengaluru,S.s.,Express,,,15:30,SriBasaveshwara,SriBasaveshwara
+4a342d24-4d86-4f49-a572-0f40e66dad61,Bengaluru,Sagar,Express,,,20:50,SriBasaveshwara,SriBasaveshwara
+f18f755a-4217-4de2-ab4e-43247ac390b0,Bengaluru,Sakaleshpura,Express,,,05:30,SriBasaveshwara,SriBasaveshwara
+13f6a2b0-cbe1-492a-a412-04d4ca79ca6d,Bengaluru,Sakaleshpura,Express,,,14:30,SriBasaveshwara,SriBasaveshwara
+6dd927e0-7c1c-4a46-b161-9fcbb0f673ee,Bengaluru,Shivamogga,Express,,,11:10,SriBasaveshwara,SriBasaveshwara
+5302b884-b7a7-42db-a9bf-463494bd4018,Bengaluru,Sringeri,Express,,,18:15,SriBasaveshwara,SriBasaveshwara
+da19e406-fc92-4133-a710-78be727e6ce4,Bengaluru,Thirthahalli,Express,,,05:50,SriBasaveshwara,SriBasaveshwara
+dc164332-159c-4b64-b711-e6740eca3b57,Bengaluru,Tumakuru,Express,,,16:15,SriBasaveshwara,SriBasaveshwara
+7eb6c8fb-a486-4802-9c9b-343e334f4ace,Bengaluru,Tumakuru,Express,,,05:45,SriBasaveshwara,SriBasaveshwara
+8f7612f3-3404-43fd-9ab7-740fa4aedd33,Bengaluru,Tumakuru,Express,,,09:30,SriBasaveshwara,SriBasaveshwara
+cb521992-ab57-48ed-b822-a9b7cb12a6d0,Bengaluru,Tumakuru,Express,,,11:45,SriBasaveshwara,SriBasaveshwara
+608b1b46-e0bf-49ba-87d7-19d19f84b86a,Bengaluru,Tumakuru,Express,,,18:00,SriBasaveshwara,SriBasaveshwara
+ef8ab033-2941-4acc-915c-bd38f8b38239,Bengaluru,Tumakuru,Express,,,19:30,SriBasaveshwara,SriBasaveshwara
+970c176b-35a7-4bc9-8d96-1539bee1cc2b,Bengaluru,Turuvekere,Express,,,06:00,SriBasaveshwara,SriBasaveshwara
+23a24fd4-cc13-44a8-9c8f-59212c61e488,Bengaluru,Turuvekere,Express,,,10:30,SriBasaveshwara,SriBasaveshwara
+c166c50b-c4b4-422b-a798-8d570a3697a8,Bengaluru,Turuvekere,Express,,,14:30,SriBasaveshwara,SriBasaveshwara
+d1abd22a-e34b-4fe5-9ee1-40401d1be7f9,Bengaluru,Turuvekere,Express,,,17:30,SriBasaveshwara,SriBasaveshwara
+2e0f2342-62b5-467a-95cb-a84420e1ff8e,Bengaluru,Turuvekere,Express,,,19:45,SriBasaveshwara,SriBasaveshwara
+5b5448a8-0e30-4c9f-a94f-f6de3c04866b,Bengaluru,Yalaburga,Express,,,06:15,SriBasaveshwara,SriBasaveshwara
+58b64b7f-b7eb-457a-a703-b6cc8f5f7461,Terakanambi,Kilagare,Ordinary,,,07:45,Terakanambi_CJR,Terakanambi_CJR
+cccc4eec-a9f5-442d-97e1-3d6e94bfa687,Terakanambi,Udigala,Ordinary,,,07:45,Terakanambi_CJR,Terakanambi_CJR
+9c8f27c8-f5f2-4838-9735-ec06084bbfb2,Terakanambi,Sheelavanthapura,Ordinary,,,07:50,Terakanambi_CJR,Terakanambi_CJR
+c4178183-8564-41a5-95c8-f653a2d6fab7,Terakanambi,Kakkur,Ordinary,,,07:50,Terakanambi_CJR,Terakanambi_CJR
+745c39b7-db0d-49a9-88c0-41771031c3ee,Terakanambi,Lakkur,Ordinary,,,07:50,Terakanambi_CJR,Terakanambi_CJR
+00b41024-f394-4135-90c1-a99a29df3a69,Terakanambi,Kilagare,Ordinary,,,08:00,Terakanambi_CJR,Terakanambi_CJR
+11528dda-bbbf-4ff5-9b30-0ad60c4fd887,Terakanambi,Arakalaeadi,Ordinary,,,08:00,Terakanambi_CJR,Terakanambi_CJR
+ff2ce52a-b0de-4e2b-a5b2-b8e6f056ac8f,Terakanambi,Udigala,Ordinary,,,08:00,Terakanambi_CJR,Terakanambi_CJR
+a1174cfc-2cdb-4579-a57c-1b56363e6a23,Terakanambi,Shindanapura,Ordinary,,,08:00,Terakanambi_CJR,Terakanambi_CJR
+1b385082-6139-4b22-ba1a-30daa60fb39a,Terakanambi,Shindanapura,Ordinary,,,08:15,Terakanambi_CJR,Terakanambi_CJR
+2fe5b71a-5061-4faf-a72c-a86fbc523808,Terakanambi,Udigala,Ordinary,,,08:30,Terakanambi_CJR,Terakanambi_CJR
+4df324eb-530f-4e61-af0f-74b57444669e,Terakanambi,Chamarajngara,Express,,,08:30,Terakanambi_CJR,Terakanambi_CJR
+475583de-090e-4fff-80de-345f16b7bfdc,Terakanambi,Shindanapura,Ordinary,,,08:30,Terakanambi_CJR,Terakanambi_CJR
+77dfbc6f-c223-45b3-8ce2-5c514cfbc184,Terakanambi,Arakalavadi,Ordinary,,,08:45,Terakanambi_CJR,Terakanambi_CJR
+390764b3-99ba-4cdf-b75f-df552ad4cd92,Terakanambi,Shindanapura,Ordinary,,,08:45,Terakanambi_CJR,Terakanambi_CJR
+95c901de-1c56-4cc8-9313-2001f00e1e41,Terakanambi Mm Hills,Kollegala,Express,,,08:45,Terakanambi_CJR,Terakanambi_CJR
+618e44e3-a7ac-4fe6-8cec-a054d69548e2,Terakanambi,Udigala,Ordinary,,,08:50,Terakanambi_CJR,Terakanambi_CJR
+cd2044c3-5d37-436a-8f78-d3e1d0da5e60,Terakanambi,Shindanapura,Ordinary,,,09:00,Terakanambi_CJR,Terakanambi_CJR
+6ab6cac5-d49a-4086-b08f-a6357f39a656,Terakanambi,Kothalawadi,Ordinary,,,09:00,Terakanambi_CJR,Terakanambi_CJR
+7b53df96-b6a1-4da1-b7b4-a0ae25bd6518,Terakanambi,Kilagare,Ordinary,,,09:15,Terakanambi_CJR,Terakanambi_CJR
+695966ad-9c46-41f4-afc5-2e590954ef6c,Terakanambi,Shindanapura,Ordinary,,,09:15,Terakanambi_CJR,Terakanambi_CJR
+8290c2e4-8e6a-4a57-bafd-14c7271b9f6d,Terakanambi,Shindanapura,Ordinary,,,09:30,Terakanambi_CJR,Terakanambi_CJR
+5cce44ba-ad2e-4083-b7d4-dfd3b28ad8fb,Terakanambi,Udigala,Ordinary,,,09:30,Terakanambi_CJR,Terakanambi_CJR
+ff48b666-2d23-4393-b378-78f7542fe29d,Terakanambi,Udigala,Ordinary,,,09:45,Terakanambi_CJR,Terakanambi_CJR
+7fe56168-f711-4e17-83e4-4313a4874c2f,Terakanambi,Shindanapura,Ordinary,,,09:45,Terakanambi_CJR,Terakanambi_CJR
+d423bef4-03b9-458e-853f-92ffcf8013f2,Terakanambi,Gundlupete,Express,,,09:45,Terakanambi_CJR,Terakanambi_CJR
+9f6cd631-f981-4db8-bb28-6e1b3f3811d3,Terakanambi,Shindanapura,Ordinary,,,10:00,Terakanambi_CJR,Terakanambi_CJR
+58cdd99b-a8c7-4382-a537-66da6a0960e9,Terakanambi,Shindanapura,Ordinary,,,10:15,Terakanambi_CJR,Terakanambi_CJR
+13aed45a-2a70-4543-a5c8-8e1e4a2f1fb0,Terakanambi,Chamarajngara,Express,,,10:15,Terakanambi_CJR,Terakanambi_CJR
+7468b164-c5ab-4cdc-8d55-9010c71c27d8,Terakanambi,Udigala,Ordinary,,,10:15,Terakanambi_CJR,Terakanambi_CJR
+aba834f4-53d0-4309-966b-1aa67d572119,Terakanambi,Udigala,Ordinary,,,10:30,Terakanambi_CJR,Terakanambi_CJR
+65078b7c-2b9d-49c6-b628-5bbcfb8a2889,Terakanambi,Shindanapura,Ordinary,,,10:30,Terakanambi_CJR,Terakanambi_CJR
+2a24a2f9-7f70-4600-901d-409f0d7a518c,Terakanambi Mm Hills,Kollegala,Express,,,10:45,Terakanambi_CJR,Terakanambi_CJR
+680f4651-24ed-4311-ad03-89f4772ae7d2,Terakanambi,Udigala,Ordinary,,,10:45,Terakanambi_CJR,Terakanambi_CJR
+bffd3387-c61b-47b4-b019-ea5ec805c0f3,Terakanambi,Shindanapura,Ordinary,,,10:45,Terakanambi_CJR,Terakanambi_CJR
+082c5177-c1d7-4b3f-a522-1e0e616bbf7a,Terakanambi,Kilagare,Ordinary,,,11:00,Terakanambi_CJR,Terakanambi_CJR
+488c36d0-4ab7-429e-a437-fa8615851fcc,Terakanambi,Lakkur,Ordinary,,,11:00,Terakanambi_CJR,Terakanambi_CJR
+b0913150-bf90-486d-82ba-3454eb32fda2,Terakanambi,Udigala,Ordinary,,,11:15,Terakanambi_CJR,Terakanambi_CJR
+09a3e5e1-e61f-4a9e-b6fa-8a1ad1ca33c4,Terakanambi,Shindanapura,Ordinary,,,11:15,Terakanambi_CJR,Terakanambi_CJR
+44771405-bfb2-4915-9028-9ee211d58439,Terakanambi,Udigala,Ordinary,,,11:30,Terakanambi_CJR,Terakanambi_CJR
+fb048799-eb5a-436f-92f8-f6fa8afe9ba8,Terakanambi,Shindanapura,Ordinary,,,11:30,Terakanambi_CJR,Terakanambi_CJR
+d2a6225d-4b37-419f-b7c8-4b5c3a402c9c,Terakanambi,Arakalaeadi,Ordinary,,,11:45,Terakanambi_CJR,Terakanambi_CJR
+75dc9be4-25a4-492c-9629-c71d467171f1,Terakanambi,Udigala,Ordinary,,,11:45,Terakanambi_CJR,Terakanambi_CJR
+bc4ebf70-c214-424f-983d-d47d494b8e7c,Terakanambi,Shindanapura,Ordinary,,,12:00,Terakanambi_CJR,Terakanambi_CJR
+661db6a8-8416-4e8e-8650-89e10e6baa6e,Terakanambi,Udigala,Ordinary,,,12:00,Terakanambi_CJR,Terakanambi_CJR
+3faf1a46-afea-4a77-a0b6-51ff0d0caafe,Terakanambi,Kilagare,Ordinary,,,12:15,Terakanambi_CJR,Terakanambi_CJR
+a03e4d36-0bc5-4420-a73c-66172b6e8f82,Terakanambi,Shindanapura,Ordinary,,,12:15,Terakanambi_CJR,Terakanambi_CJR
+3d1edb97-6178-4320-a111-09ac058bf4f2,Terakanambi,Udigala,Ordinary,,,12:15,Terakanambi_CJR,Terakanambi_CJR
+bd342e8e-1ed0-4981-89eb-cd84b18dc87f,Terakanambi,Shindanapura,Ordinary,,,12:30,Terakanambi_CJR,Terakanambi_CJR
+f98b472c-1b7e-4c36-90c2-91e2b8199846,Terakanambi,Udigala,Ordinary,,,12:30,Terakanambi_CJR,Terakanambi_CJR
+30db0cd5-b93d-4588-9966-c5038d145799,Terakanambi,Kilagare,Ordinary,,,13:00,Terakanambi_CJR,Terakanambi_CJR
+628d6404-aeef-42b1-b140-4febe9073423,Terakanambi,Shindanapura,Ordinary,,,13:00,Terakanambi_CJR,Terakanambi_CJR
+fc323332-5ec7-44a2-99b7-f6b8c7998712,Terakanambi,Shindanapura,Ordinary,,,13:15,Terakanambi_CJR,Terakanambi_CJR
+5bdb9d33-bafc-44b9-b66d-f090e3381b96,Terakanambi,Shindanapura,Ordinary,,,13:30,Terakanambi_CJR,Terakanambi_CJR
+0b42a762-16aa-485c-ac60-c8b24933065d,Terakanambi,Udigala,Ordinary,,,13:30,Terakanambi_CJR,Terakanambi_CJR
+322493fa-263c-43e3-bf51-d8daa9f40722,Terakanambi,Shindanapura,Ordinary,,,13:40,Terakanambi_CJR,Terakanambi_CJR
+278bd867-a0d5-440d-92f3-3e92b7314fc7,Terakanambi,Shindanapura,Ordinary,,,13:45,Terakanambi_CJR,Terakanambi_CJR
+5c0cf0fc-824f-49e0-88f7-6ce03600d3c3,Terakanambi,Kilagare,Ordinary,,,14:15,Terakanambi_CJR,Terakanambi_CJR
+53c8aac5-dfb0-41f8-b07b-ff0b38f4caa7,Terakanambi,Udigala,Ordinary,,,14:15,Terakanambi_CJR,Terakanambi_CJR
+66472625-aa37-4bcf-a764-4270534bcbb9,Terakanambi,Shindanapura,Ordinary,,,14:15,Terakanambi_CJR,Terakanambi_CJR
+5495fb24-898d-4166-8bcc-21b02547844a,Terakanambi,Shindanapura,Ordinary,,,14:30,Terakanambi_CJR,Terakanambi_CJR
+93e516e4-ef0d-4cc3-b61b-dcdf99becc90,Terakanambi,Sheelavanthapura,Ordinary,,,14:45,Terakanambi_CJR,Terakanambi_CJR
+090b8727-a775-4e71-a65a-898bf83c3d3c,Terakanambi,Udigala,Ordinary,,,14:45,Terakanambi_CJR,Terakanambi_CJR
+6fb803b8-fda6-497c-8128-e8f7f028fc70,Terakanambi,Shindanapura,Ordinary,,,14:45,Terakanambi_CJR,Terakanambi_CJR
+cf864927-6c1a-4400-8335-d0842263e00c,Terakanambi,Kilagare,Ordinary,,,15:00,Terakanambi_CJR,Terakanambi_CJR
+38e36994-5dc5-48cd-9130-d5d304b79bcd,Terakanambi,Shindanapura,Ordinary,,,15:00,Terakanambi_CJR,Terakanambi_CJR
+d380b6a3-6b54-4152-89b5-df1c3678e6ed,Terakanambi,Udigala,Ordinary,,,15:00,Terakanambi_CJR,Terakanambi_CJR
+db0e1e6b-6143-4166-966f-67e106d6785e,Terakanambi,Udigala,Ordinary,,,15:15,Terakanambi_CJR,Terakanambi_CJR
+f0db3258-c2b7-430a-9936-02b18e4746c8,Terakanambi,Udigala,Ordinary,,,15:30,Terakanambi_CJR,Terakanambi_CJR
+bdfe882a-b370-4605-9a6a-7dd594ae832f,Terakanambi Mm Hills,Kothal,Express,,,15:30,Terakanambi_CJR,Terakanambi_CJR
+ecbf318b-8de1-445f-bffa-53bdafcf2007,Terakanambi,Shindanapura,Ordinary,,,15:30,Terakanambi_CJR,Terakanambi_CJR
+c3a97b3a-9e5b-413b-a1cd-6a45ff7637e1,Terakanambi,Udigala,Ordinary,,,15:45,Terakanambi_CJR,Terakanambi_CJR
+83c1bcc8-c5dc-4edb-96d1-c05c1817f7d4,Terakanambi,Arakalaeadi,Ordinary,,,15:45,Terakanambi_CJR,Terakanambi_CJR
+d1fb036b-2673-4315-a1ab-065b7b084fa5,Terakanambi,Shindanapura,Ordinary,,,16:00,Terakanambi_CJR,Terakanambi_CJR
+26324144-1d66-4f8b-b974-73ace7df9969,Terakanambi,Kilagare,Ordinary,,,16:15,Terakanambi_CJR,Terakanambi_CJR
+f34858e7-33a3-488c-aca5-eb1979a0bf89,Terakanambi,Shindanapura,Ordinary,,,16:15,Terakanambi_CJR,Terakanambi_CJR
+a3d1ef30-91dc-4ae4-acb9-cfc3478324f8,Terakanambi,Udigala,Ordinary,,,16:15,Terakanambi_CJR,Terakanambi_CJR
+01b9f42f-7466-4d9b-9114-c5f732419736,Terakanambi,Arakalavadi,Ordinary,,,16:30,Terakanambi_CJR,Terakanambi_CJR
+45bc36c5-34ed-411f-a6a6-f897a3c6731a,Terakanambi,Sheelavanthapura,Ordinary,,,16:40,Terakanambi_CJR,Terakanambi_CJR
+16aee6cb-8dc2-4e76-b764-c8122a35c65a,Terakanambi,Shindanapura,Ordinary,,,16:45,Terakanambi_CJR,Terakanambi_CJR
+65d04c7b-8467-4d63-80b3-3eff4a27d14a,Terakanambi,Kothalawadi,Ordinary,,,16:45,Terakanambi_CJR,Terakanambi_CJR
+91e039f9-e7bd-4888-aba4-415bbe48d9de,Terakanambi,Udigala,Ordinary,,,16:45,Terakanambi_CJR,Terakanambi_CJR
+804b8a38-5617-4174-92f3-967c09d4f754,Terakanambi,Kothalawadi,Ordinary,,,17:00,Terakanambi_CJR,Terakanambi_CJR
+d37da914-476b-44c2-a56e-b1e794021285,Terakanambi,Kilagare,Ordinary,,,17:00,Terakanambi_CJR,Terakanambi_CJR
+d0db06af-fe20-4b48-bf8e-e53536cb3125,Terakanambi,Shindanapura,Ordinary,,,17:00,Terakanambi_CJR,Terakanambi_CJR
+9b76adb8-dd45-44d5-9b2c-542eea9adca6,Terakanambi,Terakanambi,Ordinary,,,17:25,Terakanambi_CJR,Terakanambi_CJR
+f3975a90-7993-44ef-9147-d7f1dac3dfa9,Terakanambi,Shindanapura,Ordinary,,,17:30,Terakanambi_CJR,Terakanambi_CJR
+317e4d85-70a7-4e9d-ad10-0ba2fe6020f5,Thiruvananthapuram Bengaluru Airavat Club,Class,"Coimbatore, Salem, Hosur",,,16:05,THIRUVANATHAPURAM,THIRUVANATHAPURAM
+da5e3dd4-ed93-4208-bd7f-15e66cc6faaf,Thiruvananthapuram,Mysuru,Airavat,,Nilambur; Gudaluru,16:30,THIRUVANATHAPURAM,THIRUVANATHAPURAM
+f0abedd4-7e12-4424-9110-6aa95bd34722,Thrissur,Bengaluru,Kozhikode-Manandavadi-Kutta-Gonikoppa-Mysuru,,,18:00,THRISSUR,THRISSUR
+bf8bd5de-c05a-4516-be6f-88b87d70054f,Thrissur,Bengaluru,Rajahamsa,,Coimbatore; Satyamangala; Mysuru,19:14,THRISSUR,THRISSUR
+c02275c7-291e-40ef-9de0-6ca73fc9d53e,Thrissur,Bengaluru,Airavat,,Coimbatore; Satyamangala; Mysuru,20:31,THRISSUR,THRISSUR
+53efb870-26df-431a-8d24-bb72f6fff04a,Ernakulam Bengaluru Airavat Club,Class,"Coimbatore, Salem, Hosur",,,21:05,THRISSUR,THRISSUR
+673200a4-3669-49fa-81f1-a97a92e75ccf,Ernakulam,Bengaluru,Rajahamsa,,Coimbatore; Salem; Hosur,21:15,THRISSUR,THRISSUR
+b1201c9b-2db5-4379-bb0a-eae3bd93620b,Thrissur Bengaluru Airavat Club,Class,"Coimbatore, Salem, Hosur",,,21:33,THRISSUR,THRISSUR
+556fcafc-a6c2-4b3e-b6cf-2e6a0882b31b,Ernakulam Bengaluru Airavat Club,Class,"Coimbatore, Salem, Hosur",,,21:55,THRISSUR,THRISSUR
+e059e7c9-c58a-4347-a04b-345408432d79,Aleppey Bengaluru Airavat Club,Class,"Coimbatore, Salem, Hosur",,,22:15,THRISSUR,THRISSUR
+e91f0418-e8dd-4cc1-aad6-5ddb3ef5cd99,Ernakulam,Hassan,Express,,Kozhikode; Tellicherry; Virajpet,19:30,THRISSUR,THRISSUR
+fce960a0-8457-4909-bef0-24943efae526,Ernakulam Mangaluru Airavat Club,Class,"Kozhikode, Cannanore, Kasaragodu",,,22:40,THRISSUR,THRISSUR
+e31a53b1-7fa8-4767-a807-26a45287afea,Thrissur,Mysuru,Express,,Guruvayuru; Nelambur; Gudlur; Mysuru,05:30,THRISSUR,THRISSUR
+1be951a9-112f-4f7a-a60e-ab5bcd5d87e7,Ernakulam Mysuru Airavat Club,Class,"Kozhikode, Gonikoppa, Hunsur",,,21:15,THRISSUR,THRISSUR
+32c05324-e296-45d4-ade4-f5c7863140bc,Ernakulam,Mysuru,Airavat,,Kozhikode; Sulthanbattery,22:20,THRISSUR,THRISSUR
+138b2307-d0e9-435d-bf5b-7667e0a88278,Tirupathi,Anekal,Express,,Palamaner; Chittoor; Bengaluru; Chandapura,16:30,TIRUPATHI,TIRUPATHI
+8953b44f-9140-47dd-aba1-ae62b46ba7e1,Tirupathi,Anekal,Express,,Palamaner; Chittoor; Bengaluru; Chandapura,21:45,TIRUPATHI,TIRUPATHI
+9d709009-ce6f-41cb-8579-0eee7dcd2edd,Tirupathi,Arasikere,Express,,Chittoor; Palamaner; Kolar; Bengaluru,05:45,TIRUPATHI,TIRUPATHI
+ef870f53-ea24-442c-9011-a1e2feb81fcb,Tirupathi,Bagepalli,Express,,Chittoor; Palamaner; Kolar; Bengaluru,03:00,TIRUPATHI,TIRUPATHI
+4e7960c4-b5e5-427c-b42b-8b9548cfb437,Tirupathi,Bagepalli,Express,,Chittoor; Palamaner; Kolar; Bengaluru,04:15,TIRUPATHI,TIRUPATHI
+2a0f11ef-e4ef-4613-a2c7-fdb2c11d34da,Tirupathi,Madanapalli,Express,,,13:30,TIRUPATHI,TIRUPATHI
+3a913e98-108f-413d-a68f-50167396ef87,Tirupathi,Bagepalli,Express,,Chittoor; Palamaner; Kolar; Bengaluru,23:00,TIRUPATHI,TIRUPATHI
+34227365-2432-49cc-aa39-c800121b4434,Tirupathi,Cuddapah,Express,,,07:00,TIRUPATHI,TIRUPATHI
+29536a07-a114-4a85-878f-c6e26ddbafa1,Tirupathi,Ballari,Express,,Madanapalli; Chikkaballapura; Gowribidanuru,07:15,TIRUPATHI,TIRUPATHI
+f6d77e46-cb59-43e2-a59b-3bdee93eb852,Tirupathi Ballari,Suhasa,"Madanapalli, Chikkaballapura, Gowribidanuru",,,21:30,TIRUPATHI,TIRUPATHI
+d3d41e4a-c2b3-4214-b5b1-5d5c9cc87dc0,Tirupathi Belagavi Airavat Gold,Class,"Bengaluru, Chitradurga, Hubballi, Dharwad",,,15:31,TIRUPATHI,TIRUPATHI
+b71f1520-b7a7-4903-b8b2-04d30bc8b61c,Nelore Bengaluru Airavat Club,Class,"Tirupathi, Chittor, Palamner,  Kolar",,,00:45,TIRUPATHI,TIRUPATHI
+8dd9256b-a029-4b57-af77-d49275de1958,Vijayawada Bengaluru Airavat Club,Class,"Nellore, Tirupathi, Chittor, Palamner,  Kolar",,,01:10,TIRUPATHI,TIRUPATHI
+9ede9d1a-e27f-4484-bc74-a2f10ddb8d11,Tirupathi,Bengaluru,Express,,Madanapalli; Hosakote,03:30,TIRUPATHI,TIRUPATHI
+90155ed0-e08e-45ee-ba44-3154d658b5da,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar,05:00,TIRUPATHI,TIRUPATHI
+4fbee838-6eaa-4075-988f-559be6a33d72,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,06:30,TIRUPATHI,TIRUPATHI
+b313bb51-fde8-402e-ae75-e09e256fbc87,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,06:30,TIRUPATHI,TIRUPATHI
+80a39df6-f937-4209-a520-94ca60a6413c,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,07:31,TIRUPATHI,TIRUPATHI
+c7f1b679-4660-4c42-9245-44183d2b6cd6,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar,07:35,TIRUPATHI,TIRUPATHI
+17234240-8a5d-4e8c-bf47-eea0b6bd5d28,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,08:16,TIRUPATHI,TIRUPATHI
+faf9b1d3-967b-4e57-a2f3-99eb1ce1194e,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar,08:45,TIRUPATHI,TIRUPATHI
+25bcbd47-436f-48fe-a815-337ce96ce42a,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,09:07,TIRUPATHI,TIRUPATHI
+70604796-633a-4944-a6fa-5e4692319fdf,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,09:30,TIRUPATHI,TIRUPATHI
+8a4530f6-0199-4c36-beaf-7f356eee7c5e,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,10:00,TIRUPATHI,TIRUPATHI
+0373f679-2aa6-4b29-b029-050fd6a53f1a,Tirupathi,Bengaluru,Airavat,,Chittoor; Palamaner; Kolar,10:17,TIRUPATHI,TIRUPATHI
+2379d168-9d64-44d0-af37-39c7e5374324,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,10:46,TIRUPATHI,TIRUPATHI
+183d8463-b257-4e38-aa65-a64a9f5d0ba8,Sriharikota Bengaluru Airavat Club,Class,"Tirupathi, Chittor, Palamner,  Kolar",,,10:50,TIRUPATHI,TIRUPATHI
+a42f2b94-2b3d-415b-a46c-517ef0428c82,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,11:01,TIRUPATHI,TIRUPATHI
+609f807d-6daf-4ec6-9409-14dd22056fda,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,12:16,TIRUPATHI,TIRUPATHI
+ec94fe1c-7bd5-456c-8b47-8f869496d841,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,12:44,TIRUPATHI,TIRUPATHI
+244e287d-c43f-441c-86ef-031acd21a0da,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar,13:01,TIRUPATHI,TIRUPATHI
+e2e70bc4-6e6f-445c-bed0-e4162ce07ad8,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,14:01,TIRUPATHI,TIRUPATHI
+880a7c70-c953-405a-9822-b49e7a785651,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,15:05,TIRUPATHI,TIRUPATHI
+9f63f186-2d22-4ed0-994a-b25c5f9d9830,Tirupathi,Bengaluru,Airavat,,Chittoor; Palamaner; Kolar,17:05,TIRUPATHI,TIRUPATHI
+e09d6231-2f00-4c90-928c-1aaafdd40e8a,Tirupathi,Bengaluru,Express,,Chittoor; Palamaner; Kolar,18:31,TIRUPATHI,TIRUPATHI
+12a5aa8e-05df-4ada-bad2-edcf950ed49a,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,19:02,TIRUPATHI,TIRUPATHI
+4e168c77-4b65-446c-b0b1-8a69d6fed6dd,Srikalahasti,Bengaluru,Rajahamsa,,Tirupathi; Chittoor; Palamner; Kolar,21:45,TIRUPATHI,TIRUPATHI
+4deff9a5-d1b1-4650-b160-9624d223b788,Tirupathi,Bengaluru,Airavat,,Chittoor; Palamaner; Kolar,22:15,TIRUPATHI,TIRUPATHI
+00f475ed-6b75-44fa-baee-c942df738df5,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,22:30,TIRUPATHI,TIRUPATHI
+5c217f09-232d-48b7-9e68-cdacfe9ea74c,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,22:48,TIRUPATHI,TIRUPATHI
+a4a83637-05e6-479a-bed4-c2fddb83b67a,Tirupathi,Bengaluru,Airavat,,Chittoor; Palamaner; Kolar,23:01,TIRUPATHI,TIRUPATHI
+e0ab808a-6ec9-4b50-8d6b-6c2e4e6f80b5,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,23:14,TIRUPATHI,TIRUPATHI
+69ce6dd1-99db-427d-85f5-36460f28e33c,Sriharikota Bengaluru Airavat Club,Class,"Tirupathi, Chittor, Palamner,  Kolar",,,23:20,TIRUPATHI,TIRUPATHI
+f6a8d357-488d-4ad7-bc2a-ac3fce1bd677,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,23:21,TIRUPATHI,TIRUPATHI
+3d17e3d8-84a2-4e19-ae2a-020f3314eeac,Tirupathi,Bengaluru,Rajahamsa,,Chittoor; Palamaner; Kolar,23:44,TIRUPATHI,TIRUPATHI
+9ace6197-1502-45a3-a70d-533b73f06ada,Tirupathi Bengaluru Airavat Club,Class,"Chittor, Palamaner, Kolar",,,23:54,TIRUPATHI,TIRUPATHI
+107dd467-9683-41ad-839b-246631920ee4,Tirupathi,Bhatkala,Express,,Chittoor; Palamaner; Kolar; Bengaluru,11:45,TIRUPATHI,TIRUPATHI
+bef44dcb-fcb3-400e-8b9e-964246e15f04,Tirupathi,Bhatkala,Express,,Chittoor; Bengaluru; Tumakuru; Shivamogga,11:45,TIRUPATHI,TIRUPATHI
+844c4b55-21b7-41f7-a988-b17281324b68,Tirupathi,Chamarajnagara,Express,,Chittoor; Palamaner; Kolar; Bengaluru,05:15,TIRUPATHI,TIRUPATHI
+9d70cc93-9287-477d-9ce7-290b4ada5cf6,Tirupathi,Chamarajnagara,Express,,Chittoor; Palamaner; Kolar; Bengaluru,06:00,TIRUPATHI,TIRUPATHI
+c4c02782-5c21-440b-bc3e-64488abd9fda,Tirupathi,Channapattana,Express,,Chittoor; Palamaner; Kolar; Bengaluru,04:30,TIRUPATHI,TIRUPATHI
+9aa176d4-0dc9-41d9-8f2a-1169eee57aca,Tirupathi,Channapattana,Express,,Palamaner; Chittoor; Bengaluru,10:30,TIRUPATHI,TIRUPATHI
+c143d782-c91a-4ee5-ae03-02f972bb68c9,Tirupathi,Chikkaballapura,Express,,Chittoor; Palamaner; Kolar; Bengaluru,01:45,TIRUPATHI,TIRUPATHI
+6dc27b29-b1c0-49e5-a427-aa0fd1184cf1,Tirupathi,Chikkaballapura,Express,,Punganur; Chintamani,13:30,TIRUPATHI,TIRUPATHI
+90054a84-0cde-4f03-944e-f26d8ad7019c,Tirupathi,Chikkamagaluru,Express,,Madanapalli; Hosakote,04:00,TIRUPATHI,TIRUPATHI
+595a60b5-923e-42c9-a99e-533ccfca6e2c,Tirupathi,Chikkamagaluru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,14:15,TIRUPATHI,TIRUPATHI
+dce03531-7a58-4b12-9c0f-455557fb49f5,Tirupathi,Chintamani,Express,,Chittoor; Palamaner; Kolar; Bengaluru,03:20,TIRUPATHI,TIRUPATHI
+fd4d9328-0c1d-4d30-b940-1fbb766b73df,Tirupathi,Chintamani,Express,,Chittoor; Palamaner; Kolar; Bengaluru,20:00,TIRUPATHI,TIRUPATHI
+898edb69-c5eb-4fac-94c6-9a1dad9f1045,Tirupathi,Dandeli,Rajahamsa,,Chittoor; Bengaluru; Chitradurga; Hubballi; Dharwad,13:01,TIRUPATHI,TIRUPATHI
+97b61137-0385-4966-b95b-e634df55cdd1,Tirupathi Davanagere Airavat Club,Class,"Bengaluru, Chitradurga",,,16:15,TIRUPATHI,TIRUPATHI
+7bf125f1-14c4-4ee2-8726-ac820d936925,Tirupathi,Dharmastala,Rajahamsa,,Chittoor; Bengaluru; Hassan; Gundya,14:35,TIRUPATHI,TIRUPATHI
+b5f2cc23-8856-48d8-af53-4d02f9bf9cab,Tirupathi,Doddaballapura,Express,,Palamaner; Chittoor; Bengaluru,09:02,TIRUPATHI,TIRUPATHI
+c4f25bf4-f091-473d-8cc7-1f5b8ceb9f2d,Tirupathi,Doddaballapura,Express,,Palamaner; Chittoor; Bengaluru,22:00,TIRUPATHI,TIRUPATHI
+b3f8a610-d8b3-4a23-832d-4dcf85c337fc,Tirupathi,Doddaballapura,Express,,Palamaner; Chittoor; Bengaluru,22:45,TIRUPATHI,TIRUPATHI
+95ceab50-c5d5-426a-be4e-a1b9f0976a36,Tirupathi,Gadaga,Express,,Madanapalli; Chikkaballapura; Gowribidanuru,08:20,TIRUPATHI,TIRUPATHI
+60e8bc4a-4d1a-4a45-b52c-986c1e9817e6,Tirupathi,Gadaga,Express,,Chittoor; Palamaner; Kolar; Bengaluru,12:15,TIRUPATHI,TIRUPATHI
+03c7c760-289d-4ccf-9edb-ba844f8e33e1,Tirupathi,Gowribidanuru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,03:15,TIRUPATHI,TIRUPATHI
+d00b3975-6635-48fe-9ff3-9e290f48e54e,Tirupathi,Madanapalli,Express,,,06:00,TIRUPATHI,TIRUPATHI
+f2a274da-7f85-4922-9136-2f5c6278492b,Tirupathi,Gowribidanuru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,08:20,TIRUPATHI,TIRUPATHI
+b9e2ba2c-b204-47c8-94fa-b849c723f0cb,Tirupathi,Gowribidanuru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,21:00,TIRUPATHI,TIRUPATHI
+f5c908a9-49b6-485d-964b-8926bfd90f53,Tirupathi,Gundlupet,Express,,Chittoor; Palamaner; Kolar; Bengaluru,04:45,TIRUPATHI,TIRUPATHI
+b7d7b012-a451-4b25-a929-94b92455e6a5,Tirupathi,Hanagal,Express,,Chittoor; Palamaner; Kolar; Bengaluru,15:15,TIRUPATHI,TIRUPATHI
+f7111d97-441c-41ed-a1c5-297254dd20f7,Tirupathi,Harohalli,Express,,Chittoor; Palamaner; Kolar; Bengaluru,06:45,TIRUPATHI,TIRUPATHI
+5a0686b0-c713-4aea-9e7b-f66125c58dcf,Tirupathi,Hassan,Express,,Chittoor; Palamaner; Kolar; Bengaluru,05:00,TIRUPATHI,TIRUPATHI
+a36f8ba1-bd12-4016-9a89-9340404b854d,Tirupathi,Holenarasipura,Express,,Chittoor; Palamaner; Kolar; Bengaluru,14:45,TIRUPATHI,TIRUPATHI
+ca46b196-5574-4502-8509-b3a8e6b65fda,Tirupathi,Hosadurga,Express,,Chittoor; Palamaner; Kolar; Bengaluru,17:00,TIRUPATHI,TIRUPATHI
+88be6e74-9037-434f-806f-decb60ef0459,Tirupathi,Hubballi,Express,,Madanapalli; Chikkaballapura; Madhugiri; Chitradurga,18:16,TIRUPATHI,TIRUPATHI
+9eaf5522-b659-4521-9be1-ccbd143cf1eb,Tirupathi,Hunsur,Express,,Chittoor; Palamaner; Kolar; Bengaluru,17:30,TIRUPATHI,TIRUPATHI
+7db462c5-7fa3-4ca1-b562-98db7841b1ee,Tirupathi,K.r.pete,Express,,Chittoor; Palamaner; Kolar; Bengaluru,12:45,TIRUPATHI,TIRUPATHI
+0a5fa99d-854f-48e0-bd7b-31ec2af46517,Tirupathi,Kanakapura,Express,,Palamaner; Chittoor; Bengaluru; Harohalli,23:30,TIRUPATHI,TIRUPATHI
+648ae13a-2d59-4952-be78-305fa37ef07e,Tirupathi,Kgf,Express,,Chittoor; Palamaner; Kolar; Bengaluru,02:45,TIRUPATHI,TIRUPATHI
+da488d0e-df90-463a-ab47-dfad56da9943,Tirupathi,Kgf,Express,,Chittoor; Palamaner; Kolar; Bengaluru,03:30,TIRUPATHI,TIRUPATHI
+4d724ac9-8ccb-43c5-9e5d-8cb292788336,Tirupathi,Kolar,Express,,Chittoor; Palamaner; Kolar; Bengaluru,02:15,TIRUPATHI,TIRUPATHI
+e8d17a84-3e02-4fe2-8bd6-3895314d57ad,Tirupathi,Kolar,Express,,Chittoor; Palamaner; Kolar; Bengaluru,19:30,TIRUPATHI,TIRUPATHI
+9f07f03f-8e1c-4f56-815b-a1df3cfebebc,Tirupathi,Kolar,Express,,Chittoor; Palamaner; Kolar; Bengaluru,21:15,TIRUPATHI,TIRUPATHI
+c9dd372d-703c-4e1d-a4ff-1d0a7c05a747,Tirupathi,Kumta,Express,,Bengaluru; Tumakuru; Shivamogga; Sirsi,16:00,TIRUPATHI,TIRUPATHI
+c77a0e91-8611-4282-b903-f408ad31dc77,Tirupathi,Kundapura,Rajahamsa,,Chittoor; Bengaluru; Hassan; Dharmastala; Udupi,13:35,TIRUPATHI,TIRUPATHI
+cfb3f09b-a33f-43e4-9405-57469b672503,Tirupathi,Kunigal,Express,,Chittoor; Palamaner; Kolar; Bengaluru,22:10,TIRUPATHI,TIRUPATHI
+b308664a-b119-4d11-aa9d-93e6dd3178cc,Tirupathi,Madhugiri,Express,,Madanapalli; Chikkaballapura; Gowribidanuru,08:00,TIRUPATHI,TIRUPATHI
+8364999c-b289-4c23-81a3-a6bd77f7624e,Tirupathi,Madikeri,Express,,Chittoor; Palamaner; Kolar; Bengaluru,03:45,TIRUPATHI,TIRUPATHI
+edf22d7f-a74f-4a0b-ab15-ba10b5fd77e8,Tirupathi,Magadi,Express,,Chittoor; Palamaner; Kolar; Bengaluru,06:15,TIRUPATHI,TIRUPATHI
+bf00b3e1-2f3f-46a5-8155-6db0dad8117f,Tirupathi,Magadi,Express,,Madanapalli; Hosakote,06:40,TIRUPATHI,TIRUPATHI
+e0d2e1a8-aa7c-4320-ae9c-d80db1ce5f2e,Tirupathi,Magadi,Express,,Chittoor; Palamaner; Kolar; Bengaluru,07:00,TIRUPATHI,TIRUPATHI
+48f9669c-5976-4271-a197-57687978e567,Tirupathi,Malavalli,Express,,Chittoor; Bengaluru; Ramanagara; Mandya,22:30,TIRUPATHI,TIRUPATHI
+b82199a8-cde7-49dc-8a22-aeb4fedfb95f,Tirupathi,Maluru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,01:00,TIRUPATHI,TIRUPATHI
+3442db1f-ab57-4daa-9e3e-9cdbf8033a7b,Tirupathi,Maluru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,01:15,TIRUPATHI,TIRUPATHI
+8a2583c3-c8a9-47f9-aa1e-c7de466a805e,Tirupathi,Maluru,Express,,Chittoor; Palamaner; Kolar; Bengaluru,01:30,TIRUPATHI,TIRUPATHI
+4beec5ef-a384-4909-b004-d2dbfec20ce7,Tirupathi,Maluru,Express,,Chittoor; Palamaner; Kolar,13:15,TIRUPATHI,TIRUPATHI
+84074f26-d3dc-4fa3-9ea9-aa56fdb2bff4,Tirupathi,Mandya,Express,,Chittoor; Bengaluru; Ramanagara,20:44,TIRUPATHI,TIRUPATHI
+90fe4d2f-643a-47c9-8589-77be8cd284bf,Tirupathi,Mangaluru,Road,,,18:02,TIRUPATHI,TIRUPATHI
+90706916-4a4d-4894-b1d1-afa9604e9d72,Tirupathi,Mangaluru,Road,,,18:30,TIRUPATHI,TIRUPATHI
+8b1e3f3c-b42d-4b32-aae4-280688b9a09f,Tirupathi,Mangaluru,Road,,,23:20,TIRUPATHI,TIRUPATHI
+66822d7b-7752-4182-8da9-52187e28137c,Tirupathi,Mudigere,Express,,Madanapalli; Hosakote,05:30,TIRUPATHI,TIRUPATHI
+f51e3075-7525-447f-9d69-b9252fd9b96b,Tirupathi,Mulabagilu,Express,,Chittoor; Palamaner; Kolar; Bengaluru,02:30,TIRUPATHI,TIRUPATHI
+0d7faf54-11be-4671-a436-df345fa59588,Tirupathi,Mulabagilu,Express,,Chittoor; Palamaner; Kolar; Bengaluru,03:00,TIRUPATHI,TIRUPATHI
+7fbf0bb5-d5bb-4450-a0ee-a8205bffeebc,Tirupathi Mysuru Airavat Club,Class,"Bengaluru, Mandya",,,20:01,TIRUPATHI,TIRUPATHI
+033fbbff-8391-4d50-a926-0cbc52e9a15a,Tirupathi Mysuru Airavat Club,Class,"Bengaluru, Mandya",,,21:30,TIRUPATHI,TIRUPATHI
+96af3bcd-5b44-4d3e-a974-95697e9255d2,Tirupathi,Nagamangala,Express,,Chittoor; Bengaluru; Ramanagara; Mandya,13:45,TIRUPATHI,TIRUPATHI
+febfb613-0407-4009-bca6-593cc14e415f,Tirupathi,Nelamangala,Express,,Chittoor; Palamaner; Kolar; Bengaluru,23:15,TIRUPATHI,TIRUPATHI
+38dc9697-9a0e-4ce3-8652-5f27ecc4e3a0,Tirupathi,Nelamangala,Express,,Chittoor; Palamaner; Kolar; Bengaluru,23:45,TIRUPATHI,TIRUPATHI
+a9e5147b-4220-46d1-8fbc-ac3e7e861065,Bengaluru Nelore Airavat Club,Class,"Kolar, Palamaner, Chittor,",,,04:05,TIRUPATHI,TIRUPATHI
+c06d65f3-3e41-4a66-9cab-c5841acc533e,Tirupathi,Ramanagara,Express,,Chittoor; Palamaner; Kolar; Bengaluru,20:15,TIRUPATHI,TIRUPATHI
+93bfd6f2-9628-4575-990a-0fd38d14ab8b,Tirupathi,Ramanagara,Express,,Palamaner; Chittoor; Bengaluru; Channapattana,21:30,TIRUPATHI,TIRUPATHI
+47eb9f1d-56a7-48c3-916e-5556ceba6908,Tirupathi,Sakaleshpura,Express,,Palamaner; Chittoor; Bengaluru; Hassan,17:45,TIRUPATHI,TIRUPATHI
+8bed185c-d644-4bcd-87fd-f15d36506781,Tirupathi Shivamogga Airavat Club,Class,"Bengaluru,Tumakuru, Tipatur",,,16:36,TIRUPATHI,TIRUPATHI
+d9b3f664-d4aa-4f16-b066-5e6d7e8543b3,Bengaluru Sriharikota Airavat Club,Class,"Kolar, Palamaner, Chittor,",,,04:15,TIRUPATHI,TIRUPATHI
+650a8beb-35d8-4267-a60a-b353afdf27c3,Bengaluru Sriharikota Airavat Club,Class,"Kolar, Palamaner, Chittor,",,,16:15,TIRUPATHI,TIRUPATHI
+8049b352-f0f0-470e-9f1d-930c782b79db,Bengaluru,Srikalahasti,Rajahamsa,,Chittoor; Palamaner; Tirupathi,16:30,TIRUPATHI,TIRUPATHI
+1271698a-c2df-4e31-9008-01b23ce9e5cc,Tirupathi,Srinivasapura,Express,,Chittoor; Palamaner; Kolar; Bengaluru,02:00,TIRUPATHI,TIRUPATHI
+522e5c22-7391-4fdd-b1e4-2059144fe56e,Tirupathi,Tumakur,Rajahamsa,,Chittoor; Palamaner; Kolar; Bengaluru,09:45,TIRUPATHI,TIRUPATHI
+2721ea49-a559-4a46-88c3-e6591eddd869,Tirupathi,Tumakur,Rajahamsa,,Chittoor; Palamaner; Kolar; Bengaluru,20:32,TIRUPATHI,TIRUPATHI
+255bf40d-2359-4793-8edf-aa7d0507dcee,Tirupathi,Turuvekere,Express,,Chittoor; Palamaner; Kolar; Bengaluru,11:00,TIRUPATHI,TIRUPATHI
+dbf2dd2e-6c1d-4176-ab37-e19617b2be24,Tirupathi,Turuvekere,Express,,Chittoor; Palamaner; Kolar; Bengaluru,19:00,TIRUPATHI,TIRUPATHI
+a63e04a7-1a85-4cad-87ff-9b4f1a83e2e9,Bengaluru Vijayawada Airavat Club,Class,"Kolar, Palamaner, Chittor,  Tirupathi, Nellore",,,03:30,TIRUPATHI,TIRUPATHI

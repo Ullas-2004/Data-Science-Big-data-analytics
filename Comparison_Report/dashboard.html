@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphFrames vs GraphX Dashboard</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: rgba(15, 22, 35, 0.88);
+      --panel-strong: rgba(21, 29, 45, 0.96);
+      --text: #eef2ff;
+      --muted: #96a4c0;
+      --line: rgba(145, 175, 255, 0.18);
+      --gf: #49d3a7;
+      --gx: #78a2ff;
+      --accent: #ffb66d;
+      --ok: #46d086;
+      --warn: #f6c463;
+      --bad: #ff7d86;
+      --radius: 22px;
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.34);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 12% 12%, rgba(73, 211, 167, 0.16), transparent 28%),
+        radial-gradient(circle at 85% 8%, rgba(120, 162, 255, 0.16), transparent 30%),
+        linear-gradient(150deg, #09101b 0%, #0d1625 45%, #131a2d 100%);
+      color: var(--text);
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+    }
+    .wrap { width: min(1240px, calc(100% - 28px)); margin: 22px auto 38px; }
+    .hero, .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+    .hero { padding: 30px; overflow: hidden; position: relative; }
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 300px; height: 300px; right: -80px; bottom: -100px;
+      background: radial-gradient(circle, rgba(255, 182, 109, 0.18), transparent 65%);
+    }
+    .eyebrow {
+      color: var(--gf);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.76rem;
+      margin-bottom: 10px;
+    }
+    h1, h2, h3 { margin: 0; font-family: "Century Gothic", "Trebuchet MS", sans-serif; }
+    h1 { font-size: clamp(2rem, 5vw, 3.3rem); max-width: 10ch; line-height: 1.04; }
+    h2 { font-size: 1.28rem; margin-bottom: 8px; }
+    .sub { color: var(--muted); margin: 0 0 16px; }
+    .hero-grid {
+      display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start;
+    }
+    .hero p { color: var(--muted); max-width: 58ch; margin: 14px 0 0; }
+    .cards, .grid, .status-grid { display: grid; gap: 16px; }
+    .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 22px; }
+    .grid.two, .status-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .panel { padding: 22px; margin-top: 18px; }
+    .mini {
+      background: var(--panel-strong);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 16px;
+    }
+    .mini small {
+      display: block;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+      font-size: 0.68rem;
+    }
+    .mini strong { display: block; font-size: 1.45rem; }
+    .mini span { color: var(--muted); font-size: 0.92rem; }
+    .kv {
+      display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; color: var(--muted); font-size: 0.92rem;
+    }
+    .kv b { color: var(--text); text-align: right; font-weight: 700; }
+    .pill {
+      display: inline-flex; align-items: center; justify-content: center;
+      border-radius: 999px; padding: 6px 12px; font-size: 0.78rem; font-weight: 700;
+    }
+    .ok { background: rgba(70, 208, 134, 0.16); color: var(--ok); }
+    .warn { background: rgba(246, 196, 99, 0.16); color: var(--warn); }
+    .bad { background: rgba(255, 125, 134, 0.16); color: var(--bad); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 11px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.76rem; }
+    .tag {
+      display: inline-flex; border-radius: 999px; padding: 5px 10px; font-size: 0.78rem; font-weight: 700;
+    }
+    .bars { display: grid; gap: 12px; }
+    .bar-head { display: flex; justify-content: space-between; gap: 14px; color: var(--muted); font-size: 0.9rem; }
+    .track { height: 14px; border-radius: 999px; background: rgba(255, 255, 255, 0.06); overflow: hidden; }
+    .fill.gf { height: 100%; background: linear-gradient(90deg, var(--gf), #35e0d7); }
+    .fill.gx { height: 100%; background: linear-gradient(90deg, var(--gx), #8cb1ff); }
+    .facts { display: grid; gap: 14px; }
+    .fact {
+      background: linear-gradient(180deg, rgba(18, 27, 44, 0.96), rgba(10, 16, 26, 0.96));
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .fact p { color: var(--muted); margin: 0 0 10px; }
+    .fact a { color: var(--gf); text-decoration: none; }
+    .log {
+      background: #08101a;
+      border: 1px solid rgba(120, 162, 255, 0.22);
+      border-radius: 18px;
+      padding: 14px;
+      max-height: 300px;
+      overflow: auto;
+      white-space: pre-wrap;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.82rem;
+      color: #dbe4ff;
+    }
+    ul.notes { margin: 0; padding-left: 18px; color: var(--muted); }
+    ul.notes li::marker { color: var(--accent); }
+    code { font-family: Consolas, "Courier New", monospace; background: rgba(255,255,255,0.06); padding: 2px 7px; border-radius: 8px; }
+    @media (max-width: 900px) {
+      .hero-grid, .grid.two, .status-grid, .cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Social Graph Analytics Evidence Board</div>
+      <div class="hero-grid">
+        <div>
+          <h1>GraphFrames vs GraphX</h1>
+          <p id="hero-summary"></p>
+          <div class="cards" id="hero-cards"></div>
+        </div>
+        <div class="grid">
+          <div class="mini">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+              <h2>Dataset</h2>
+              <span class="pill warn" id="dataset-size"></span>
+            </div>
+            <div class="kv" id="dataset-meta"></div>
+          </div>
+          <div class="mini">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+              <h2>Proof Files</h2>
+              <span class="pill ok">Generated</span>
+            </div>
+            <div class="kv" id="proof-files"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel grid two">
+      <div>
+        <h2>Run Status</h2>
+        <p class="sub">Shows whether each framework actually ran and where the evidence logs were written.</p>
+        <div class="status-grid" id="run-status"></div>
+      </div>
+      <div>
+        <h2>Presentation Notes</h2>
+        <p class="sub">Quick points you can say during your demo or viva.</p>
+        <ul class="notes" id="notes"></ul>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Metric Agreement</h2>
+      <p class="sub">Direct structural proof from the generated summary files.</p>
+      <table>
+        <thead><tr><th>Metric</th><th>GraphFrames</th><th>GraphX</th><th>Result</th></tr></thead>
+        <tbody id="metric-table"></tbody>
+      </table>
+    </section>
+
+    <section class="panel grid two">
+      <div>
+        <h2>Per-Algorithm Timings</h2>
+        <p class="sub">Measured from benchmark CSV exports. Longer bars mean slower runtime.</p>
+        <div class="bars" id="timing-bars"></div>
+      </div>
+      <div>
+        <h2>Top PageRank Proof</h2>
+        <p class="sub">These tables come from the exported top-PageRank result files.</p>
+        <div class="grid two">
+          <div>
+            <h3 style="margin-bottom:8px">GraphFrames</h3>
+            <table><thead><tr><th>Node</th><th>Score</th></tr></thead><tbody id="gf-pr"></tbody></table>
+          </div>
+          <div>
+            <h3 style="margin-bottom:8px">GraphX</h3>
+            <table><thead><tr><th>Node</th><th>Score</th></tr></thead><tbody id="gx-pr"></tbody></table>
+          </div>
+        </div>
+        <p class="sub" id="pr-overlap" style="margin-top:14px"></p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Research-Backed Differences</h2>
+      <p class="sub">Each card links to docs or papers so you can justify architectural claims with sources.</p>
+      <div class="facts" id="facts"></div>
+    </section>
+
+    <section class="panel grid two">
+      <div>
+        <h2>GraphFrames Log Evidence</h2>
+        <p class="sub" id="gf-log-path"></p>
+        <div class="log" id="gf-log"></div>
+      </div>
+      <div>
+        <h2>GraphX Log Evidence</h2>
+        <p class="sub" id="gx-log-path"></p>
+        <div class="log" id="gx-log"></div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const DATA = {
+  "generated_at": "2026-03-28 23:42:14",
+  "dataset": {
+    "name": "Facebook Combined",
+    "path": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\data_lake\\facebook_combined.txt.gz",
+    "file_name": "facebook_combined.txt.gz",
+    "size_mb": 0.2084503173828125
+  },
+  "artifacts": {
+    "text_report": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\comparison_results.txt",
+    "json_report": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\comparison_data.json",
+    "dashboard": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\dashboard.html"
+  },
+  "hero_cards": [
+    {
+      "label": "Comparable Metrics Matched",
+      "value": "6 / 7",
+      "note": "Direct result agreement across shared graph metrics."
+    },
+    {
+      "label": "Measured Runtime Gap",
+      "value": "2.38x",
+      "note": "How much slower GraphFrames was than GraphX on this run."
+    },
+    {
+      "label": "GraphFrames Status",
+      "value": "Success",
+      "note": "Based on runner exit state and generated files."
+    },
+    {
+      "label": "GraphX Status",
+      "value": "Success",
+      "note": "Based on runner exit state and generated files."
+    }
+  ],
+  "runs": [
+    {
+      "name": "GraphFrames",
+      "success": true,
+      "returncode": 0,
+      "runtime": "67.35 s",
+      "log_file": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphframes_output.log",
+      "command": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\venv\\Scripts\\python.exe C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\GraphFrames\\graph_analytics.py C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\data_lake\\facebook_combined.txt.gz"
+    },
+    {
+      "name": "GraphX",
+      "success": true,
+      "returncode": 0,
+      "runtime": "28.29 s",
+      "log_file": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphx_output.log",
+      "command": "\"C:\\spark\\bin\\spark-shell.CMD\" --driver-java-options \"-Duser.home=C:/DSAI/4th_sem/BDA/BigData_SocialGraph/.spark_shell_home\""
+    }
+  ],
+  "metrics": [
+    {
+      "key": "nodes",
+      "label": "Nodes",
+      "graphframes": "4,039",
+      "graphx": "4,039",
+      "match": true
+    },
+    {
+      "key": "edges",
+      "label": "Edges (undirected)",
+      "graphframes": "88,234",
+      "graphx": "88,234",
+      "match": true
+    },
+    {
+      "key": "triangles",
+      "label": "Total Triangles",
+      "graphframes": "1,612,010",
+      "graphx": "1,612,010",
+      "match": true
+    },
+    {
+      "key": "communities_lpa",
+      "label": "Communities (LPA)",
+      "graphframes": "89",
+      "graphx": "70",
+      "match": false
+    },
+    {
+      "key": "connected_components",
+      "label": "Connected Components",
+      "graphframes": "1",
+      "graphx": "1",
+      "match": true
+    },
+    {
+      "key": "max_degree",
+      "label": "Max Degree",
+      "graphframes": "2,090",
+      "graphx": "2,090",
+      "match": true
+    },
+    {
+      "key": "avg_degree",
+      "label": "Average Degree",
+      "graphframes": "87.382",
+      "graphx": "87.38",
+      "match": true
+    },
+    {
+      "key": "density",
+      "label": "Graph Density",
+      "graphframes": "N/A",
+      "graphx": "0.0108",
+      "match": null
+    },
+    {
+      "key": "global_clustering_coeff",
+      "label": "Global Clustering Coefficient",
+      "graphframes": "N/A",
+      "graphx": "0.1292",
+      "match": null
+    },
+    {
+      "key": "avg_local_clustering_coeff",
+      "label": "Average Local Clustering Coefficient",
+      "graphframes": "N/A",
+      "graphx": "0.1437",
+      "match": null
+    }
+  ],
+  "timings": [
+    {
+      "algorithm": "Graph Loading",
+      "graphframes": 7.3283,
+      "graphx": 4.483,
+      "speedup": 1.6346865937987956
+    },
+    {
+      "algorithm": "PageRank",
+      "graphframes": 8.451,
+      "graphx": 10.008,
+      "speedup": 0.8444244604316548
+    },
+    {
+      "algorithm": "Label Propagation",
+      "graphframes": 12.8816,
+      "graphx": 10.002,
+      "speedup": 1.2879024195160969
+    },
+    {
+      "algorithm": "Triangle Count",
+      "graphframes": 4.9017,
+      "graphx": 1.833,
+      "speedup": 2.674140752864157
+    },
+    {
+      "algorithm": "Connected Components",
+      "graphframes": 11.0127,
+      "graphx": 0.662,
+      "speedup": 16.63549848942598
+    },
+    {
+      "algorithm": "Degree Analysis",
+      "graphframes": 2.2185,
+      "graphx": 0.237,
+      "speedup": 9.360759493670887
+    },
+    {
+      "algorithm": "Shortest Paths",
+      "graphframes": 2.8724,
+      "graphx": 0.756,
+      "speedup": 3.7994708994708994
+    },
+    {
+      "algorithm": "TOTAL",
+      "graphframes": 67.3494,
+      "graphx": 28.288,
+      "speedup": 2.3808470022624437
+    }
+  ],
+  "pagerank": {
+    "graphframes": [
+      {
+        "node": "3437",
+        "score": "31.364"
+      },
+      {
+        "node": "107",
+        "score": "28.9092"
+      },
+      {
+        "node": "1684",
+        "score": "26.5368"
+      },
+      {
+        "node": "0",
+        "score": "26.372"
+      },
+      {
+        "node": "1912",
+        "score": "16.3245"
+      },
+      {
+        "node": "348",
+        "score": "9.8617"
+      },
+      {
+        "node": "3980",
+        "score": "9.0859"
+      },
+      {
+        "node": "686",
+        "score": "9.0849"
+      },
+      {
+        "node": "414",
+        "score": "7.4331"
+      },
+      {
+        "node": "698",
+        "score": "5.5697"
+      }
+    ],
+    "graphx": [
+      {
+        "node": "3437",
+        "score": "30.5805"
+      },
+      {
+        "node": "107",
+        "score": "27.8054"
+      },
+      {
+        "node": "1684",
+        "score": "25.469"
+      },
+      {
+        "node": "0",
+        "score": "25.1284"
+      },
+      {
+        "node": "1912",
+        "score": "15.4075"
+      },
+      {
+        "node": "348",
+        "score": "9.3548"
+      },
+      {
+        "node": "686",
+        "score": "8.9499"
+      },
+      {
+        "node": "3980",
+        "score": "8.7071"
+      },
+      {
+        "node": "414",
+        "score": "7.1942"
+      },
+      {
+        "node": "483",
+        "score": "5.2263"
+      }
+    ],
+    "overlap": {
+      "count": 9,
+      "total": 10,
+      "nodes": [
+        "3437",
+        "107",
+        "1684",
+        "0",
+        "1912",
+        "348",
+        "3980",
+        "686",
+        "414"
+      ]
+    }
+  },
+  "callouts": [
+    "6 of 7 comparable structural metrics matched exactly or within tolerance.",
+    "GraphX completed the full pipeline about 2.38x faster on this dataset.",
+    "GraphFrames provides richer high-level graph analytics and DataFrame integration, while GraphX stays closer to graph-engine internals.",
+    "The dashboard includes both measured output files and research-backed architectural differences, so you can defend implementation and theory together."
+  ],
+  "research_facts": [
+    {
+      "aspect": "Core execution model",
+      "graphframes": "DataFrame-based graph processing with Spark SQL planning and relational operators.",
+      "graphx": "RDD-based property-graph processing with graph-parallel primitives.",
+      "social_media": "GraphFrames fits pipelines where user metadata, hashtags, posts, and graph edges all need to be joined together.",
+      "source_label": "GraphFrames paper (2016)",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/graphframes-an-integrated-api-for-mixing-graph-and-relational-queries/"
+    },
+    {
+      "aspect": "Pattern and motif search",
+      "graphframes": "Native motif finding is built into the API.",
+      "graphx": "No equivalent high-level motif DSL; patterns require lower-level graph logic.",
+      "social_media": "Motif queries are useful for reply loops, mutual follows, suspicious engagement rings, and bot-like triads.",
+      "source_label": "GraphFrames user guide",
+      "source_url": "https://graphframes.io/04-user-guide/04-motif-finding.html"
+    },
+    {
+      "aspect": "Algorithm surface",
+      "graphframes": "Broader high-level toolbox: BFS, motif finding, cycles, k-core, maximal independent set, typed degrees, parallel personalized PageRank.",
+      "graphx": "Stronger low-level control and graph-native primitives such as SVD++ and triplet-centric custom algorithms.",
+      "social_media": "GraphFrames is easier to demo broadly; GraphX is better when you want to explain graph-computation internals.",
+      "source_label": "GraphFrames 0.10.0 release notes",
+      "source_url": "https://graphframes.io/05-blog/998-graphframes-010-release.html"
+    },
+    {
+      "aspect": "Language and ecosystem fit",
+      "graphframes": "Works naturally with Python, Scala, Java, and Spark Connect workflows.",
+      "graphx": "Primarily Scala-centric and not designed around PySpark workflows.",
+      "social_media": "This matters in classroom and analytics teams where most experimentation happens in Python notebooks.",
+      "source_label": "GraphFrames docs",
+      "source_url": "https://graphframes.io/"
+    },
+    {
+      "aspect": "Performance tradeoff",
+      "graphframes": "Often more memory-friendly and easier to integrate with SQL optimization.",
+      "graphx": "Often faster on raw iterative workloads for small and medium graphs.",
+      "social_media": "If the goal is fastest graph-only execution, GraphX often wins; if the goal is mixed analytics plus explainability, GraphFrames is usually more practical.",
+      "source_label": "GraphFrames benchmarks",
+      "source_url": "https://graphframes.io/01-about/03-benchmarks.html"
+    },
+    {
+      "aspect": "Research evidence in social graphs",
+      "graphframes": "Pattern-driven community discovery can be very effective when the suspicious structure is already known.",
+      "graphx": "General iterative graph algorithms remain useful when the pattern is unknown and must emerge from the graph.",
+      "social_media": "This is a strong talking point for Twitter-style community mining and suspicious-behavior detection.",
+      "source_label": "Twitter active communities study",
+      "source_url": "https://www.mdpi.com/2504-2289/5/4/46"
+    }
+  ],
+  "log_paths": {
+    "graphframes": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphframes_output.log",
+    "graphx": "C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\Comparison_Report\\graphx_output.log"
+  },
+  "log_snippets": {
+    "graphframes": [
+      "Nodes: 4,039",
+      "Edges: 88,234 (undirected)",
+      "Top 10 Most Influential Nodes:",
+      "Total Unique Triangles: 1,612,010",
+      "MODULE 4: CONNECTED COMPONENTS -- Connectivity",
+      "Total Connected Components: 1",
+      "Average Degree:  87.38",
+      "Top 10 Most Connected Nodes:",
+      "Landmark Nodes: [107, 1684, 1912]",
+      "[OK] Connected Components   -> C:\\DSAI\\4th_sem\\BDA\\BigData_SocialGraph\\GraphFrames\\outputs\\graph_analytics\\connected_components",
+      "ANALYSIS COMPLETE",
+      "Nodes:                4,039"
+    ],
+    "graphx": [
+      "Nodes: 4,039",
+      "Edges: 88,234 (undirected)",
+      "[OK] PageRank completed in 10.008 s",
+      "Top 10 Influential Nodes:",
+      "[OK] LPA completed in 10.002 s",
+      "Communities with >10 nodes: 43",
+      "[OK] Triangle Count completed in 1.833 s",
+      "Total Triangles: 1,612,010",
+      "MODULE 4: CONNECTED COMPONENTS -- Connectivity",
+      "[OK] Connected Components completed in 0.662 s",
+      "[OK] Degree Analysis completed in 0.237 s",
+      "Avg Degree: 87.38"
+    ]
+  }
+};
+    const badge = value => value === true ? '<span class="tag ok">Matched</span>' : value === false ? '<span class="tag bad">Different</span>' : '<span class="tag warn">N/A</span>';
+    const klass = value => value ? 'ok' : 'bad';
+    const timeText = value => value === null || value === undefined ? 'N/A' : `${value.toFixed(2)} s`;
+    const width = (value, max) => !value || !max ? '0%' : `${Math.max((value / max) * 100, 1)}%`;
+
+    document.getElementById('hero-summary').textContent =
+      `Dataset: ${DATA.dataset.name}. This dashboard combines benchmark CSVs, result tables, and runtime logs so you can prove implementation-level differences instead of only describing them.`;
+    document.getElementById('dataset-size').textContent = `${DATA.dataset.size_mb.toFixed(2)} MB`;
+    document.getElementById('dataset-meta').innerHTML = `
+      <span>File</span><b>${DATA.dataset.file_name}</b>
+      <span>Generated</span><b>${DATA.generated_at}</b>
+      <span>Path</span><b><code>${DATA.dataset.path}</code></b>
+    `;
+    document.getElementById('proof-files').innerHTML = `
+      <span>Text summary</span><b><code>${DATA.artifacts.text_report}</code></b>
+      <span>JSON proof</span><b><code>${DATA.artifacts.json_report}</code></b>
+      <span>Dashboard</span><b><code>${DATA.artifacts.dashboard}</code></b>
+    `;
+    document.getElementById('hero-cards').innerHTML = DATA.hero_cards.map(card => `
+      <article class="mini">
+        <small>${card.label}</small>
+        <strong>${card.value}</strong>
+        <span>${card.note}</span>
+      </article>
+    `).join('');
+    document.getElementById('run-status').innerHTML = DATA.runs.map(run => `
+      <article class="mini">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+          <h3>${run.name}</h3>
+          <span class="pill ${klass(run.success)}">${run.success ? 'Success' : 'Failed / Partial'}</span>
+        </div>
+        <div class="kv">
+          <span>Runtime</span><b>${run.runtime}</b>
+          <span>Return code</span><b>${run.returncode}</b>
+          <span>Command</span><b><code>${run.command}</code></b>
+          <span>Log file</span><b><code>${run.log_file}</code></b>
+        </div>
+      </article>
+    `).join('');
+    document.getElementById('notes').innerHTML = DATA.callouts.map(item => `<li>${item}</li>`).join('');
+    document.getElementById('metric-table').innerHTML = DATA.metrics.map(row => `
+      <tr>
+        <td>${row.label}</td>
+        <td>${row.graphframes}</td>
+        <td>${row.graphx}</td>
+        <td>${badge(row.match)}</td>
+      </tr>
+    `).join('');
+    const maxTime = Math.max(1, ...DATA.timings.map(item => item.graphframes || 0), ...DATA.timings.map(item => item.graphx || 0));
+    document.getElementById('timing-bars').innerHTML = DATA.timings.map(item => {
+      const speedupText = item.speedup ? ' | ' + item.speedup.toFixed(2) + 'x GF slower' : '';
+      return `
+        <div>
+          <div class="bar-head"><span>${item.algorithm}</span><span>GF: ${timeText(item.graphframes)} | GX: ${timeText(item.graphx)}${speedupText}</span></div>
+          <div class="track" style="margin-top:6px"><div class="fill gf" style="width:${width(item.graphframes, maxTime)}"></div></div>
+          <div class="track" style="margin-top:6px"><div class="fill gx" style="width:${width(item.graphx, maxTime)}"></div></div>
+        </div>
+      `;
+    }).join('');
+    document.getElementById('gf-pr').innerHTML = DATA.pagerank.graphframes.map(row => `<tr><td>${row.node}</td><td>${row.score}</td></tr>`).join('');
+    document.getElementById('gx-pr').innerHTML = DATA.pagerank.graphx.map(row => `<tr><td>${row.node}</td><td>${row.score}</td></tr>`).join('');
+    document.getElementById('pr-overlap').textContent = `Top-node overlap: ${DATA.pagerank.overlap.count} / ${DATA.pagerank.overlap.total}. Shared nodes: ${DATA.pagerank.overlap.nodes.join(', ') || 'None'}.`;
+    document.getElementById('facts').innerHTML = DATA.research_facts.map(fact => `
+      <article class="fact">
+        <h3 style="margin-bottom:8px">${fact.aspect}</h3>
+        <p><strong>GraphFrames:</strong> ${fact.graphframes}</p>
+        <p><strong>GraphX:</strong> ${fact.graphx}</p>
+        <p><strong>Social-media angle:</strong> ${fact.social_media}</p>
+        <p><a href="${fact.source_url}" target="_blank" rel="noreferrer">${fact.source_label}</a></p>
+      </article>
+    `).join('');
+    document.getElementById('gf-log-path').innerHTML = `<code>${DATA.log_paths.graphframes}</code>`;
+    document.getElementById('gx-log-path').innerHTML = `<code>${DATA.log_paths.graphx}</code>`;
+    document.getElementById('gf-log').textContent = DATA.log_snippets.graphframes.join('\n');
+    document.getElementById('gx-log').textContent = DATA.log_snippets.graphx.join('\n');
+  </script>
+</body>
+</html>

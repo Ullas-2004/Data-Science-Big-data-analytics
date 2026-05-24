@@ -1,0 +1,8 @@
+file,rows_out,unique_OD_pairs,unique_services
+All_Bus_Timetables_Merged_CLEAN.csv,1262,284,3
+Bus_Timetables_Batch8_Merged_CLEAN.csv,2233,372,3
+Bus_Timetables_Batch10_Merged_CLEAN.csv,1831,360,3
+Bus_Timetables_Batch11_Merged_CLEAN.csv,1764,420,2
+Bus_Timetables_Batch12_Merged_CLEAN.csv,1721,415,2
+Bus_Timetables_Batch12_Merged-1_CLEAN.csv,1721,415,2
+Bus_Timetables_Batch13_Merged_CLEAN.csv,2430,876,3

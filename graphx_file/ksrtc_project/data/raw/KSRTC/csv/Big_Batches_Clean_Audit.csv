@@ -1,0 +1,8 @@
+file,rows_out,unique_OD_pairs,unique_services
+BengaluruKempegowda_CLEAN.csv,2066,438,2
+Bus_Timetables_Batch2_Merged_CLEAN.csv,3252,868,4
+Bus_Timetables_Batch3_Merged_CLEAN.csv,1866,364,3
+Bus_Timetables_Batch4_Merged_CLEAN.csv,1509,376,3
+Bus_Timetables_Batch5_Merged_CLEAN.csv,1914,466,4
+Bus_Timetables_Batch6_Merged_CLEAN.csv,4161,1051,4
+Bus_Timetables_Batch7_Merged_CLEAN.csv,2500,554,3

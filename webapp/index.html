@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphFrames vs GraphX Evidence Studio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="ambient ambient-c"></div>
+
+  <main class="shell">
+    <section class="hero panel reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Interactive Evidence Studio</p>
+        <h1>GraphFrames vs GraphX</h1>
+        <p class="lede">
+          Run the same social-network pipeline on different SNAP datasets, compare latency and
+          structural results, and open proof-backed explanations next to each difference.
+        </p>
+      </div>
+      <div class="hero-side">
+        <div class="control-card">
+          <label for="dataset-select">Dataset</label>
+          <div class="control-row">
+            <select id="dataset-select"></select>
+            <button id="run-button" class="primary">Run Selected Dataset</button>
+          </div>
+          <div class="status-line">
+            <span id="job-pill" class="pill neutral">Ready</span>
+            <span id="job-message">Choose a dataset to load saved proof or start a new run.</span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="job-progress" class="progress-fill"></div>
+          </div>
+        </div>
+        <div class="proof-card">
+          <h2>What this page proves</h2>
+          <ul class="proof-list">
+            <li>Real measured latency from both frameworks</li>
+            <li>Metric-by-metric agreement or difference</li>
+            <li>Per-dataset saved evidence files</li>
+            <li>Research-backed architectural differences with sources</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="rail panel reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Saved Runs</p>
+          <h2>Dataset Gallery</h2>
+        </div>
+        <p class="muted">Load previous results instantly or rerun the same dataset with fresh evidence.</p>
+      </div>
+      <div id="dataset-rail" class="dataset-rail"></div>
+    </section>
+
+    <section class="summary-grid reveal" id="summary-grid"></section>
+
+    <section class="viz-grid reveal">
+      <article class="panel viz-panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Agreement</p>
+            <h2>Metric Ring</h2>
+          </div>
+        </div>
+        <div id="agreement-ring" class="mini-visual"></div>
+      </article>
+
+      <article class="panel viz-panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Winner</p>
+            <h2>Total Runtime Duel</h2>
+          </div>
+        </div>
+        <div id="runtime-duel" class="mini-visual"></div>
+      </article>
+
+      <article class="panel viz-panel">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">Influence</p>
+            <h2>PageRank Bars</h2>
+          </div>
+        </div>
+        <div id="pagerank-bars" class="mini-visual"></div>
+      </article>
+    </section>
+
+    <section class="panel reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Difference Focus</p>
+          <h2>What Changed</h2>
+        </div>
+        <p class="muted">Rows marked as different or framework-specific get proof actions beside them.</p>
+      </div>
+      <div id="difference-deck" class="difference-deck"></div>
+    </section>
+
+    <section class="panel reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Latency</p>
+          <h2>Per-Algorithm Runtime</h2>
+        </div>
+        <p class="muted">Longer bars indicate slower execution. Values come from exported benchmark CSV files.</p>
+      </div>
+      <div id="timing-chart" class="timing-chart"></div>
+    </section>
+
+    <section class="panel reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Graph Snapshot</p>
+          <h2>Sample Graph View</h2>
+        </div>
+        <p id="network-note" class="muted">A lightweight preview built from the selected SNAP edge list.</p>
+      </div>
+      <div class="view-toggle-row">
+        <button id="view-2d" class="view-toggle active" type="button">2D Snapshot</button>
+        <button id="view-3d" class="view-toggle" type="button">3D Orbit</button>
+      </div>
+      <div id="network-stage" class="network-stage"></div>
+      <div id="network-stage-3d" class="network-stage hidden-stage"></div>
+    </section>
+
+    <section class="panel reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Measured Metrics</p>
+          <h2>Difference Table</h2>
+        </div>
+        <p id="metrics-summary" class="muted">Click the button to open a simpler animated table of only the important differences.</p>
+      </div>
+      <div class="metrics-toggle-row">
+        <button id="metrics-toggle" class="toggle-button" aria-expanded="false" aria-controls="metrics-drawer">
+          <span class="toggle-label">Open Difference Table</span>
+          <span class="toggle-icon">+</span>
+        </button>
+      </div>
+      <div id="metrics-drawer" class="metrics-drawer">
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>GraphFrames</th>
+                <th>GraphX</th>
+                <th>Status</th>
+                <th>Proof</th>
+              </tr>
+            </thead>
+            <tbody id="metrics-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="two-up reveal">
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Ranking Evidence</p>
+            <h2>Top PageRank Nodes</h2>
+          </div>
+          <p id="pagerank-overlap" class="muted"></p>
+        </div>
+        <div id="pagerank-grid" class="dual-table"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Run Status</p>
+            <h2>Execution Details</h2>
+          </div>
+          <p class="muted">These cards show whether each framework completed and where its proof logs were stored.</p>
+        </div>
+        <div id="run-cards" class="run-cards"></div>
+      </section>
+    </section>
+
+    <section class="panel reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Theory and Research</p>
+          <h2>Domain Differences</h2>
+        </div>
+        <p class="muted">These cards connect your implementation results to graph theory, DSA, algorithms, and ecosystem sources.</p>
+      </div>
+      <div id="research-grid" class="research-grid"></div>
+    </section>
+
+    <section class="two-up reveal">
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">GraphFrames</p>
+            <h2>Log Snippet</h2>
+          </div>
+          <p id="gf-log-path" class="muted"></p>
+        </div>
+        <pre id="gf-log" class="log-box"></pre>
+      </section>
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">GraphX</p>
+            <h2>Log Snippet</h2>
+          </div>
+          <p id="gx-log-path" class="muted"></p>
+        </div>
+        <pre id="gx-log" class="log-box"></pre>
+      </section>
+    </section>
+  </main>
+
+  <div id="proof-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="proof-title">
+    <div class="modal-card">
+      <button id="close-proof" class="close-button" aria-label="Close proof dialog">×</button>
+      <div class="modal-head">
+        <p class="eyebrow">Metric Proof</p>
+        <h2 id="proof-title">Proof</h2>
+        <p id="proof-note" class="muted"></p>
+      </div>
+      <div id="proof-summary" class="proof-summary"></div>
+      <div class="preview-grid">
+        <section class="preview-panel">
+          <h3>GraphFrames Source Preview</h3>
+          <p id="proof-gf-path" class="muted"></p>
+          <pre id="proof-gf-preview" class="log-box small"></pre>
+        </section>
+        <section class="preview-panel">
+          <h3>GraphX Source Preview</h3>
+          <p id="proof-gx-path" class="muted"></p>
+          <pre id="proof-gx-preview" class="log-box small"></pre>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
