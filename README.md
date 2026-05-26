@@ -1,54 +1,62 @@
-# BDA Social Graph Analytics
-## GraphFrames vs GraphX Performance Comparison
+# Big Data Social Graph Analytics
 
-This repository is now organized around the active comparison pipeline:
+Professional Big Data Analytics project comparing **GraphFrames** and **GraphX** for large-scale social graph processing. The project includes a unified runner, Spark-based analytics pipelines, generated proof artifacts, a local dashboard, reports, and a demo video.
 
-1. `run_comparison.py` for the main head-to-head execution
-2. `GraphFrames/graph_analytics.py` for the active GraphFrames implementation
-3. `GraphX/GraphAnalytics.scala` for the active GraphX implementation
-4. `dashboard_server.py` and `webapp/` for the interactive frontend
-5. `Comparison_Report/` for generated evidence, reports, and presentation scripts
+## Project Highlights
 
-Older experimental GraphFrames modules were moved to `archive/legacy_graphframes_suite/` so the main tree stays focused on the current project.
+- Compares GraphFrames and GraphX on SNAP-style edge-list datasets.
+- Implements PageRank, connected components, triangle count, degree analysis, shortest paths, and community-related analytics.
+- Produces repeatable proof artifacts for timings, metrics, and framework comparison.
+- Includes an interactive dashboard for running datasets and reviewing results.
+- Keeps older experiments archived while the main tree stays focused on the active comparison pipeline.
 
-**Course:** Big Data Analytics (4th Semester)
-**Dataset:** Any SNAP edge-list (auto-detected from data_lake/)
-**Current:** Facebook SNAP Combined (4,039 nodes, 88,234 edges)
+## Tech Stack
 
-## Demo Video
+| Area | Tools |
+| --- | --- |
+| Big Data | Apache Spark, GraphFrames, GraphX |
+| Programming | Python, Scala |
+| Analytics | PageRank, triangle count, connected components, shortest paths, degree analysis |
+| Frontend | HTML, CSS, JavaScript |
+| Reporting | PDF report, PowerPoint, generated dashboards, JSON/CSV proof outputs |
+
+## Repository Structure
+
+```text
+.
+|-- run_comparison.py              # Unified GraphFrames vs GraphX runner
+|-- dashboard_server.py            # Local dashboard/API server
+|-- GraphFrames/                   # Python GraphFrames pipeline
+|-- GraphX/                        # Scala GraphX pipeline
+|-- Comparison_Report/             # Reports, dashboards, metrics, proof outputs
+|-- webapp/                        # Interactive browser frontend
+|-- archive/                       # Legacy experiments kept for reference
+|-- Report.pdf                     # Final report
+|-- PPT.pptx                       # Project presentation
+```
+
+## Demo
 
 Project demo video: [Watch on Google Drive](https://drive.google.com/file/d/1vcN0Eg701Q6x2vrqdl858Dp3PG9it0w3/view?usp=sharing)
 
----
+## How to Run
 
-## Quick Start — Unified Runner
-
-Run both frameworks head-to-head on any dataset with a single command:
+Run the complete comparison pipeline:
 
 ```cmd
-cd C:\DSAI\4th_sem\BDA\BigData_SocialGraph
-
-:: Auto-detect dataset in data_lake/
 python run_comparison.py
-
-:: Or specify a dataset explicitly
-python run_comparison.py data_lake/facebook_combined.txt.gz
-python run_comparison.py data_lake/twitter_combined.txt
-python run_comparison.py data_lake/any_snap_file.txt.gz
 ```
 
-This now generates three presentation-ready proof artifacts in `Comparison_Report/`:
-
-- `comparison_results.txt` — plain-text side-by-side summary
-- `comparison_data.json` — structured proof data for the project
-- `dashboard.html` — polished frontend for class/demo presentation
-
-### Interactive Web App
-
-Launch the local multi-dataset frontend with:
+Run with a specific dataset:
 
 ```cmd
-cd C:\DSAI\4th_sem\BDA\BigData_SocialGraph
+python run_comparison.py data_lake/facebook_combined.txt.gz
+python run_comparison.py data_lake/twitter_combined.txt.gz
+```
+
+Start the interactive dashboard:
+
+```cmd
 python dashboard_server.py
 ```
 
@@ -58,105 +66,21 @@ Then open:
 http://127.0.0.1:8000
 ```
 
-The web app lets you:
+## Outputs
 
-- pick any SNAP dataset from `data_lake/`
-- run GraphFrames and GraphX from the browser
-- switch between saved dataset runs
-- inspect latency, metric differences, proof previews, and research-backed architecture notes
-- keep each dataset in `Comparison_Report/runs/<dataset-slug>/` so nothing is overwritten
+The project generates evidence in `Comparison_Report/`, including:
 
-### Run Individually
-
-```cmd
-:: GraphFrames only (Python)
-venv\Scripts\python.exe GraphFrames\graph_analytics.py
-
-:: GraphX only (Scala)
-spark-shell -i GraphX\GraphAnalytics.scala
-```
-
-### Archived Legacy Modules
-
-Older GraphFrames side experiments such as advanced centrality, link prediction, resilience, embeddings, and visualization exports were moved to:
-
-```text
-archive/legacy_graphframes_suite/
-```
-
-They are preserved for reference, but they are not part of the active GraphFrames vs GraphX comparison flow.
-
----
-
-## Project Structure
-
-```text
-BigData_SocialGraph/
-|-- run_comparison.py                    # Unified comparison runner
-|-- dashboard_server.py                  # Local API/server for the dashboard
-|-- README.md
-|
-|-- GraphFrames/
-|   |-- graph_analytics.py               # Active GraphFrames analytics pipeline
-|   |-- README.md
-|   +-- outputs/
-|       +-- graph_analytics/             # Current GraphFrames output exports
-|
-|-- GraphX/
-|   |-- GraphAnalytics.scala             # Active GraphX analytics pipeline
-|   +-- outputs/                         # Current GraphX output exports
-|
-|-- data_lake/                           # SNAP datasets
-|   |-- facebook_combined.txt.gz
-|   +-- twitter_combined.txt.gz
-|
-|-- webapp/
-|   |-- index.html
-|   |-- styles.css
-|   +-- app.js
-|
-|-- Comparison_Report/
-|   |-- comparison_results.txt           # Latest plain-text comparison
-|   |-- comparison_data.json             # Latest JSON proof bundle
-|   |-- dashboard.html                   # Latest generated standalone dashboard
-|   |-- reports/                         # Final report drafts
-|   |-- presentations/                   # Presentation scripts
-|   +-- runs/                            # Saved per-dataset evidence bundles
-|
-+-- archive/
-    +-- legacy_graphframes_suite/        # Older side modules and outputs
-```
-
-## Algorithms Implemented
-
-| # | Algorithm | GraphFrames | GraphX | Result Match? |
-|:-:|:----------|:-----------:|:------:|:-------------:|
-| 1 | PageRank | Yes | Yes | YES |
-| 2 | Label Propagation | Yes | Yes | ~diff (non-deterministic) |
-| 3 | Triangle Count | Yes | Yes | YES (1,612,010) |
-| 4 | Connected Components | Yes | Yes | YES (1) |
-| 5 | Degree Analysis | Yes | Yes | YES |
-| 6 | Shortest Paths | Yes | Yes | YES |
-| 7 | Clustering Coefficient | - | Yes | - |
-| 8 | Graph Density | - | Yes | - |
-| 9 | Community Profiling | - | Yes | - |
+- `comparison_results.txt` for side-by-side summary results.
+- `comparison_data.json` for structured proof data.
+- `dashboard.html` for presentation-ready visual review.
+- Per-run evidence folders under `Comparison_Report/runs/`.
 
 ## Key Findings
 
-- Both frameworks produce identical analytical results
-- GraphX runs **2.4x faster** (~18s vs ~44s)
-- GraphFrames is more accessible for Python teams
-- GraphX has zero Python overhead and no platform bugs
-- Fully dynamic: works on any SNAP edge-list dataset
-- Dashboard shows proof from generated logs, metrics, timings, and source-backed differences
+- GraphFrames is easier to use from Python and works well for data science workflows.
+- GraphX provides stronger execution performance because it runs natively on Scala/Spark.
+- On the tested social graph workflow, GraphX was measured faster while both frameworks produced matching analytical results for key graph metrics.
 
-See `Comparison_Report/reports/report.md` for the focused report and `Comparison_Report/reports/final_combined_research_report.md` for the expanded final document.
+## Notes
 
-## Supported Datasets
-
-Drop any SNAP edge-list file into `data_lake/` and it auto-detects:
-- `.txt` / `.txt.gz` (space/tab separated)
-- `.csv` / `.csv.gz` (comma separated)
-- `.tsv` / `.tsv.gz` (tab separated)
-
-Download datasets from: https://snap.stanford.edu/data/
+Large datasets and generated temporary files are intentionally excluded from GitHub. Add SNAP edge-list datasets locally under `data_lake/` before running full experiments.
